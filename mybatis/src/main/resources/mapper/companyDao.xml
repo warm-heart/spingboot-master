@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mybatis.dao.companyDao">
+    <resultMap id="conpanyMap" type="com.example.mybatis.entity.company">
+        <id column="companyId" property="companyId"/>
+        <result column="companyName" property="companyName"/>
+        <collection property="departments" ofType="com.example.mybatis.entity.department">
+            <id column="departmentId" property="departmentId"/>
+            <result column="departmentName" property="departmentName"/>
+        </collection>
+
+    </resultMap>
+
+    <select id="selectcompany" resultMap="conpanyMap">
+       select * from department,company
+       where department.companyId=company.companyId and company.companyId=#{companyId}
+   </select>
+
+</mapper>

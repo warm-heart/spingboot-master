@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mybatis.dao.StudentDao">
+    <resultMap id="StudentMap" type="com.example.mybatis.entity.Student">
+        <id column="studentId" property="studentId"/>
+        <result column="studentName" property="studentName"/>
+        <collection property="classes" ofType="com.example.mybatis.entity.Class">
+            <id column="classId" property="classId"/>
+            <result column="className" property="className"/>
+        </collection>
+    </resultMap>
+
+    <select id="selectStudent" resultMap="StudentMap">
+       select * from student_class,student,class
+       where student_class.studentId=student.studentId and student.studentId=#{studentId}
+   </select>
+
+</mapper>
