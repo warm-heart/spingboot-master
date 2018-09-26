@@ -9,6 +9,7 @@
         <module name="exception" />
         <module name="jpa" />
         <module name="mybatis" />
+        <module name="netty" />
         <module name="proxy" />
         <module name="redis" />
         <module name="security" />

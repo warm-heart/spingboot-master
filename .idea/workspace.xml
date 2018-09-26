@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a968c41-d15f-4cf5-9b80-4cb7a89b8540" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../springboot-master/proxy/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-master/proxy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Proxy/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Proxy/HelloImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Proxy/JDKProxyHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Proxy/ProTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Proxy/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/ConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/ReflectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-master/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-master/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-master/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-master/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-master/spring-boot-jpa-thymeleaf-curd/src/main/resources/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-master/spring-boot-jpa-thymeleaf-curd/src/main/resources/templates/hello.html" afterDir="false" />
-    </list>
+    <list default="true" id="6a968c41-d15f-4cf5-9b80-4cb7a89b8540" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/demo/target/" />
     <ignored path="$PROJECT_DIR$/redis/target/" />
@@ -27,7 +10,7 @@
     <ignored path="$PROJECT_DIR$/shiro/target/" />
     <ignored path="$PROJECT_DIR$/Exception/target/" />
     <ignored path="$PROJECT_DIR$/mybatis/target/" />
-    <ignored path="$PROJECT_DIR$/../springboot-master/proxy/target/" />
+    <ignored path="$PROJECT_DIR$/proxy/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,12 +49,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ConfigTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/ConfigTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="21" column="92" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
+            <state relative-caret-position="124">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,9 +62,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Proxy/config.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <folding>
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -101,8 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mybatis/src/main/resources/mapper/companyDao.xml" />
-        <option value="$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/dao/departmentDaoTest.java" />
         <option value="$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/dao/conpanyDaoTest.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dao/companyDao.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/controller/Mybatiscontroller.java" />
@@ -136,20 +127,22 @@
         <option value="$PROJECT_DIR$/exception/src/main/java/com/example/controller/UserController.java" />
         <option value="$PROJECT_DIR$/mybatis/readme.md" />
         <option value="$PROJECT_DIR$/exception/readme.md" />
-        <option value="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Hello.java" />
-        <option value="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/HelloImpl.java" />
-        <option value="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/JDKProxyExample.java" />
-        <option value="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/JDKProxyHandle.java" />
-        <option value="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/ProTest.java" />
-        <option value="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Proxy/HelloImpl.java" />
-        <option value="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Proxy/ProTest.java" />
-        <option value="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Proxy/JDKProxyHandle.java" />
-        <option value="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/ReflectTest.java" />
-        <option value="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/ConstrutctorsTest.java" />
-        <option value="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/Worker.java" />
-        <option value="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/config.txt" />
-        <option value="$PROJECT_DIR$/../springboot-master/proxy/README.md" />
-        <option value="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/config.properties" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Hello.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/HelloImpl.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/JDKProxyExample.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/JDKProxyHandle.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/ProTest.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Proxy/HelloImpl.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Proxy/ProTest.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Proxy/JDKProxyHandle.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectTest.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/ConstrutctorsTest.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/Worker.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/config.txt" />
+        <option value="$PROJECT_DIR$/proxy/README.md" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/config.properties" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/Student.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/ConfigTest.java" />
         <option value="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/Student.java" />
         <option value="$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/ConfigTest.java" />
       </list>
@@ -164,7 +157,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/..//////////////////////////Program Files (x86)/apache-maven-3.5.3" />
+        <option name="mavenHome" value="$PROJECT_DIR$/..///////////////////////////Program Files (x86)/apache-maven-3.5.3" />
         <option name="userSettingsFile" value="E:\Program Files (x86)\apache-maven-3.5.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -190,6 +183,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -236,17 +240,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
@@ -275,12 +268,12 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="android.sdk.path" value="$PROJECT_DIR$/..//////////////////////////////////////////////////Android" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/..///////////////////////////////////////////////////Android" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../////////////////////////////////////spring-boot-shiro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/..//////////////////////////////////////spring-boot-shiro" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -477,6 +470,7 @@
       <workItem from="1537575903728" duration="319000" />
       <workItem from="1537926974532" duration="830000" />
       <workItem from="1537927873464" duration="9729000" />
+      <workItem from="1537948433121" duration="1003000" />
     </task>
     <servers />
   </component>
@@ -513,10 +507,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68540000" />
+    <option name="totallyTimeSpent" value="69543000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
@@ -537,13 +531,12 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32561985" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32561985" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32980332" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3272727" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -552,6 +545,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3272727" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
@@ -606,6 +600,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/ConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="92" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/2.0.5.RELEASE/spring-boot-test-2.0.5.RELEASE.jar!/org/springframework/boot/test/context/SpringBootTest.class" />
     <entry file="file://$PROJECT_DIR$/../springboot-master/jpa/src/test/java/com/example/jpa/dao/UserDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -757,9 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="957">
           <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,9 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-master/proxy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Proxy/ProTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -844,9 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,30 +859,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/ConstrutctorsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/ConstrutctorsTest.java" />
     <entry file="file://$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/Worker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/config.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/config.txt" />
     <entry file="file://$PROJECT_DIR$/../springboot-master/proxy/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -914,24 +894,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        <state relative-caret-position="160">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Proxy/config.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../springboot-master/proxy/src/main/java/Reflect/ConfigTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="21" column="92" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
+        <state relative-caret-position="124">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
