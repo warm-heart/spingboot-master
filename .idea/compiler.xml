@@ -9,10 +9,10 @@
         <module name="exception" />
         <module name="jpa" />
         <module name="mybatis" />
+        <module name="proxy" />
         <module name="redis" />
         <module name="security" />
         <module name="shiro" />
-        <module name="springboot-master" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
