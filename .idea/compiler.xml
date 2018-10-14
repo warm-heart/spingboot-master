@@ -14,6 +14,7 @@
         <module name="redis" />
         <module name="security" />
         <module name="shiro" />
+        <module name="thread" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
