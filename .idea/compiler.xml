@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="exception" />
         <module name="jpa" />
+        <module name="mongo" />
         <module name="mybatis" />
         <module name="netty" />
         <module name="proxy" />

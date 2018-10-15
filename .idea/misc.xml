@@ -10,7 +10,8 @@
         <option value="$PROJECT_DIR$/jpa/pom.xml" />
         <option value="$PROJECT_DIR$/shiro/pom.xml" />
         <option value="$PROJECT_DIR$/exception/pom.xml" />
-        <option value="$PROJECT_DIR$/../springboot-master/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot-master/mongo/pom.xml" />
       </list>
     </option>
   </component>
