@@ -13,6 +13,7 @@
         <module name="netty" />
         <module name="proxy" />
         <module name="redis" />
+        <module name="rocketmq" />
         <module name="security" />
         <module name="shiro" />
         <module name="thread" />

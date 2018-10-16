@@ -11,7 +11,8 @@
         <option value="$PROJECT_DIR$/shiro/pom.xml" />
         <option value="$PROJECT_DIR$/exception/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/../springboot-master/mongo/pom.xml" />
+        <option value="$PROJECT_DIR$/mongo/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot-master/rocketmq/pom.xml" />
       </list>
     </option>
   </component>
