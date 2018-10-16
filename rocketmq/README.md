@@ -1,9 +1,10 @@
 1配置环境变量（路径中不能有空格）
- 
+ ![image1](https://github.com/warm-heart/springboot-master/rocketmq/image/1.png)
 
 2下载RocketMQ并解压，cmd进入 bin目录下，输入命令start mqnamesrv.cmd 
 启动namesrv 如下图
- 
+  ![image2](https://github.com/warm-heart/springboot-master/rocketmq/image/2.png)
+  ![image3](https://github.com/warm-heart/springboot-master/rocketmq/image/3.png)
  
 3 启动broker
 Cmd命令框执行进入至‘MQ文件夹\bin’下，然后执行‘start mqbroker.cmd -n 127.0.0.1:9876 autoCreateTopicEnable=true’，启动BROKER。成功后会弹出提示框，此框勿关闭。
