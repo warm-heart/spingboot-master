@@ -57,7 +57,7 @@
       <file leaf-file-name="ConsumerInOrder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../springboot-master/rocketmq/src/main/java/com/example/rocketmq/dao/ConsumerInOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
+            <state relative-caret-position="20">
               <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,7 +69,7 @@
       <file leaf-file-name="Producer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../springboot-master/rocketmq/src/main/java/com/example/rocketmq/dao/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
+            <state relative-caret-position="20">
               <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
             </state>
           </provider>
@@ -79,8 +79,8 @@
         <entry file="file://$PROJECT_DIR$/../springboot-master/rocketmq/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="3" column="52" lean-forward="true" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+              <first_editor relative-caret-position="120">
+                <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               </first_editor>
               <second_editor />
             </state>
@@ -104,7 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/exception/readme.md" />
         <option value="$PROJECT_DIR$/design/README.md" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/design/README.md" />
@@ -154,6 +153,7 @@
         <option value="$PROJECT_DIR$/rocketmq/src/main/java/com/example/rocketmq/dao/OrderDemo.java" />
         <option value="$PROJECT_DIR$/rocketmq/src/main/java/com/example/rocketmq/dao/ConsumerInOrder.java" />
         <option value="$PROJECT_DIR$/rocketmq/src/main/java/com/example/rocketmq/dao/Producer.java" />
+        <option value="$PROJECT_DIR$/rocketmq/README.md" />
         <option value="$PROJECT_DIR$/../springboot-master/rocketmq/README.md" />
       </list>
     </option>
@@ -167,7 +167,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/..//////////////////////////////////////////Program Files (x86)/apache-maven-3.5.3" />
+        <option name="mavenHome" value="$PROJECT_DIR$/..////////////////////////////////////////////Program Files (x86)/apache-maven-3.5.3" />
         <option name="userSettingsFile" value="E:\Program Files (x86)\apache-maven-3.5.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -181,7 +181,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="657" />
     <option name="y" value="-10" />
     <option name="width" value="470" />
@@ -193,17 +193,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
+      <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="security" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="security" type="616d4139:PackageViewModuleNode" />
+              <item name="templates" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -256,17 +256,12 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane">
+      <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="springboot-master" type="58d84e3e:PackageViewProjectNode" />
-              <item name="security" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="58d84e3e:PackageViewProjectNode" />
-              <item name="security" type="616d4139:PackageViewModuleNode" />
-              <item name="templates" type="1f31426a:PackageElementNode" />
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,12 +278,12 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="android.sdk.path" value="$PROJECT_DIR$/..//////////////////////////////////////////////////////////////////Android" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/..////////////////////////////////////////////////////////////////////Android" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../////////////////////////////////////////////////////spring-boot-shiro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/..///////////////////////////////////////////////////////spring-boot-shiro" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -494,7 +489,9 @@
       <workItem from="1539570485096" duration="1372000" />
       <workItem from="1539685631763" duration="965000" />
       <workItem from="1539686624267" duration="4607000" />
-      <workItem from="1539696006614" duration="764000" />
+      <workItem from="1539696006614" duration="1056000" />
+      <workItem from="1539697226199" duration="83000" />
+      <workItem from="1539697674942" duration="65000" />
     </task>
     <servers />
   </component>
@@ -531,7 +528,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85837000" />
+    <option name="totallyTimeSpent" value="86277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -558,7 +555,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32561985" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289256" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26172465" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26928896" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32980332" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -925,9 +922,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-master/rocketmq/src/main/java/com/example/rocketmq/dao/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../springboot-master/rocketmq/src/main/java/com/example/rocketmq/dao/ConsumerInOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
+        <state relative-caret-position="20">
           <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -935,18 +939,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-master/rocketmq/src/main/java/com/example/rocketmq/dao/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../springboot-master/rocketmq/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="3" column="52" lean-forward="true" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          <first_editor relative-caret-position="120">
+            <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           </first_editor>
           <second_editor />
         </state>
