@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+
+    <package name="default" namespace="/" extends="struts-default">
+        <!-- 定义一个叫user的Action,并带上实现类的路径 -->
+        <action name="login1" class="org.example.web.LoginAction" method="da">
+            <!-- 配置execute()方法返回值与视图资源之间的映射关系 -->
+
+            <result name="success" type="redirect">/suc.jsp</result>
+            <result name="error" >/error.jsp</result>
+
+        </action>
+    </package>
+</struts>
