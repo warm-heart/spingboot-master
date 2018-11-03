@@ -26,7 +26,7 @@ public class ExceptionTestController {
     * */
     @RequestMapping(value = "/2",method = RequestMethod.GET)
     public String test2(){
-          int i=2;
+          int i=1;
         try {
             if (i==1){
                 throw new TestException("controller2");

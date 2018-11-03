@@ -11,9 +11,32 @@
         </collection>
     </resultMap>
 
-    <select id="selectStudent" resultMap="StudentMap">
+    <select id="selectStudentAndClass" resultMap="StudentMap">
        select * from student_class,student,class
        where student_class.studentId=student.studentId and student.studentId=#{studentId}
    </select>
+
+    <insert id="insertStudentAndClass"  useGeneratedKeys="true"
+            keyProperty="stuId">
+        insert into student_class(studentId,classId) values
+       (#{studentId},#{classId})
+    </insert>
+
+    <select id="dynamicSql" resultType="com.example.mybatis.entity.Class">
+        select * from ${tableName}
+        where studentId=#{studentId}
+    </select>
+
+    <insert id="dynamicInsert" parameterType="String">
+        insert into ${tableName} (studentId,studentName) values
+        (#{stu.studentId},#{stu.studentName})
+    </insert>
+
+
+    <insert id="GetGeneratedKeys" parameterType="com.example.mybatis.entity.Student" useGeneratedKeys="true"
+            keyProperty="studentId">
+        insert into student(studentId,studentName) values
+       (#{studentId},#{studentName})
+    </insert>
 
 </mapper>

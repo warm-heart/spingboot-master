@@ -1,7 +1,6 @@
-package com.example.mybatis.dao;
+package com.example.mybatis.entity;
 
-import com.example.mybatis.entity.Class;
-import com.example.mybatis.entity.Student;
+
 
 /**
  * @author wangqianlong
