@@ -1,27 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
 
-    <bean id="helloWorldImpl1" class="org.example.aop.HelloWorldImpl1"/>
-    <bean id="helloWorldImpl2" class="org.example.aop.HelloWorldImpl2"/>
-    <bean id="timeHandle" class="org.example.aop.TimeHandler"/>
-    <bean id="logHandle" class="org.example.aop.LogHandle"/>
+    <context:component-scan base-package="org.example.aop.annotation"></context:component-scan>
+
+    <!--开启代理标识，在程序运行期间，动态创建目标对象代理对象-->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+
+
+    <bean id="helloWorldImpl1" class="org.example.aop.xml.HelloWorldImpl1"/>
+    <bean id="helloWorldImpl2" class="org.example.aop.xml.HelloWorldImpl2"/>
+    <bean id="timeHandle" class="org.example.aop.xml.TimeHandler"/>
+    <bean id="logHandle" class="org.example.aop.xml.LogHandle"/>
 
     <aop:config>
         <aop:aspect id="time" ref="timeHandle" order="1">
-            <aop:pointcut id="printAop" expression="execution(* org.example.aop.HelloWorld.*(..))"/>
+            <aop:pointcut id="printAop" expression="execution(* org.example.aop.xml.HelloWorld.*(..))"/>
             <aop:before method="printTime" pointcut-ref="printAop"/>
             <aop:after method="printTime" pointcut-ref="printAop"/>
         </aop:aspect>
 
 
         <aop:aspect id="log" ref="logHandle" order="2">
-            <aop:pointcut id="printLog" expression="execution(* org.example.aop.HelloWorld.do*(..))"/>
+            <aop:pointcut id="printLog" expression="execution(* org.example.aop.xml.HelloWorld.do*(..))"/>
             <aop:before method="LogBefore" pointcut-ref="printLog"/>
             <aop:after method="LogAfter" pointcut-ref="printLog"/>
         </aop:aspect>
 
     </aop:config>
+
+
 </beans>

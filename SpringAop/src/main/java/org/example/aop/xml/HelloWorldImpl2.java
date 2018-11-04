@@ -1,4 +1,4 @@
-package org.example.aop;
+package org.example.aop.xml;
 
 /**
  * @author wangqianlong
