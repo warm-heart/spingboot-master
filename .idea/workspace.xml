@@ -54,15 +54,15 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,13 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/ConfigTest.java" />
-        <option value="$PROJECT_DIR$/exception/src/main/java/com/example/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/mongo/src/main/java/com/example/mongo/entity/account.java" />
-        <option value="$PROJECT_DIR$/mongo/src/test/java/com/example/mongo/dao/accountDaoTest.java" />
-        <option value="$PROJECT_DIR$/mongo/src/main/java/com/example/mongo/dao/accountDaoImpl.java" />
-        <option value="$PROJECT_DIR$/mongo/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/mongo/pom.xml" />
         <option value="$PROJECT_DIR$/mongo/src/main/java/com/example/mongo/dao/accountDao.java" />
         <option value="$PROJECT_DIR$/mongo/src/main/java/com/example/mongo/dao/accountDaoImpl.java" />
         <option value="$PROJECT_DIR$/mongo/src/main/resources/application.properties" />
@@ -123,6 +116,13 @@
         <option value="$PROJECT_DIR$/SpringAop/src/main/java/org/example/aop/annotation/Test.java" />
         <option value="$PROJECT_DIR$/SpringAop/src/main/java/org/example/aop/annotation/Hello.java" />
         <option value="$PROJECT_DIR$/SpringAop/README.md" />
+        <option value="$PROJECT_DIR$/../springboot-master/thread/src/main/java/base/SecondThread.java" />
+        <option value="$PROJECT_DIR$/../springboot-master/thread/src/main/java/base/FristRunable.java" />
+        <option value="$PROJECT_DIR$/../springboot-master/thread/src/main/java/base/FristThread.java" />
+        <option value="$PROJECT_DIR$/../springboot-master/thread/src/main/java/base/ThreeThread.java" />
+        <option value="$PROJECT_DIR$/../springboot-master/thread/src/main/java/base/Test.java" />
+        <option value="$PROJECT_DIR$/../springboot-master/thread/src/main/java/runable/FristRunable.java" />
+        <option value="$PROJECT_DIR$/../springboot-master/thread/src/main/java/runable/RunableTest.java" />
       </list>
     </option>
   </component>
@@ -135,7 +135,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/..//////////////////////////////////////////////////////////Program Files (x86)/apache-maven-3.5.3" />
+        <option name="mavenHome" value="$PROJECT_DIR$/..//////////////////////////////////////////////////////////////Program Files (x86)/apache-maven-3.5.3" />
         <option name="userSettingsFile" value="E:\Program Files (x86)\apache-maven-3.5.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -161,34 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springboot-master" type="58d84e3e:PackageViewProjectNode" />
-              <item name="security" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="58d84e3e:PackageViewProjectNode" />
-              <item name="security" type="616d4139:PackageViewModuleNode" />
-              <item name="templates" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -235,6 +207,34 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="security" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="security" type="616d4139:PackageViewModuleNode" />
+              <item name="templates" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,12 +246,12 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="android.sdk.path" value="$PROJECT_DIR$/..//////////////////////////////////////////////////////////////////////////////////Android" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/..//////////////////////////////////////////////////////////////////////////////////////Android" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../////////////////////////////////////////////////////////////////////spring-boot-shiro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../////////////////////////////////////////////////////////////////////////spring-boot-shiro" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -270,9 +270,23 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\springboot-master\rocketmq" />
+      <recent name="E:\springboot-master\proxy\src\main\java\Proxy" />
+      <recent name="E:\springboot-master\proxy\src\main\java\Reflect" />
+      <recent name="E:\springboot-master\proxy\src\main\resources" />
+      <recent name="E:\springboot-master\shiro\src\main\resources\mapper" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.mybatis.dao" />
       <recent name="com.example" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="runable" />
+      <recent name="com.example.rocketmq.dao" />
+      <recent name="com.example.mybatis.entity" />
+      <recent name="com.example.handle" />
+      <recent name="com.example.shiro.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\springboot-master" />
@@ -280,20 +294,6 @@
       <recent name="E:\springboot-master\rocketmq\src\main\java\com\example\rocketmq\mq" />
       <recent name="E:\springboot-master\proxy\src\main\resources" />
       <recent name="E:\springboot-master\exception\src\main\java\com\example\controller" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.rocketmq.dao" />
-      <recent name="com.example.mybatis.entity" />
-      <recent name="com.example.handle" />
-      <recent name="com.example.shiro.entity" />
-      <recent name="com.example.shiro.dao" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\springboot-master\rocketmq" />
-      <recent name="E:\springboot-master\proxy\src\main\java\Proxy" />
-      <recent name="E:\springboot-master\proxy\src\main\java\Reflect" />
-      <recent name="E:\springboot-master\proxy\src\main\resources" />
-      <recent name="E:\springboot-master\shiro\src\main\resources\mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -309,17 +309,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="AopTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.aop.xml.AopTest" />
-      <module name="SpringAop" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.aop.xml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -361,11 +350,6 @@
       <properties />
       <listeners />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.AopTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -459,6 +443,10 @@
       <workItem from="1541247283179" duration="767000" />
       <workItem from="1541317821877" duration="3059000" />
       <workItem from="1541320903794" duration="8000" />
+      <workItem from="1541321032608" duration="3000" />
+      <workItem from="1541384420782" duration="45000" />
+      <workItem from="1541384486551" duration="134000" />
+      <workItem from="1541406702244" duration="1311000" />
     </task>
     <servers />
   </component>
@@ -495,7 +483,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102090000" />
+    <option name="totallyTimeSpent" value="103583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -513,6 +501,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3983471" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49924356" weight="0.32561985" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -521,7 +510,7 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.32561985" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289256" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3343419" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35552195" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32980332" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -530,7 +519,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="9" weight="0.3289256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49924356" weight="0.32561985" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32561985" />
@@ -588,38 +576,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../springboot-master/rocketmq/src/main/java/com/example/rocketmq/Produce.java" />
-    <entry file="file://$PROJECT_DIR$/../springboot-master/rocketmq/src/main/java/com/example/rocketmq/OrderDemo.java" />
-    <entry file="file://$PROJECT_DIR$/../springboot-master/rocketmq/src/main/java/com/example/rocketmq/Produce1.java" />
-    <entry file="file://$PROJECT_DIR$/../springboot-master/rocketmq/src/main/java/com/example/rocketmq/mq/Produce1.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/rocketmq/rocketmq-client/3.2.6/rocketmq-client-3.2.6.jar!/com/alibaba/rocketmq/client/producer/SendResult.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/rocketmq/rocketmq-client/3.2.6/rocketmq-client-3.2.6.jar!/com/alibaba/rocketmq/client/producer/DefaultMQProducer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="52" column="189" selection-start-line="52" selection-start-column="189" selection-end-line="52" selection-end-column="189" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-master/rocketmq/src/main/java/com/example/rocketmq/dao/OrderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-master/rocketmq/src/main/java/com/example/rocketmq/dao/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../springboot-master/rocketmq/src/main/java/com/example/rocketmq/dao/ConsumerInOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -640,13 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="695">
           <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-master/more-datasorce/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -856,9 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="15" column="81" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -880,11 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -907,9 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -920,6 +858,73 @@
             <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-master/thread/src/main/java/base/SecondThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-master/thread/src/main/java/base/FristRunable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-master/thread/src/main/java/base/FristThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-master/thread/src/main/java/base/ThreeThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-master/thread/src/main/java/runable/FristRunable.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3953">
+          <caret line="140" column="34" lean-forward="true" selection-start-line="140" selection-start-column="34" selection-end-line="140" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-master/thread/src/main/java/runable/RunableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-master/thread/src/main/java/base/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-master/more-datasorce/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
