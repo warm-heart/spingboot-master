@@ -1,5 +1,6 @@
 package com.example.mybatis.entity;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -7,16 +8,16 @@ import java.util.List;
  * @create 2018-09-16 8:38
  */
 
-public class company {
-    private Integer companyId;
+public class Company implements Serializable {
+    private Long companyId;
     private String companyName;
     private List<department> departments;
 
-    public Integer getCompanyId() {
+    public Long getCompanyId() {
         return companyId;
     }
 
-    public void setCompanyId(Integer companyId) {
+    public void setCompanyId(Long companyId) {
         this.companyId = companyId;
     }
 
@@ -38,7 +39,7 @@ public class company {
 
     @Override
     public String toString() {
-        return "company{" +
+        return "Company{" +
                 "companyId=" + companyId +
                 ", companyName='" + companyName + '\'' +
                 ", departments=" + departments +

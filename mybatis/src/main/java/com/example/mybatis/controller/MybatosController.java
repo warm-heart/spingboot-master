@@ -2,7 +2,7 @@ package com.example.mybatis.controller;
 
 import com.example.mybatis.dao.companyDao;
 import com.example.mybatis.dao.departmentDao;
-import com.example.mybatis.entity.company;
+import com.example.mybatis.entity.Company;
 import com.example.mybatis.entity.department;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,7 +22,7 @@ public class MybatosController {
     private departmentDao departmentDao;
 
     @RequestMapping(value = "/company")
-    public company test1() {
+    public Company test1() {
         return companyDao.selectcompany(1);
     }
 

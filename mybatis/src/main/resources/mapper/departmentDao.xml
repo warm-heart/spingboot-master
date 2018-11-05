@@ -5,15 +5,15 @@
     <resultMap id="demartmentMap" type="com.example.mybatis.entity.department">
         <id column="departmentId" property="departmentId"/>
         <result column="departmentName" property="departmentName"/>
-        <association property="company" javaType="com.example.mybatis.entity.company">
+        <association property="Company" javaType="com.example.mybatis.entity.Company">
             <id column="companyId" property="companyId"/>
             <result column="companyName" property="companyName"/>
         </association>
     </resultMap>
 
    <select id="selectdepartment" resultMap="demartmentMap">
-       select * from department,company
-       where department.companyId=company.companyId and department.departmentId=#{departmentId}
+       select * from department,Company
+       where department.companyId=Company.companyId and department.departmentId=#{departmentId}
    </select>
 
 </mapper>

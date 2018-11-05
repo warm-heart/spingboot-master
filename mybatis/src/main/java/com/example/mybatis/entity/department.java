@@ -8,7 +8,7 @@ package com.example.mybatis.entity;
 public class department {
     private Integer departmentId;
     private  String departmentName;
-    private company company;
+    private Company Company;
 
     public Integer getDepartmentId() {
         return departmentId;
@@ -26,12 +26,12 @@ public class department {
         this.departmentName = departmentName;
     }
 
-    public com.example.mybatis.entity.company getCompany() {
-        return company;
+    public Company getCompany() {
+        return Company;
     }
 
-    public void setCompany(com.example.mybatis.entity.company company) {
-        this.company = company;
+    public void setCompany(Company Company) {
+        this.Company = Company;
     }
 
     @Override
@@ -39,7 +39,7 @@ public class department {
         return "department{" +
                 "departmentId=" + departmentId +
                 ", departmentName='" + departmentName + '\'' +
-                ", company=" + company +
+                ", Company=" + Company +
                 '}';
     }
 }

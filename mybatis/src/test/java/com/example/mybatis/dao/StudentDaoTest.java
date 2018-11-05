@@ -21,7 +21,7 @@ public class StudentDaoTest extends MybatisApplicationTests {
 
         System.out.println("成了成了成了成了成了成了成了成了");
         Student student = new Student();
-        student.setStudentName("胖子7号");6
+        student.setStudentName("胖子7号");
         studentDao.GetGeneratedKeys(student);
         System.out.println("主键值为："+student.getStudentId());
 

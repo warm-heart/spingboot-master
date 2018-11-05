@@ -6,3 +6,6 @@ mybatis 分页  limit #{toPageNo}, #{pageSize}
 
 MD5
 MQTT
+
+
+实现手动结果集到实体的映射

@@ -1,3 +1,10 @@
+
+DROP database IF EXISTS `mybatis`;
+
+create database mybatis;
+
+use mybatis;
+
 -- ----------------------------
 -- 多对多 通过中间表建立联系
 -- ----------------------------
@@ -49,16 +56,16 @@ CONSTRAINT `FK_Reference_4` FOREIGN KEY (`classId`) REFERENCES `class` (`classId
 -- ----------------------------
 
 -- ----------------------------
--- Table structure for company
+-- Table structure for Company
 -- ----------------------------
-DROP TABLE IF EXISTS `company`;
-CREATE TABLE `company` (
+DROP TABLE IF EXISTS `Company`;
+CREATE TABLE `Company` (
 `companyId` bigint(20) NOT NULL AUTO_INCREMENT,
 `companyName` varchar(15) DEFAULT NULL,
 PRIMARY KEY (`companyId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 -- ----------------------------
--- Records of company
+-- Records of Company
 -- ----------------------------
 
 
@@ -71,7 +78,7 @@ CREATE TABLE `department` (
 `companyId` bigint(20) NOT NULL,
 `companyName` varchar(15) DEFAULT NULL,
 PRIMARY KEY (`departmentId`),
-CONSTRAINT `FK_Reference` FOREIGN KEY (`companyId`) REFERENCES `company` (`companyId`)
+CONSTRAINT `FK_Reference` FOREIGN KEY (`companyId`) REFERENCES `Company` (`companyId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 -- ----------------------------
 -- Records of department

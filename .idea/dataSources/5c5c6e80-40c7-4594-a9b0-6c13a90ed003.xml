@@ -916,83 +916,139 @@
     <table id="230" parent="3" name="class">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="231" parent="3" name="student">
+    <table id="231" parent="3" name="company">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="232" parent="3" name="student_class">
+    <table id="232" parent="3" name="department">
       <Engine>InnoDB</Engine>
     </table>
-    <column id="233" parent="230" name="classId">
+    <table id="233" parent="3" name="student">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="234" parent="3" name="student_class">
+      <Engine>InnoDB</Engine>
+    </table>
+    <column id="235" parent="230" name="classId">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="234" parent="230" name="className">
+    <column id="236" parent="230" name="className">
       <Position>2</Position>
       <DataType>varchar(30)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="235" parent="230" name="PRIMARY">
+    <key id="237" parent="230" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>classId</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="236" parent="231" name="studentId">
+    <column id="238" parent="231" name="companyId">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="237" parent="231" name="studentName">
+    <column id="239" parent="231" name="companyName">
       <Position>2</Position>
       <DataType>varchar(15)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="238" parent="231" name="PRIMARY">
+    <key id="240" parent="231" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>studentId</ColNames>
+      <ColNames>companyId</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="239" parent="232" name="id">
+    <column id="241" parent="232" name="departmentId">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="240" parent="232" name="classId">
+    <column id="242" parent="232" name="companyId">
+      <Position>2</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="243" parent="232" name="companyName">
+      <Position>3</Position>
+      <DataType>varchar(15)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="244" parent="232" name="FK_Reference">
+      <ColNames>companyId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="245" parent="232" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>departmentId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="246" parent="232" name="FK_Reference">
+      <ColNames>companyId</ColNames>
+      <RefSchemaName>mybatis</RefSchemaName>
+      <RefTableName>company</RefTableName>
+      <RefColNames>companyId</RefColNames>
+    </foreign-key>
+    <column id="247" parent="233" name="studentId">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="248" parent="233" name="studentName">
+      <Position>2</Position>
+      <DataType>varchar(15)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="249" parent="233" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>studentId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="250" parent="234" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="251" parent="234" name="classId">
       <Position>2</Position>
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="241" parent="232" name="studentId">
+    <column id="252" parent="234" name="studentId">
       <Position>3</Position>
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="242" parent="232" name="FK_Reference_3">
+    <index id="253" parent="234" name="FK_Reference_3">
       <ColNames>classId</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="243" parent="232" name="FK_Reference_4">
+    <index id="254" parent="234" name="FK_Reference_4">
       <ColNames>studentId</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="244" parent="232" name="PRIMARY">
+    <key id="255" parent="234" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="245" parent="232" name="FK_Reference_4">
+    <foreign-key id="256" parent="234" name="FK_Reference_4">
       <ColNames>classId</ColNames>
       <RefSchemaName>mybatis</RefSchemaName>
       <RefTableName>class</RefTableName>
       <RefColNames>classId</RefColNames>
     </foreign-key>
-    <foreign-key id="246" parent="232" name="FK_Reference_3">
+    <foreign-key id="257" parent="234" name="FK_Reference_3">
       <ColNames>studentId</ColNames>
       <RefSchemaName>mybatis</RefSchemaName>
       <RefTableName>student</RefTableName>
