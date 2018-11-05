@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../springboot-master/struct" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -12,7 +15,7 @@
         <option value="$PROJECT_DIR$/exception/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/mongo/pom.xml" />
-        <option value="$PROJECT_DIR$/../springboot-master/rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq/pom.xml" />
       </list>
     </option>
   </component>

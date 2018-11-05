@@ -13,6 +13,8 @@
         <module>netty</module>
         <module>thread</module>
         <module>SpringAop</module>
+        <module>more-datasorce</module>
+        <module>struct</module>
     </modules>
 
 

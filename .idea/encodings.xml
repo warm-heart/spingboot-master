@@ -5,10 +5,12 @@
     <file url="file://$PROJECT_DIR$/../springboot-master/exception" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../springboot-master/jpa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../springboot-master/mongo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springboot-master/more-datasorce" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../springboot-master/mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../springboot-master/redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../springboot-master/rocketmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../springboot-master/security" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../springboot-master/shiro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springboot-master/struct" charset="UTF-8" />
   </component>
 </project>

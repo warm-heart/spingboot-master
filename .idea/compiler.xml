@@ -9,6 +9,7 @@
         <module name="exception" />
         <module name="jpa" />
         <module name="mongo" />
+        <module name="more-datasorce" />
         <module name="mybatis" />
         <module name="netty" />
         <module name="proxy" />
@@ -17,6 +18,7 @@
         <module name="security" />
         <module name="shiro" />
         <module name="SpringAop" />
+        <module name="struct" />
         <module name="thread" />
       </profile>
     </annotationProcessing>
