@@ -8,6 +8,7 @@ package base;
 public class FristThread extends Thread{
 
 
+
     @Override
     public void run() {
         super.run();
