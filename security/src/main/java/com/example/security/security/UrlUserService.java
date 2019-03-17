@@ -15,24 +15,27 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by yangyibo on 17/2/7.
+ * @author wangqianlong
+ * @create 2018-12-20 17:34
  */
+
 @Service
 public class UrlUserService implements UserDetailsService {
+
     @Autowired
     UserDao userDao;
     @Autowired
     PermissionDao permissionDao;
+
     @Override
     public UserDetails loadUserByUsername(String userName) { //重写loadUserByUsername 方法获得 userdetails 类型用户
-
         User user = userDao.getByUserName(userName);
         if (user != null) {
-            List<Permission> permissions = permissionDao.getByUserId(user.getId());
+            List<Permission> permissions = permissionDao.getByUserId(user.getUserId());
             List<GrantedAuthority> grantedAuthorities = new ArrayList<>();
             for (Permission permission : permissions) {
-                if (permission != null && permission.getName()!=null) {
-                    GrantedAuthority grantedAuthority = new UrlGrantedAuthority(permission.getPermissionUrl(),permission.getMethod());
+                if (permission != null && permission.getName() != null) {
+                    GrantedAuthority grantedAuthority = new UrlGrantedAuthority(permission.getPermissionUrl(), permission.getMethod());
                     grantedAuthorities.add(grantedAuthority);
                 }
             }

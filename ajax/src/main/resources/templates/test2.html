@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+</head>
+<body>
+<form>
+<input type="text" id="userName">
+<input type="text" id="userAge">
+    <input type="button" id="da">
+</form>
+
+<!--传递多个参数-->
+<script>
+    $("#da").click(function(){
+        var name=$("#userName").val();
+        var age = $("#userAge").val();
+        var args={userName:name,userAge:age}
+        $.ajax({
+            url:"/test2r",
+            cache:false,
+            data:args,
+            type:"post",
+            success:function(result){
+                alert(result);
+            }
+        });
+    });
+</script>
+
+
+</body>
+</html>

@@ -3,8 +3,8 @@ package com.example.redis.dao;
 import com.example.redis.RedisApplicationTests;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 
-import static org.junit.Assert.*;
 
 public class UserDaoTest extends RedisApplicationTests {
     @Autowired
@@ -19,7 +19,8 @@ public class UserDaoTest extends RedisApplicationTests {
     }
 
     @Test
+    @Cacheable(value = "dada")
     public void findUserByName() {
-        System.out.println(userDao.findUserByName("Cooper"));
+        System.out.println(userDao.findUserByName("1"));
     }
 }

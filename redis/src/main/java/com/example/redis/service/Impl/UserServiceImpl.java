@@ -2,10 +2,15 @@ package com.example.redis.service.Impl;
 
 import com.example.redis.dao.UserDao;
 import com.example.redis.entity.User;
-import com.example.redis.exception.UserException;
+
 import com.example.redis.service.UserService;
+
+
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
 /**
@@ -16,21 +21,27 @@ import org.springframework.stereotype.Service;
 public class UserServiceImpl implements UserService {
 
     @Autowired
+    private RedisTemplate redisTemplate;
+
+    @Autowired
     private UserDao userDao;
 
     @Override
-    @Cacheable(value = "user-key")
+    @CachePut(value = "sSsdada",key = "#result.name")  //支持el  redis里的key为数据库中user id
+    //@Cacheable(value = "sSsdada",key = "#123456")   value 为包名 key为数据的key
     public User findUserByPhone(String phone) {
 
-        try {
+       // try {
             User user =userDao.findUserByPhone(phone);
-            if(user==null){
+
+           /* if(user==null){
                 throw new UserException("没有此用户");
             }
             return user;
         }catch (UserException e1){
             throw e1;
-        }
+        }*/
+           return user;
 
     }
 

@@ -1,19 +1,27 @@
 package com.example.security.entity;
 
+/**
+ * @author wangqianlong
+ * @create 2018-12-20 16:28
+ */
 
 public class Permission {
-    private Integer id;
+    private Integer permissionId;
+
     private String name;
+
     private String permissionUrl;
+
     private String method;
+
     private String description;
 
-    public Integer getId() {
-        return id;
+    public Integer permissionId() {
+        return permissionId;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setId(Integer permissionId) {
+        this.permissionId = permissionId;
     }
 
     public String getName() {
@@ -51,11 +59,11 @@ public class Permission {
     @Override
     public String toString() {
         return "Permission{" +
-                "id=" + id +
-                ", name=" + name +
-                ", permissionUrl=" + permissionUrl +
-                ", method=" + method +
-                ", description=" + description +
+                "permissionId=" + permissionId +
+                ", name='" + name + '\'' +
+                ", permissionUrl='" + permissionUrl + '\'' +
+                ", method='" + method + '\'' +
+                ", description='" + description + '\'' +
                 '}';
     }
 }

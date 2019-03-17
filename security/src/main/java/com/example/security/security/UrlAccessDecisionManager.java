@@ -1,5 +1,6 @@
 package com.example.security.security;
 
+
 import org.springframework.security.access.AccessDecisionManager;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.access.ConfigAttribute;
@@ -9,19 +10,19 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.web.FilterInvocation;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import org.springframework.stereotype.Service;
-
 import javax.servlet.http.HttpServletRequest;
 import java.util.Collection;
 
-
-
 /**
- * Created by yangyibo on 17/1/19.
+ * @author wangqianlong
+ * @create 2018-12-20 17:40
  */
+
 @Service
 public class UrlAccessDecisionManager implements AccessDecisionManager {
     @Override
     public void decide(Authentication authentication, Object object, Collection<ConfigAttribute> configAttributes) throws AccessDeniedException, InsufficientAuthenticationException {
+
         HttpServletRequest request = ((FilterInvocation) object).getHttpRequest();
         String url, method;
         if ("anonymousUser".equals(authentication.getPrincipal())
@@ -51,7 +52,6 @@ public class UrlAccessDecisionManager implements AccessDecisionManager {
         throw new AccessDeniedException("no right");
     }
 
-
     @Override
     public boolean supports(ConfigAttribute attribute) {
         return true;
@@ -61,7 +61,6 @@ public class UrlAccessDecisionManager implements AccessDecisionManager {
     public boolean supports(Class<?> clazz) {
         return true;
     }
-
 
     private boolean matchers(String url, HttpServletRequest request) {
         AntPathRequestMatcher matcher = new AntPathRequestMatcher(url);

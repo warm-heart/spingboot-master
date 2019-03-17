@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+</head>
+<body>
+<h1><dadadadada></dadadadada></h1>
+
+
+<input type="text" id="userIdcard">
+</body>
+<!--传递单个参数-->
+
+<script type="text/javascript">
+    $(function(){
+        $("#userIdcard").blur(function() {
+            var userIdcard = $("#userIdcard").val();
+            $.ajax({
+                url:"/test",
+                type:"post",
+                data:{userId:userIdcard},
+                success:function (data) {
+                    //接收单个参数和前端交互
+                    //这里做一些你想做的。
+                    //data(success中的data)就是后台响应传递来的数据，具体请看接收参数模块
+                    if(data){
+                        $("#UserError").text("乘车人已存在");
+                    }
+                },
+                error:function () {
+                    alert("错误！")
+                }
+            })
+        });
+    });
+</script>
+
+</html>

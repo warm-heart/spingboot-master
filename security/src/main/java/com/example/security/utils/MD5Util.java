@@ -1,40 +1,43 @@
 package com.example.security.utils;
 
 /**
- * Created by yangyibo on 17/2/7.
+ * @author wangqianlong
+ * @create 2018-12-20 17:35
  */
+
 import java.security.MessageDigest;
 
 /**
- * MD5加密工具
- *
- */
-public class MD5Util {
 
+ * MD5加密工具
+
+ *
+
+ */
+
+public class MD5Util {
     private static final String SALT = "yy";
-   
     private static final String WECAHT_SALT="yy_aa";
-    
     public static String encode(String password) {
         password = password + SALT;
         return processEncode(password);
     }
-    
+
     /**
      * 与微信模块约定的加密模块
      * */
     public static String wechatEncode(String password){
-    	password = password + WECAHT_SALT;
+        password = password + WECAHT_SALT;
         return processEncode(password);
     }
-    
+
     public static boolean wehcatValidation(String str, String token){
-		boolean flag = false;
-		if(wechatEncode(str).equals(token)){
-			flag = true;
-		}
-		return flag;
-	}
+        boolean flag = false;
+        if(wechatEncode(str).equals(token)){
+            flag = true;
+        }
+        return flag;
+    }
 
     public static String processEncode(String password) {
         MessageDigest md5 = null;
@@ -45,7 +48,6 @@ public class MD5Util {
         }
         char[] charArray = password.toCharArray();
         byte[] byteArray = new byte[charArray.length];
-
         for (int i = 0; i < charArray.length; i++)
             byteArray[i] = (byte) charArray[i];
         byte[] md5Bytes = md5.digest(byteArray);
@@ -55,13 +57,10 @@ public class MD5Util {
             if (val < 16) {
                 hexValue.append("0");
             }
-
             hexValue.append(Integer.toHexString(val));
         }
         return hexValue.toString();
     }
-
-    	
     public static void main(String[] args) {
         System.out.println(MD5Util.encode("abel"));
         System.out.println(MD5Util.encode("admin"));

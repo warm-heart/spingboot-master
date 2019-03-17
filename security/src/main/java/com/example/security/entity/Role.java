@@ -1,74 +1,92 @@
 package com.example.security.entity;
 
+/**
+ * @author wangqianlong
+ * @create 2018-12-20 16:54
+ */
 
+public class Role implements Comparable<Role> {
 
-public class Role implements Comparable<Role>{
-	private Integer id;
-	private String name;
-	private Integer roleLevel;
-	private String description;
-	private String menuItems;
+    private Integer roleId;
 
-	public Integer getId() {
-		return id;
-	}
-	public void setId(Integer id) {
-		this.id = id;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public Integer getRoleLevel() {
-		return roleLevel;
-	}
-	public void setRoleLevel(Integer roleLevel) {
-		this.roleLevel = roleLevel;
-	}
-	public String getDescription() {
-		return description;
-	}
-	public void setDescription(String description) {
-		this.description = description;
-	}
-	public String getMenuItems() {
-		return menuItems;
-	}
+    private String name;
 
-	public void setMenuItems(String menuItems) {
-		this.menuItems = menuItems;
-	}
+    private Integer roleLevel;
 
-	@Override
-	public int compareTo(Role o) {
-		if(id == o.getId()){
-			return 0;
-		}else if(id > o.getId()){
-			return 1;
-		}else{
-			return -1;
-		}
-	}
-	
-	@Override
-	public boolean equals(Object obj) {
-		// TODO Auto-generated method stub
-		if(obj instanceof Role){
-			if(this.id == ((Role)obj).getId()){
-				return true;
-			}
-		}
-		return false;
-	}
-	@Override
-	public String toString() {
-		return "Role{" +
-			"id=" + id +
-			", name=" + name +
-			", roleLevel=" + roleLevel +
-			", description=" + description +
-			'}';
-		}
+    private String description;
+
+    private String menuItems;
+
+    @Override
+    public int compareTo(Role o) {
+        if(roleId == o.getRoleId()){
+            return 0;
+        }else if(roleId > o.getRoleId()){
+            return 1;
+        }else{
+            return -1;
+        }
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        // TODO Auto-generated method stub
+        if(obj instanceof Role){
+            if(this.roleId == ((Role)obj).getRoleId()){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public Integer getRoleId() {
+        return roleId;
+    }
+
+    public void setRoleId(Integer roleId) {
+        this.roleId = roleId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getRoleLevel() {
+        return roleLevel;
+    }
+
+    public void setRoleLevel(Integer roleLevel) {
+        this.roleLevel = roleLevel;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getMenuItems() {
+        return menuItems;
+    }
+
+    public void setMenuItems(String menuItems) {
+        this.menuItems = menuItems;
+    }
+
+    @Override
+    public String toString() {
+        return "Role{" +
+                "roleId=" + roleId +
+                ", name='" + name + '\'' +
+                ", roleLevel=" + roleLevel +
+                ", description='" + description + '\'' +
+                ", menuItems='" + menuItems + '\'' +
+                '}';
+    }
 }

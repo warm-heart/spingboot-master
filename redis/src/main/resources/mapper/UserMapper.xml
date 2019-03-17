@@ -3,17 +3,17 @@
 <mapper namespace="com.example.redis.dao.UserDao">
     <select id="findUserByPhone" resultType="com.example.redis.entity.User">
         select *
-        from t_user
+        from user
         where phone=#{phone}
     </select>
     <insert id="insert" >
         insert into
-        t_user(name,phone,password)
+        user(name,phone,password)
         values (#{name},#{phone},#{password})
     </insert>
     <select id="findUserByName" resultType="com.example.redis.entity.User">
         select *
-        from t_user
+        from user
         where name=#{name}
     </select>
 </mapper>

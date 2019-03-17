@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>html5</title>
+    <link th:href="@{/css/home.css}" href="../static/css/home.css" rel="stylesheet" type="text/css"/>
+
+    <script th:src="@{/js/jquery-1.10.2.min.js}" src="../static/js/jquery-1.10.2.min.js"></script>
+
+</head>
+<body>
+<form>
+    <input type="text" id="userName">
+    <input type="text" id="userAge">
+    <input type="button" id="da">
+</form>
+<input type="text" id="resultName">
+<h1>dajiahai </h1>
+
+
+
+<!--传递List数组-->
+<script>
+    $("#da").click(function () {
+        var args = [];
+        var name = $("#userName").val();
+        var age = $("#userAge").val();
+        var arg = {userName: name, userAge: age}
+        //为了方便这里放两个相同的
+        args.push(arg);
+        args.push(arg);
+        $.ajax({
+            url: "/test5r",
+            cache: false,
+            contentType: 'application/json; charset=utf-8',
+            data: JSON.stringify(args),
+            type: "post",
+            success: function (result) {
+                /*$("#resultName").val(result.userName);*/
+                alert(result)
+            }
+        });
+    });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+
+spring:
+  application:
+    name: security
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/security?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 1122
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      max-active: 80
+      initial-size: 1
+      max-wait: 60000
+      min-idle: 1
+      time-between-eviction-runs-millis: 300000
+      validation-query: 'x'
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: true
+      max-open-prepared-statements: 20
+
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.example.security.entity
+

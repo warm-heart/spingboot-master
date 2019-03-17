@@ -35,6 +35,10 @@ public class dto {
         this.state = state;
         this.stateInfo = stateInfo;
     }
+    public dto(SeckillStatEnum seckillStatEnum){
+        this.state=seckillStatEnum.getState();
+        this.stateInfo=seckillStatEnum.getStateInfo();
+    }
 
     @Override
     public String toString() {

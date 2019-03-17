@@ -2,6 +2,7 @@ package com.example.security.service;
 
 import com.example.security.dao.UserDao;
 import com.example.security.entity.User;
+
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.security.core.session.SessionRegistry;

@@ -1,49 +1,57 @@
 package com.example.security.entity;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Collection;
 import java.util.List;
 
+/**
+ * @author wangqianlong
+ * @create 2018-12-20 16:49
+ */
+
 public class User implements UserDetails {
-    private Integer id;
+    private Integer userId;
+
     private String cnname;
+
     private String username;
-    @JsonIgnore
+
     private String password;
+
     private String rePassword;
+
     private String historyPassword;
+
     private String email;
-    @JsonIgnore
+
     private String telephone;
+
     private String mobilePhone;
+
     private List<? extends GrantedAuthority> authorities;
+
     private Role role;
+
     private Integer roleId;
 
-
     @Override
-    @JsonIgnore
     public boolean isAccountNonExpired() {
         return true;
     }
 
     @Override
-    @JsonIgnore
     public boolean isAccountNonLocked() {
         return true;
     }
 
     @Override
-    @JsonIgnore
     public boolean isCredentialsNonExpired() {
         return true;
     }
 
     @Override
-    @JsonIgnore
     public boolean isEnabled() {
         return true;
     }
@@ -52,7 +60,6 @@ public class User implements UserDetails {
         this.username = username;
     }
 
-    @JsonIgnore
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return authorities;
     }
@@ -61,12 +68,12 @@ public class User implements UserDetails {
         this.authorities = authorities;
     }
 
-    public Integer getId() {
-        return id;
+    public Integer getUserId() {
+        return userId;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
     public String getCnname() {
@@ -144,16 +151,23 @@ public class User implements UserDetails {
     public void setRoleId(Integer roleId) {
         this.roleId = roleId;
     }
+
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
-                ", cnname=" + cnname +
-                ", username=" + username +
-                ", password=" + password +
-                ", email=" + email +
-                ", telephone=" + telephone +
-                ", mobilePhone=" + mobilePhone +
+                "userId=" + userId +
+                ", cnname='" + cnname + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", rePassword='" + rePassword + '\'' +
+                ", historyPassword='" + historyPassword + '\'' +
+                ", email='" + email + '\'' +
+                ", telephone='" + telephone + '\'' +
+                ", mobilePhone='" + mobilePhone + '\'' +
+                ", authorities=" + authorities +
+                ", role=" + role +
+                ", roleId=" + roleId +
                 '}';
     }
+
 }

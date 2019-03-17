@@ -1,6 +1,5 @@
 package com.example.security.config;
 
-
 import com.example.security.security.UrlUserService;
 import com.example.security.utils.MD5Util;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,14 +13,17 @@ import org.springframework.security.core.session.SessionRegistry;
 import org.springframework.security.core.session.SessionRegistryImpl;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-
+/**
+ * @author wangqianlong
+ * @create 2018-12-20 17:32
+ */
 
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
-
     @Autowired
     private UrlUserService urlUserService;
+
     @Autowired
     SessionRegistry sessionRegistry;
 
@@ -49,16 +51,13 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .httpBasic();
     }
-
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth.userDetailsService(urlUserService).passwordEncoder(new PasswordEncoder() {
-
             @Override
             public String encode(CharSequence rawPassword) {
                 return MD5Util.encode((String) rawPassword);
             }
-
             @Override
             public boolean matches(CharSequence rawPassword, String encodedPassword) {
                 return encodedPassword.equals(MD5Util.encode((String) rawPassword));

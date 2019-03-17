@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+</head>
+<body>
+<form>
+<input type="text" id="userName">
+<input type="text" id="userAge">
+    <input type="button" id="da">
+</form>
+<!--传递List数组-->
+<script>
+    $("#da").click(function(){
+        var args=[];
+        var name=$("#userName").val();
+        var age = $("#userAge").val();
+        var arg={userName:name,userAge:age}
+        //为了方便这里放两个相同的
+        args.push(arg);
+        args.push(arg);
+        $.ajax({
+            url:"/test3r",
+            cache:false,
+            contentType : 'application/json; charset=utf-8',
+            data:JSON.stringify(args),
+            type:"post",
+            success:function(result){
+                alert(result);
+            }
+        });
+    });
+</script>
+
+
+</body>
+</html>

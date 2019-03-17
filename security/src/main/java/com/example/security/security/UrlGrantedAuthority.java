@@ -3,8 +3,10 @@ package com.example.security.security;
 import org.springframework.security.core.GrantedAuthority;
 
 /**
- * Created by yangyibo on 17/2/15.
+ * @author wangqianlong
+ * @create 2018-12-20 17:38
  */
+
 public class UrlGrantedAuthority implements GrantedAuthority {
 
     private String permissionUrl;
@@ -25,14 +27,13 @@ public class UrlGrantedAuthority implements GrantedAuthority {
     public void setMethod(String method) {
         this.method = method;
     }
-
     public UrlGrantedAuthority (String permissionUrl, String method) {
         this.permissionUrl = permissionUrl;
         this.method = method;
     }
-
     @Override
     public String getAuthority() {
         return this.permissionUrl + ";"+this.method;
     }
+
 }
