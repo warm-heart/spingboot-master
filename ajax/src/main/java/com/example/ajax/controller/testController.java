@@ -98,4 +98,12 @@ public class testController {
         User user = users.get(0);
         return users;
     }
+
+
+    @RequestMapping("/login")
+    public String login() {
+       /* System.out.println("userId是:"+userAge);
+        System.out.println("userName是:"+userName);*/
+        return "login";
+    }
 }

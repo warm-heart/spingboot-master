@@ -13,7 +13,7 @@
         <module name="netty" />
         <module name="proxy" />
         <module name="redis" />
-        <module name="security" />
+        <module name="session" />
         <module name="SpringAop" />
         <module name="struct" />
         <module name="swagger" />
@@ -21,7 +21,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
       <module name="schema" target="1.8" />
+      <module name="security" target="1.8" />
+      <module name="shiro" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

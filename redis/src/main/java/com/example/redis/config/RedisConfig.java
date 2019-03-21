@@ -36,6 +36,8 @@ public class RedisConfig extends CachingConfigurerSupport {
      *              若想使用这个key  只需要讲注解上keyGenerator的值设置为keyGenerator即可</br>
      * @return 自定义策略生成的key
      */
+    //如果不配置key就是使用 {
+    //        redisTemplate.opsForValue().set("aaa","111") 里面的key
     @Bean
     public KeyGenerator keyGenerator() {
         return new KeyGenerator(){
