@@ -3,19 +3,27 @@ package com.example.controller;
 
 
 
+import com.example.handle.Result;
+import com.example.handle.SeckillResult;
+import com.example.handle.entiity;
 import org.springframework.stereotype.Controller;
 
 
 
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author wangqianlong
  * @create 2018-06-29 14:07
  */
 @Controller
+
 @RequestMapping(value = "/user")
 public class UserController {
+
 
  /*   @Autowired
     private UserService userService;

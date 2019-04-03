@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ajax" />
         <module name="exception" />
+        <module name="fileload" />
+        <module name="interceptor" />
         <module name="jpa" />
         <module name="more-datasorce" />
         <module name="netty" />
@@ -21,6 +23,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dataStruct" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="schema" target="1.8" />
       <module name="security" target="1.8" />

@@ -16,10 +16,9 @@
         <module>more-datasorce</module>
         <module>struct</module>
         <module>redis</module>
-        <module>security</module>
         <module>exception</module>
         <module>jpa</module>
-        <module>shiro</module>
+        <module>fileload</module>
     </modules>
 
 

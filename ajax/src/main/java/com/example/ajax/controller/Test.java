@@ -1,26 +1,33 @@
 package com.example.ajax.controller;
 
 import com.example.ajax.entity.User;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.ArrayList;
 import java.util.List;
-
 
 /**
  * @author wangqianlong
- * @create 2019-03-15 14:20
+ * @create 2019-03-28 16:10
  */
-
 @Controller
-public class testController {
+public class Test {
+
+
+    @RequestMapping("/")
+    public String index() {
+        return "index";
+    }
 
     //ajax 后端接受单参数
     @RequestMapping("/test")
     public String test(String userId) {
         System.out.println("userId是:" + userId);
+
         return "test";
     }
 
@@ -30,6 +37,7 @@ public class testController {
     public String test2() {
        /* System.out.println("userId是:"+userAge);
         System.out.println("userName是:"+userName);*/
+
         return "test2";
     }
 
@@ -49,6 +57,7 @@ public class testController {
     public String test3() {
        /* System.out.println("userId是:"+userAge);
         System.out.println("userName是:"+userName);*/
+
         return "test3";
     }
 
@@ -96,6 +105,10 @@ public class testController {
     public List<User> test5r(@RequestBody List<User> users) {
         System.out.println(users);
         User user = users.get(0);
+        List list = new ArrayList();
+        list.add("da");
+        list.add(1);
+        list.remove(0);
         return users;
     }
 

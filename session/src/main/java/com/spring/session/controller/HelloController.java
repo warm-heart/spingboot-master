@@ -19,6 +19,7 @@ public class HelloController {
     public Map<String, Object> testSessionId(HttpServletRequest request) {
         Map<String, Object> sessionIdMap = new HashMap<String, Object>();
         String sessionId = request.getSession().getId();
+        request.getSession().setAttribute("dada","nihaoya");
         int port = request.getServerPort();
         sessionIdMap.put("服务器端口",port);
         sessionIdMap.put("sessionId",sessionId);

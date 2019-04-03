@@ -33,8 +33,11 @@ public class ConfigTest {
         Class clazz = Class.forName(className);
         Object object = clazz.newInstance();
         Method method = clazz.getMethod(methodName);
+
         method.invoke(object);
+
         in.close();
+
 
 
                    //获取方法

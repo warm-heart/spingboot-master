@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/swagger/pom.xml" />
         <option value="$PROJECT_DIR$/ajax/pom.xml" />
         <option value="$PROJECT_DIR$/session/pom.xml" />
+        <option value="$PROJECT_DIR$/fileload/pom.xml" />
+        <option value="$PROJECT_DIR$/interceptor/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

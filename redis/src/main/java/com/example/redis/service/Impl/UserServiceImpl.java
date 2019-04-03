@@ -31,17 +31,10 @@ public class UserServiceImpl implements UserService {
     //@Cacheable(value = "sSsdada",key = "#123456")   value 为包名 key为数据的key
     public User findUserByPhone(String phone) {
 
-       // try {
-            User user =userDao.findUserByPhone(phone);
-
-           /* if(user==null){
-                throw new UserException("没有此用户");
-            }
-            return user;
-        }catch (UserException e1){
-            throw e1;
-        }*/
-           return user;
+       User user =new User();
+       user.setName("da");
+       user.setPassword("123");
+       return user;
 
     }
 
@@ -54,7 +47,11 @@ public class UserServiceImpl implements UserService {
     @Override
     @Cacheable(value = "user-key")
     public User findUserByName(String name) {
-        User user=userDao.findUserByName(name);
+        /*User user=userDao.findUserByName(name);*/
+
+        User user =new User();
+        user.setName("user-key");
+        user.setPassword("123456");
         return user;
     }
 

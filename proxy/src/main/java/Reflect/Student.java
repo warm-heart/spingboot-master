@@ -6,6 +6,8 @@ package Reflect;
  */
 
 public class Student {
+     static final String s="nihaoay";
+
     private String name;
 
     public void study() {

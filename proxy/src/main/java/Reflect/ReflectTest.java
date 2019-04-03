@@ -8,6 +8,7 @@ package Reflect;
 public class ReflectTest {
     public static void main(String[] args) {
 
+
         //第一种方式获得Class对象
         Student student = new Student(); //产生Student.Class文件
         Class studentClass1 = student.getClass();  //获取Class对象
