@@ -5,16 +5,18 @@
         "http://struts.apache.org/dtds/struts-2.5.dtd">
 
 <struts>
-    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+    <package name="structBean" namespace="/" extends="struts-default">
+        <action name="login" class="org.example.web.LoginAction" method="login">
+            <result name="success">suc.jsp</result>
+            <result name="fail">login.jsp</result>
+            <result name="input">login.jsp</result>
+        </action>
 
-    <package name="default" namespace="/" extends="struts-default">
-        <!-- 定义一个叫user的Action,并带上实现类的路径 -->
-        <action name="login1" class="org.example.web.LoginAction" method="da">
-            <!-- 配置execute()方法返回值与视图资源之间的映射关系 -->
-
-            <result name="success" type="redirect">/suc.jsp</result>
-            <result name="error" >/error.jsp</result>
-
+        <action name="register" class="org.example.web.LoginAction" method="register">
+            <result name="success">regSuccess.jsp</result>
+            <result name="fail">error.jsp</result>
         </action>
     </package>
+
+
 </struts>

@@ -2,6 +2,7 @@ package com.example.interceptor.config;
 
 import com.example.interceptor.Interceptor.FirstIntercetor;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.*;
 
@@ -34,4 +35,6 @@ public class MvcConfig implements WebMvcConfigurer {
                 .addPathPatterns("/test/**").excludePathPatterns("/test/user");
 
     }
+
+
 }

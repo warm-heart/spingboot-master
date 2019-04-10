@@ -1,8 +1,12 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8" %>
+<%@ taglib prefix="s" uri="/struts-tags" %>
+<%@ taglib prefix="S" uri="/struts-tags" %>
+
 <%
     String path = request.getContextPath();
-    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+    String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
 %>
+
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
@@ -21,12 +25,14 @@
 </head>
 
 <body>
-<form action="login1.action" method="post">
-
-    用户名：<input type="text" name="useName"><br>
-    密码：<input type="password" name="password"><br>
-    <input type="submit" value="登录"><input type="reset" value="重置">
-
-</form>
+<s:i18n name="org.example.local.message">
+        <s:fielderror>
+            <s:form action="login" method="POST">
+                <s:textfield name="loginUser.account" key="login.account.lable"/>
+                <S:password name="loginUser.password" key="login.password.lable"/>
+                <s:submit name="submit" key="login.submit.button"/>
+            </s:form>
+        </s:fielderror>
+</s:i18n>
 </body>
 </html>
