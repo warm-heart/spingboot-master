@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/session/pom.xml" />
         <option value="$PROJECT_DIR$/fileload/pom.xml" />
         <option value="$PROJECT_DIR$/interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/timetask/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

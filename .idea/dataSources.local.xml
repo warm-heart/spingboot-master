@@ -11,7 +11,7 @@
       <user-name>root</user-name>
       <introspection-schemas>*:security</introspection-schemas>
     </data-source>
-    <data-source name="term@localhost" uuid="b6a3c768-bdf8-4cf5-b51e-54da562f036f">
+    <data-source name="strut@localhost" uuid="07dfd566-3055-4e2d-bb5a-fe53feb89333">
       <database-info product="MySQL" version="5.7.21-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -19,7 +19,7 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <introspection-schemas>*:term</introspection-schemas>
+      <introspection-schemas>*:strut</introspection-schemas>
     </data-source>
   </component>
 </project>

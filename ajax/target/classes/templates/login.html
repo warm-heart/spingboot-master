@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+</head>
+<body>
+
+<form  >
+    账号：<input type="text" name="username" id="username">
+    密码：<input type="password" name="password" id="password">
+    提交：<input type="button" id="da">
+</form>
+
+
+<!--传递List数组-->
+<script>
+    $("#da").click(function () {
+        var name = $("#userName").val();
+        var password = $("#password").val();
+        var user = {userName: name, password: password}
+        //为了方便这里放两个相同的
+        $.ajax({
+            url: "localhost:8080/login",
+            cache: false,
+            contentType: 'application/json; charset=utf-8',
+            data: JSON.stringify(user),
+            type: "get",
+            success: function (result) {
+                /*$("#resultName").val(result.userName);*/
+                alert(result)
+            }
+        });
+    });
+</script>
+
+<a href="localhost:8080/user/list">list</a>
+<a href="localhost:8080/user/test">test</a>
+
+
+</body>
+</html>

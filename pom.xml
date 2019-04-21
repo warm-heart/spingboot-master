@@ -14,11 +14,11 @@
         <module>thread</module>
         <module>SpringAop</module>
         <module>more-datasorce</module>
-        <module>struct</module>
         <module>redis</module>
         <module>exception</module>
         <module>jpa</module>
         <module>fileload</module>
+        <module>rocketmq</module>
     </modules>
 
 

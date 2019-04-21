@@ -15,11 +15,11 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="term@localhost" uuid="b6a3c768-bdf8-4cf5-b51e-54da562f036f">
+    <data-source source="LOCAL" name="strut@localhost" uuid="07dfd566-3055-4e2d-bb5a-fe53feb89333">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/term</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/strut</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

@@ -1,12 +1,9 @@
 package com.example.handle;
 
 import com.example.exception.TestException;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
  * @author wangqianlong
@@ -17,9 +14,8 @@ public class ExceptionHandle {
 
     @ExceptionHandler(TestException.class)
     @ResponseBody
-    public dto TestException(Exception e){
-        dto dto = new dto(2,e.getMessage());
-        return dto;
+    public String TestException(Exception e){
+        return e.getMessage();
     }
 
 

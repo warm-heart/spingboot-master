@@ -4,7 +4,6 @@ package Reflect;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Properties;
@@ -20,7 +19,7 @@ public class ConfigTest {
                           //读取配置文件并加载类
         Properties properties = new Properties();
         //InputStream in = ConfigTest.class.getResourceAsStream("config.properties");  //本包下
-        InputStream in = ConfigTest.class.getResourceAsStream("/Proxy/config.properties");  //跨包
+        InputStream in = ConfigTest.class.getResourceAsStream("/StaticProxy/config.properties");  //跨包
         properties.load(in);
 
 

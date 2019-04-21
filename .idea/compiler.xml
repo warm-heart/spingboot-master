@@ -15,19 +15,22 @@
         <module name="netty" />
         <module name="proxy" />
         <module name="redis" />
+        <module name="rocketmq" />
         <module name="session" />
         <module name="SpringAop" />
-        <module name="struct" />
         <module name="swagger" />
         <module name="thread" />
+        <module name="timetask" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dataStruct" target="1.8" />
       <module name="demo" target="1.8" />
+      <module name="mybatis" target="1.8" />
       <module name="schema" target="1.8" />
       <module name="security" target="1.8" />
       <module name="shiro" target="1.8" />
+      <module name="struct" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

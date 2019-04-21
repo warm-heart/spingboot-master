@@ -7,7 +7,7 @@ package com.example.ajax.entity;
 
 public class User {
     private String userName;
-    private String userAge;
+
 
 
     public String getUserName() {
@@ -18,17 +18,16 @@ public class User {
         this.userName = userName;
     }
 
-    public String getUserAge() {
-        return userAge;
-    }
-
-    public void setUserAge(String userAge) {
-        this.userAge = userAge;
-    }
 
     public void da(){
         System.out.println("初始化");
     }
 
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "userName='" + userName + '\'' +
+                '}';
+    }
 }
