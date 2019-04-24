@@ -33,7 +33,7 @@ public class Producer {
 
         try {
 
-            DefaultMQProducer producer = new DefaultMQProducer("please_rename_unique_group_name");
+            DefaultMQProducer producer = new DefaultMQProducer("ProducerGroup");
             producer.setNamesrvAddr("127.0.0.1:9876");
             producer.start();
             String[] tags = new String[]{"TagA", "TagC", "TagD"};
@@ -45,11 +45,11 @@ public class Producer {
             for (int i = 0; i < 10; i++) {
                 // 加个时间后缀
                 String body = dateStr + " Hello RocketMQ " + orderList.get(i);
-                Message msg = new Message("TopicTestjjj", tags[i % tags.length], "KEY" + i, body.getBytes());
+                Message msg = new Message("TopicTest", tags[i % tags.length], "KEY" + i, body.getBytes());
                 SendResult sendResult = producer.send(msg, new MessageQueueSelector() {
                     @Override
                     public MessageQueue select(List<MessageQueue> mqs, Message msg, Object arg) {
-                        System.out.println("Objectojfaj测试obfakf"+arg);
+                       // System.out.println("Objectojfaj测试obfakf"+arg);
                         Long id = (Long) arg;
                         long index = id % mqs.size();
                         return mqs.get((int) index);

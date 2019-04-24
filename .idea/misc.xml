@@ -14,12 +14,14 @@
         <option value="$PROJECT_DIR$/fileload/pom.xml" />
         <option value="$PROJECT_DIR$/interceptor/pom.xml" />
         <option value="$PROJECT_DIR$/timetask/pom.xml" />
+        <option value="$PROJECT_DIR$/threadpool/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/security/pom.xml" />
         <option value="$PROJECT_DIR$/shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/thread/pom.xml" />
       </set>
     </option>
   </component>

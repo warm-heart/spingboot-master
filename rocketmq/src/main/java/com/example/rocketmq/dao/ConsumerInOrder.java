@@ -30,7 +30,7 @@ public class ConsumerInOrder {
 
     public static void main(String[] args) throws MQClientException {
 
-        DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("please_rename_unique_group_name_3");
+        DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("ConsumeGroup");
 
         consumer.setNamesrvAddr("127.0.0.1:9876");
 
@@ -43,7 +43,7 @@ public class ConsumerInOrder {
          */
 
         consumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_FIRST_OFFSET);
-        consumer.subscribe("TopicTestjjj", "TagA || TagC || TagD");
+        consumer.subscribe("TopicTest", "TagA || TagC || TagD");
         consumer.registerMessageListener(new MessageListenerOrderly() {
             Random random = new Random();
             @Override

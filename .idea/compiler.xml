@@ -19,7 +19,7 @@
         <module name="session" />
         <module name="SpringAop" />
         <module name="swagger" />
-        <module name="thread" />
+        <module name="threadpool" />
         <module name="timetask" />
       </profile>
     </annotationProcessing>
@@ -31,6 +31,7 @@
       <module name="security" target="1.8" />
       <module name="shiro" target="1.8" />
       <module name="struct" target="1.7" />
+      <module name="thread" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

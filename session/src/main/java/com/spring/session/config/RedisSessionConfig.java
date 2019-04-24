@@ -8,6 +8,7 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
  * @create 2019-03-21 21:55
  */
 @Configuration
-@EnableRedisHttpSession
+//session过期时间为60s 默认为30min
+@EnableRedisHttpSession(maxInactiveIntervalInSeconds=60)
 public class RedisSessionConfig {
 }

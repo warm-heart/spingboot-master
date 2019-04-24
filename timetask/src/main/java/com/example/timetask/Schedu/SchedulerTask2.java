@@ -15,6 +15,7 @@ import java.time.format.DateTimeFormatter;
  * @create 2019-04-21 18:30
  */
 
+@Component
 public class SchedulerTask2 {
 
     /*@Scheduled(fixedRate = 6000) ：上一次开始执行时间点之后6秒再执行
