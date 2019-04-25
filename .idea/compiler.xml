@@ -11,6 +11,7 @@
         <module name="fileload" />
         <module name="interceptor" />
         <module name="jpa" />
+        <module name="mail" />
         <module name="more-datasorce" />
         <module name="netty" />
         <module name="proxy" />

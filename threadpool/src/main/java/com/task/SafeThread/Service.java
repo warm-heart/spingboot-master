@@ -1,4 +1,4 @@
-package com.task.Improve;
+package com.task.SafeThread;
 
 /**
  * @author wangqianlong
@@ -10,16 +10,16 @@ public class Service {
     private static String passwordRef;
 
     //不加synchronized关键字线程并非安全的
-   synchronized public static void post(String username,String password)   {
-        usernameRef=username;
-        if (username.equals("a")){
+    synchronized public static void post(String username, String password) {
+        usernameRef = username;
+        if (username.equals("a")) {
             try {
                 Thread.sleep(5000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
-        passwordRef=password;
-        System.out.println("username=" +usernameRef+" password="+password);
+        passwordRef = password;
+        System.out.println("username=" + usernameRef + " password=" + password);
     }
 }

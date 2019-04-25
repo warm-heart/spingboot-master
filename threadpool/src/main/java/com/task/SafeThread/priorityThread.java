@@ -1,4 +1,4 @@
-package com.task.Improve;
+package com.task.SafeThread;
 
 
 
@@ -7,12 +7,12 @@ package com.task.Improve;
  * @create 2018-11-06 15:25
  */
 
-public class MyThread extends Thread {
+public class priorityThread extends Thread {
     @Override
     public void run() {
         super.run();
         System.out.println("Mythread run priority="+this.getPriority());
-        MyThread1 thread1 = new MyThread1();
+        priorityThread1 thread1 = new priorityThread1();
         thread1.start();
     }
 }

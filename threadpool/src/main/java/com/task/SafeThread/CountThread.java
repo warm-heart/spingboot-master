@@ -1,11 +1,11 @@
-package com.task.safe;
+package com.task.SafeThread;
 
 /**
  * @author wangqianlong
  * @create 2019-04-18 21:46
  */
 
-public class SafeThread extends Thread {
+public class CountThread extends Thread {
 
     int count = 50;
 

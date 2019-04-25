@@ -37,6 +37,7 @@ public class ThreadPoolConfig {
         // 等待所有任务结束后再关闭线程池
         executor.setWaitForTasksToCompleteOnShutdown(true);
         return executor;
+
     }
 
 }

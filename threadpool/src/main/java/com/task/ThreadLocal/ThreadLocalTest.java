@@ -1,26 +1,26 @@
-package com.task.safe;
+package com.task.ThreadLocal;
 
+
+import com.task.SafeThread.CountThread;
 
 /**
  * @author wangqianlong
  * @create 2019-04-18 21:48
  */
 
-public class SafeTest {
+public class ThreadLocalTest {
     public static void main(String[] args) throws InterruptedException {
-        SafeThread safeThread = new SafeThread();
 
-        Format format =new Format();
+     /*   Format format = new Format();
         FormatThread formatThread = new FormatThread(format);
 
 
         for (int i = 0; i <100 ; i++) {
-            new Thread(safeThread,"线程"+i).start();
-        }
-
-/*
-        for (int i = 0; i <100 ; i++) {
             new Thread(formatThread,"线程"+i).start();
         }*/
+        threadLocal threadLocal = new threadLocal();
+        threadLocal.set();
+        System.out.println(threadLocal.get());
+
     }
 }

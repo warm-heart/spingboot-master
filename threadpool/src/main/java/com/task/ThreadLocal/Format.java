@@ -1,4 +1,4 @@
-package com.task.safe;
+package com.task.ThreadLocal;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -26,12 +26,13 @@ public class Format {
     private static final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     public String FormatDate(Date date) {
-        //return threadLocal.get().format(date);
-        return dateFormat.format(date);
+        return threadLocal.get().format(date);
+        //return dateFormat.format(date);
     }
 
     public Date parse(String date) throws ParseException {
-        return dateFormat.parse(date);
+        return threadLocal.get().parse(date);
+        //return dateFormat.parse(date);
     }
 
     /* public static void main(String[] args) {

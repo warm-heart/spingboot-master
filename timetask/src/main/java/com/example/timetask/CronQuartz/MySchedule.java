@@ -17,9 +17,9 @@ public class MySchedule {
     private SchedulerFactoryBean schedulerFactoryBean;
 
     private void schedulejob1(Scheduler scheduleler) throws SchedulerException {
-        JobDetail jobDetail = JobBuilder.newJob(ScheduledJob.class)
-                .withIdentity("job1", "groupName")
-                .usingJobData("UserName", "cooper")
+        JobDetail jobDetail = JobBuilder.newJob(ScheduledJob1.class)
+                .withIdentity("job1", "detailGroup1")
+                .usingJobData("UserName", "cooper1")
                 .build();
 
 
@@ -27,7 +27,24 @@ public class MySchedule {
 
 
         CronTrigger cronTrigger = TriggerBuilder.newTrigger()
-                .withIdentity("job1", "group1")
+                .withIdentity("job1", "TriggerGroup1")
+                .withSchedule(scheduleBuilder).build();
+        scheduleler.scheduleJob(jobDetail, cronTrigger);
+
+    }
+
+    private void schedulejob2(Scheduler scheduleler) throws SchedulerException {
+        JobDetail jobDetail = JobBuilder.newJob(ScheduledJob1.class)
+                .withIdentity("job2", "detailGroup2")
+                .usingJobData("UserName", "cooper2")
+                .build();
+
+
+        CronScheduleBuilder scheduleBuilder = CronScheduleBuilder.cronSchedule("*/6 * * * * ?");
+
+
+        CronTrigger cronTrigger = TriggerBuilder.newTrigger()
+                .withIdentity("job2", "TriggerGroup2")
                 .withSchedule(scheduleBuilder).build();
         scheduleler.scheduleJob(jobDetail, cronTrigger);
 
@@ -37,6 +54,7 @@ public class MySchedule {
     public void startScheduleTask() throws SchedulerException {
         Scheduler scheduler = schedulerFactoryBean.getScheduler();
         schedulejob1(scheduler);
+        schedulejob2(scheduler);
 
     }
 }
