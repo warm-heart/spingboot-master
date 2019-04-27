@@ -11,8 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc705d2-8497-4ef1-a865-e37840c223a6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Pool/ThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/more-datasorce/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/more-datasorce/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Reflect/ConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/Reflect/ConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Reflect/ConfigTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/Reflect/ConfigTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Pool/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Pool/ThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/Format.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/Format.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/FormatThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/FormatThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/ThreadLocalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/ThreadLocalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/threadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/threadLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/config/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/SpringConfig/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/config/ThreadPoolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/SpringConfig/ThreadPoolConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thread/target/" />
     <ignored path="$PROJECT_DIR$/more-datasorce/target/" />
@@ -67,35 +79,7 @@
     <favorites_list name="springboot-master" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThreadPoolConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/config/ThreadPoolConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadPool.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Pool/ThreadPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="32" column="60" lean-forward="true" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1931#1932#0" expanded="true" />
-                <element signature="e#1971#1972#0" expanded="true" />
-                <element signature="e#2295#2296#0" expanded="true" />
-                <element signature="e#2330#2331#0" expanded="true" />
-                <element signature="e#2384#2385#0" expanded="true" />
-                <element signature="e#2443#2444#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -116,9 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/Hello2.java" />
-        <option value="$PROJECT_DIR$/ajax/src/test/java/com/example/ajax/controller/HelloTest.java" />
-        <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/config/MvcConfig.java" />
         <option value="$PROJECT_DIR$/thread/src/main/java/ThreadPool/ThreadPoolExecutorTest.java" />
         <option value="$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/ThreadPoolConfig.java" />
         <option value="$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/config/ThreadPoolConfig.java" />
@@ -156,8 +137,6 @@
         <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/SafeTest.java" />
         <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/SafeThreadTest.java" />
         <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/ThreadLocal.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/Format.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/threadLocal.java" />
         <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/ThreadLocalTest.java" />
         <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/config/ThreadPoolConfig.java" />
         <option value="$PROJECT_DIR$/mail/src/main/java/com/example/mail/Service/MailServiceImpl.java" />
@@ -167,6 +146,11 @@
         <option value="$PROJECT_DIR$/timetask/src/main/java/com/example/timetask/CronQuartz/ScheduledJob2.java" />
         <option value="$PROJECT_DIR$/timetask/src/main/java/com/example/timetask/CronQuartz/MySchedule.java" />
         <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Pool/ThreadPool.java" />
+        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/SpringConfig/Hello.java" />
+        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/threadLocal.java" />
+        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/Format.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/ConfigTest.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectTest.java" />
       </list>
     </option>
   </component>
@@ -236,52 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane">
@@ -295,6 +233,35 @@
               <item name="springboot-master" type="58d84e3e:PackageViewProjectNode" />
               <item name="ajax" type="616d4139:PackageViewModuleNode" />
               <item name="templates" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,7 +292,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -372,7 +339,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ConfigTest">
+    <configuration name="ConfigTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflect.ConfigTest" />
+      <module name="proxy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.task.Pool.ThreadPool" />
       <module name="threadpool" />
@@ -435,8 +413,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.ThreadPool" />
+      <item itemvalue="Application.ConfigTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConfigTest" />
         <item itemvalue="Application.ThreadPool" />
       </list>
     </recent_temporary>
@@ -651,7 +634,10 @@
       <workItem from="1556083409207" duration="4362000" />
       <workItem from="1556089653289" duration="4708000" />
       <workItem from="1556094843343" duration="5757000" />
-      <workItem from="1556164922440" duration="2970000" />
+      <workItem from="1556164922440" duration="5468000" />
+      <workItem from="1556170516264" duration="199000" />
+      <workItem from="1556170854793" duration="1700000" />
+      <workItem from="1556357664264" duration="323000" />
     </task>
     <servers />
   </component>
@@ -688,7 +674,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="289915000" />
+    <option name="totallyTimeSpent" value="294635000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -723,10 +709,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289256" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="17" weight="0.3289256" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31570247" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31570247" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.3289256" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289256" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.30332828" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.31694403" />
       <window_info anchor="right" id="Bean Validation" order="8" sideWeight="0.49917355" weight="0.32980332" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="6" />
@@ -821,13 +807,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thread/src/main/java/safe/Format.java" />
-    <entry file="file://$PROJECT_DIR$/thread/src/main/java/safe/FormatThread.java" />
-    <entry file="file://$PROJECT_DIR$/thread/src/main/java/safe/SafeThread.java" />
-    <entry file="file://$PROJECT_DIR$/thread/src/main/java/safe/Test.java" />
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/threadpool/poo/ThreadPoolConfig.java" />
-    <entry file="file://$PROJECT_DIR$/interceptor/src/test/java/com/example/interceptor/Service/HelloTest.java" />
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/threadpool/ThreadPoolExecutorTest.java" />
     <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/threadpool/ThreadpoolApplication.java" />
     <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/threadpool/poo/Hello.java" />
     <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/runable/RunableTest.java">
@@ -880,38 +859,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/FormatThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-129">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/Format.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/threadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/ThreadLocalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -933,27 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-136">
           <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="226" column="35" selection-start-line="226" selection-start-column="27" selection-end-line="226" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/scheduling/annotation/Async.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/config/Hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -984,9 +914,6 @@
           <caret line="16" selection-start-line="16" selection-end-line="17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail/src/main/java/com/example/mail/Service/MailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/timetask/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -1076,9 +1003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,6 +1010,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1137">
+          <caret line="222" column="65" lean-forward="true" selection-start-line="222" selection-start-column="65" selection-end-line="222" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/scheduling/annotation/Async.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/scheduling/concurrent/ExecutorConfigurationSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="119" column="16" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret line="1397" column="38" lean-forward="true" selection-start-line="1397" selection-start-column="38" selection-end-line="1397" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool/HELP.md" />
+    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Pool/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/SpringConfig/ThreadPoolConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/da.java" />
+    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/FormatThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/ThreadLocalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/threadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1103,26 +1092,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/config/ThreadPoolConfig.java">
+    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/SpringConfig/Hello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Pool/ThreadPool.java">
+    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/Format.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="32" column="60" lean-forward="true" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1931#1932#0" expanded="true" />
-            <element signature="e#1971#1972#0" expanded="true" />
-            <element signature="e#2295#2296#0" expanded="true" />
-            <element signature="e#2330#2331#0" expanded="true" />
-            <element signature="e#2384#2385#0" expanded="true" />
-            <element signature="e#2443#2444#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="223">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/Reflect/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/Reflect/ConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="84" column="38" lean-forward="true" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
         </state>
       </provider>
     </entry>

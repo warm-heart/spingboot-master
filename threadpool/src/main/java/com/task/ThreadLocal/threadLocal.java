@@ -7,7 +7,7 @@ package com.task.ThreadLocal;
 
 public class threadLocal {
 
-    ThreadLocal<String> local = new ThreadLocal<String>() {
+    static ThreadLocal<String> local = new ThreadLocal<String>() {
         @Override
         protected String initialValue() {
             return "da";
@@ -16,12 +16,11 @@ public class threadLocal {
     };
 
 
-
-    String get(){
+    String get() {
         return local.get();
     }
 
-    void set(){
+    void set() {
         local.set("你好");
     }
 

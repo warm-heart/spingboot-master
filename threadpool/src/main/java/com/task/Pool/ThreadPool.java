@@ -24,6 +24,10 @@ public class ThreadPool {
 
         for (int i = 1; i <= 100; i++) {
             MyTask task = new MyTask(String.valueOf(i));
+
+            while (i == 20) {
+                executor.shutdownNow();
+            }
             executor.execute(task);
         }
 
