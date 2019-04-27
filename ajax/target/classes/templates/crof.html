@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+</head>
+<body>
+
+<h1 style="background-color: blanchedalmond">跨域请求</h1>
+<form>
+姓名<input type="text" id="userName"><br>
+年龄<input type="text" id="userAge"><br>
+    <input type="button" id="da">
+</form>
+
+<!--传递多个参数-->
+<script>
+    $("#da").click(function(){
+        var name=$("#userName").val();
+        var age = $("#userAge").val();
+        var args={userName:name,userAge:age}
+        $.ajax({
+            url:"http://localhost:8081/crof",
+            cache:false,
+            data:args,
+            type:"get",
+            success:function(result){
+                alert(result);
+            }
+        });
+    });
+</script>
+
+
+</body>
+</html>

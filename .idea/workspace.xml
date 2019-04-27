@@ -11,20 +11,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc705d2-8497-4ef1-a865-e37840c223a6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/src/main/resources/templates/crof.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/controller/CorfController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/more-datasorce/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/more-datasorce/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Reflect/ConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/Reflect/ConfigTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Reflect/ConfigTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/Reflect/ConfigTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Pool/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Pool/ThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/Format.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/Format.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/FormatThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/FormatThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/ThreadLocalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/ThreadLocalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/threadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/threadLocal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/config/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/SpringConfig/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/config/ThreadPoolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/SpringConfig/ThreadPoolConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/target/classes/com/example/ajax/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/target/classes/com/example/ajax/config/MvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interceptor/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interceptor/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interceptor/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interceptor/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/interceptor/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interceptor/target/classes/com/example/interceptor/Service/Hello$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interceptor/target/classes/com/example/interceptor/Service/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interceptor/target/classes/com/example/interceptor/Service/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interceptor/target/classes/com/example/interceptor/config/ThreadPoolConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interceptor/target/test-classes/com/example/interceptor/Service/HelloTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thread/target/" />
     <ignored path="$PROJECT_DIR$/more-datasorce/target/" />
@@ -79,7 +78,41 @@
     <favorites_list name="springboot-master" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="CorfController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/controller/CorfController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrossOrigin.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/bind/annotation/CrossOrigin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="93" column="32" lean-forward="true" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crof.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ajax/src/main/resources/templates/crof.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,11 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thread/src/main/java/ThreadPool/ThreadPoolExecutorTest.java" />
-        <option value="$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/ThreadPoolConfig.java" />
-        <option value="$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/config/ThreadPoolConfig.java" />
-        <option value="$PROJECT_DIR$/interceptor/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/interceptor/src/test/java/com/example/interceptor/Service/HelloTest.java" />
         <option value="$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/Service/Test.java" />
         <option value="$PROJECT_DIR$/thread/src/main/java/ThreadPool/Test.java" />
         <option value="$PROJECT_DIR$/thread/src/main/java/ThreadPool/Formater.java" />
@@ -151,6 +179,11 @@
         <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/Format.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/ConfigTest.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectTest.java" />
+        <option value="$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/controller/testController.java" />
+        <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/config/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/interceptor/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/controller/CorfController.java" />
+        <option value="$PROJECT_DIR$/ajax/src/main/resources/templates/crof.html" />
       </list>
     </option>
   </component>
@@ -221,6 +254,161 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
@@ -233,35 +421,6 @@
               <item name="springboot-master" type="58d84e3e:PackageViewProjectNode" />
               <item name="ajax" type="616d4139:PackageViewModuleNode" />
               <item name="templates" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -302,6 +461,16 @@
       <recent name="org.example.Service" />
       <recent name="com.example.redis.service" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\springboot-master\threadpool\src\main\java\com\task" />
+      <recent name="E:\springboot-master\mybatis\src\main\java\com\example\mybatis\dto" />
+      <recent name="E:\springboot-master\struct\src\main\resource" />
+      <recent name="E:\springboot-master\struct\src\main\java\org\example\local" />
+      <recent name="E:\springboot-master\struct\src\main\java\org\example" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.timetask.CronQuartz" />
       <recent name="com.example.mail.Service" />
@@ -310,20 +479,10 @@
       <recent name="Proxy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\springboot-master\ajax\src\main\resources\templates" />
       <recent name="E:\springboot-master\threadpool\src\main\java\com\task" />
       <recent name="E:\springboot-master\threadpool\src\main\java\com\task\threadpool" />
       <recent name="E:\springboot-master\struct\src\main\java\org\example\web" />
-      <recent name="E:\springboot-master\struct\src\main\java\org\example" />
-      <recent name="E:\springboot-master\struct\src\main\webapp" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\springboot-master\threadpool\src\main\java\com\task" />
-      <recent name="E:\springboot-master\mybatis\src\main\java\com\example\mybatis\dto" />
-      <recent name="E:\springboot-master\struct\src\main\resource" />
-      <recent name="E:\springboot-master\struct\src\main\java\org\example\local" />
       <recent name="E:\springboot-master\struct\src\main\java\org\example" />
     </key>
   </component>
@@ -339,25 +498,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConfigTest">
-    <configuration name="ConfigTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflect.ConfigTest" />
-      <module name="proxy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+  <component name="RunManager" selected="Application.AjaxApplication">
+    <configuration name="AjaxApplication" type="Application" factoryName="Application" singleton="true" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ajax.AjaxApplication" />
+      <module name="ajax" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.task.Pool.ThreadPool" />
-      <module name="threadpool" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.task.Pool.*" />
+          <option name="PATTERN" value="com.example.ajax.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -391,6 +539,16 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
+    <configuration name="InterceptorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="interceptor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.interceptor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.interceptor.InterceptorApplication" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -414,13 +572,13 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadPool" />
-      <item itemvalue="Application.ConfigTest" />
+      <item itemvalue="Application.AjaxApplication" />
+      <item itemvalue="Spring Boot.InterceptorApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConfigTest" />
-        <item itemvalue="Application.ThreadPool" />
+        <item itemvalue="Application.AjaxApplication" />
+        <item itemvalue="Spring Boot.InterceptorApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -637,7 +795,8 @@
       <workItem from="1556164922440" duration="5468000" />
       <workItem from="1556170516264" duration="199000" />
       <workItem from="1556170854793" duration="1700000" />
-      <workItem from="1556357664264" duration="323000" />
+      <workItem from="1556357664264" duration="469000" />
+      <workItem from="1556358190741" duration="2351000" />
     </task>
     <servers />
   </component>
@@ -674,7 +833,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294635000" />
+    <option name="totallyTimeSpent" value="297132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -686,7 +845,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3289256" />
@@ -709,10 +869,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289256" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="17" weight="0.3289256" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31570247" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31570247" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.3289256" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289256" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.31694403" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.3214826" />
       <window_info anchor="right" id="Bean Validation" order="8" sideWeight="0.49917355" weight="0.32980332" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="6" />
@@ -807,93 +967,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/threadpool/ThreadpoolApplication.java" />
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/threadpool/poo/Hello.java" />
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/runable/RunableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadTaskApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/FristThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/SecondThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/ThreeThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/priorityThread1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/TestImprove.java" />
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/priorityThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/core/task/TaskExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/core/task/AsyncTaskExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="2033" column="37" selection-start-line="2033" selection-start-column="37" selection-end-line="2033" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/timetask/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1131,6 +1204,105 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="84" column="38" lean-forward="true" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/annotation/Value.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/annotation/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interceptor/src/main/resources/templates/hello.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interceptor/src/main/resources/templates/hello2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/controller/testController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interceptor/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/InterceptorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/AjaxApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/bind/annotation/CrossOrigin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="93" column="32" lean-forward="true" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/controller/CorfController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/src/main/resources/templates/crof.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
