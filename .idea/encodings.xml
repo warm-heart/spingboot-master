@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/SpringAop" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ajax" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dynamicdatasource" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/exception" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fileload" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/interceptor" charset="UTF-8" />

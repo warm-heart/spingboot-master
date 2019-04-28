@@ -11,20 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc705d2-8497-4ef1-a865-e37840c223a6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/Service/TransactionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/more-datasorce/src/test/java/com/example/moredatasorce/Service/TransactionServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/Enum/DataSourceKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/Service/Test1Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/annotation/TargetDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/config/DynamicDataSourceAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/config/DynamicDataSourceConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/config/DynamicDataSourceContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/config/DynamicRoutingDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/dao/Master.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/dao/Slave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/entity/classes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicdatasource/src/main/resources/mapper/test1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicdatasource/src/main/resources/mapper/test2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicdatasource/src/test/java/com/example/dynamicdatasource/Service/Test1ServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicdatasource/src/test/java/com/example/dynamicdatasource/dao/Test1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fileload/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/dao/master/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/dao/master/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/dao/slave/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/dao/slave/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/datasource/DataSourceConfig2.java" beforeDir="false" afterPath="$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/datasource/DataSourceConfig2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/more-datasorce/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/more-datasorce/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/more-datasorce/src/main/resources/mapper/master/test1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/more-datasorce/src/main/resources/mapper/master/test1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/more-datasorce/src/main/resources/mapper/slave/test2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/more-datasorce/src/main/resources/mapper/slave/test2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/more-datasorce/src/test/java/com/example/moredatasorce/dao/master/test1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/more-datasorce/src/test/java/com/example/moredatasorce/dao/master/test1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/more-datasorce/src/test/java/com/example/moredatasorce/dao/slave/test2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/more-datasorce/src/test/java/com/example/moredatasorce/dao/slave/test2Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thread/target/" />
     <ignored path="$PROJECT_DIR$/more-datasorce/target/" />
@@ -51,6 +56,7 @@
     <ignored path="$PROJECT_DIR$/rocketmq/target/" />
     <ignored path="$PROJECT_DIR$/threadpool/target/" />
     <ignored path="$PROJECT_DIR$/mail/target/" />
+    <ignored path="$PROJECT_DIR$/dynamicdatasource/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,18 +81,18 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="test2@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="test2@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="test2@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test1: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="test2: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -105,8 +111,8 @@
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -116,25 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thread/src/main/java/safe/Test.java" />
-        <option value="$PROJECT_DIR$/thread/src/main/java/safe/SafeThread.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/threadpool/base/FristThread.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/SessionApplication.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadTaskApplication.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/base/Test.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Improve/AThread.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Improve/BThread.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Improve/MyThread.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/runable/RunableTest.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/safe/FormatThread.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/safe/Test.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Improve/TestImprove.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Improve/Service.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/TestImprove.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/priorityThread.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/NumThread.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/Format.java" />
         <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/SafeTest.java" />
         <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/SafeTest.java" />
         <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/SafeThreadTest.java" />
@@ -167,6 +154,25 @@
         <option value="$PROJECT_DIR$/more-datasorce/src/main/resources/mapper/slave/test2.xml" />
         <option value="$PROJECT_DIR$/more-datasorce/src/test/java/com/example/moredatasorce/Service/TransactionServiceTest.java" />
         <option value="$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/Service/TransactionService.java" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/annotation/DataSource.java" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/config/DynamicRoutingDataSource.java" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/Enum/DataSourceKey.java" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/entity/Class.java" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/dao/Test2.java" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/resources/mapper/test2.xml" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/resources/mapper/test1.xml" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/dao/Test1.java" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/DynamicdatasourceApplication.java" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/src/test/java/com/example/dynamicdatasource/dao/Test1Test.java" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/dao/Master.java" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/config/DynamicDataSourceConfiguration.java" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/src/test/java/com/example/dynamicdatasource/Service/Test1ServiceTest.java" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/Service/Test1Service.java" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/config/DynamicDataSourceAspect.java" />
+        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/config/DynamicDataSourceContextHolder.java" />
       </list>
     </option>
   </component>
@@ -201,20 +207,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rocketmq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="dynamicdatasource" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rocketmq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="timetask" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="timetask" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="dynamicdatasource" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -248,6 +245,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -264,7 +262,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,28 +291,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.dynamicdatasource.Service" />
+      <recent name="com.example.dynamicdatasource.dao" />
       <recent name="com.example.moredatasorce.Service" />
       <recent name="com.example.interceptor.Service" />
       <recent name="com.example.ajax.controller" />
-      <recent name="com.example.ajax.dao" />
-      <recent name="org.example.Service" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.timetask.CronQuartz" />
-      <recent name="com.example.mail.Service" />
-      <recent name="com.task.ThreadLocal" />
-      <recent name="com.task" />
-      <recent name="Proxy" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\springboot-master\ajax\src\main\resources\templates" />
-      <recent name="E:\springboot-master\threadpool\src\main\java\com\task" />
-      <recent name="E:\springboot-master\threadpool\src\main\java\com\task\threadpool" />
-      <recent name="E:\springboot-master\struct\src\main\java\org\example\web" />
-      <recent name="E:\springboot-master\struct\src\main\java\org\example" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\springboot-master\threadpool\src\main\java\com\task" />
@@ -323,6 +303,23 @@
       <recent name="E:\springboot-master\struct\src\main\resource" />
       <recent name="E:\springboot-master\struct\src\main\java\org\example\local" />
       <recent name="E:\springboot-master\struct\src\main\java\org\example" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.dynamicdatasource.dao" />
+      <recent name="com.example.dynamicdatasource.entity" />
+      <recent name="com.example.timetask.CronQuartz" />
+      <recent name="com.example.mail.Service" />
+      <recent name="com.task.ThreadLocal" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\springboot-master\dynamicdatasource\src\main\resources\mapper" />
+      <recent name="E:\springboot-master\ajax\src\main\resources\templates" />
+      <recent name="E:\springboot-master\threadpool\src\main\java\com\task" />
+      <recent name="E:\springboot-master\threadpool\src\main\java\com\task\threadpool" />
+      <recent name="E:\springboot-master\struct\src\main\java\org\example\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -337,23 +334,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TransactionServiceTest.test1">
+  <component name="RunManager" selected="Spring Boot.DynamicdatasourceApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TransactionServiceTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="more-datasorce" />
+    <configuration name="Test1ServiceTest.find" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dynamicdatasource" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.moredatasorce.Service.*" />
+          <option name="PATTERN" value="com.example.dynamicdatasource.Service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.moredatasorce.Service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.moredatasorce.Service.TransactionServiceTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.example.dynamicdatasource.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.dynamicdatasource.Service.Test1ServiceTest" />
+      <option name="METHOD_NAME" value="find" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -364,19 +361,42 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TransactionServiceTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="more-datasorce" />
+    <configuration name="Test1ServiceTest.find2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dynamicdatasource" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.moredatasorce.Service.*" />
+          <option name="PATTERN" value="com.example.dynamicdatasource.Service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.moredatasorce.Service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.moredatasorce.Service.TransactionServiceTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="com.example.dynamicdatasource.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.dynamicdatasource.Service.Test1ServiceTest" />
+      <option name="METHOD_NAME" value="find2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test1Test.getclass1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dynamicdatasource" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.dynamicdatasource.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.dynamicdatasource.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.example.dynamicdatasource.dao.Test1Test" />
+      <option name="METHOD_NAME" value="getclass1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -403,52 +423,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="test2Test.getclass2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="more-datasorce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.moredatasorce.dao.slave.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.moredatasorce.dao.slave" />
-      <option name="MAIN_CLASS_NAME" value="com.example.moredatasorce.dao.slave.test2Test" />
-      <option name="METHOD_NAME" value="getclass2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="test2Test.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="more-datasorce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.moredatasorce.dao.slave.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.moredatasorce.dao.slave" />
-      <option name="MAIN_CLASS_NAME" value="com.example.moredatasorce.dao.slave.test2Test" />
-      <option name="METHOD_NAME" value="save" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="filepload" />
       <option name="VM_PARAMETERS" />
@@ -459,15 +433,9 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="InterceptorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="interceptor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.interceptor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.interceptor.InterceptorApplication" />
+    <configuration name="DynamicdatasourceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dynamicdatasource" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.dynamicdatasource.DynamicdatasourceApplication" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -492,19 +460,16 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.InterceptorApplication" />
-      <item itemvalue="JUnit.test2Test.save" />
-      <item itemvalue="JUnit.test2Test.getclass2" />
-      <item itemvalue="JUnit.TransactionServiceTest.test2" />
-      <item itemvalue="JUnit.TransactionServiceTest.test1" />
+      <item itemvalue="Spring Boot.DynamicdatasourceApplication" />
+      <item itemvalue="JUnit.Test1Test.getclass1" />
+      <item itemvalue="JUnit.Test1ServiceTest.find" />
+      <item itemvalue="JUnit.Test1ServiceTest.find2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TransactionServiceTest.test1" />
-        <item itemvalue="JUnit.TransactionServiceTest.test2" />
-        <item itemvalue="JUnit.test2Test.getclass2" />
-        <item itemvalue="JUnit.test2Test.save" />
-        <item itemvalue="Spring Boot.InterceptorApplication" />
+        <item itemvalue="JUnit.Test1ServiceTest.find" />
+        <item itemvalue="JUnit.Test1ServiceTest.find2" />
+        <item itemvalue="JUnit.Test1Test.getclass1" />
       </list>
     </recent_temporary>
   </component>
@@ -728,43 +693,46 @@
       <workItem from="1556425232535" duration="629000" />
       <workItem from="1556426690385" duration="1744000" />
       <workItem from="1556428464713" duration="694000" />
+      <workItem from="1556429315126" duration="113000" />
+      <workItem from="1556449209882" duration="4978000" />
+      <workItem from="1556455860905" duration="4004000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test2Test_getclass2 - 2019.04.28 at 13h 14m 11s.xml">
-      <configuration name="test2Test.getclass2" configurationId="JUnit" />
+    <history-entry file="Test1ServiceTest_find2 - 2019.04.28 at 22h 07m 26s.xml">
+      <configuration name="Test1ServiceTest.find2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test2Test_save - 2019.04.28 at 13h 15m 54s.xml">
-      <configuration name="test2Test.save" configurationId="JUnit" />
+    <history-entry file="Test1ServiceTest_find2 - 2019.04.28 at 22h 12m 51s.xml">
+      <configuration name="Test1ServiceTest.find2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test2Test_save - 2019.04.28 at 13h 19m 05s.xml">
-      <configuration name="test2Test.save" configurationId="JUnit" />
+    <history-entry file="Test1ServiceTest_find2 - 2019.04.28 at 22h 15m 26s.xml">
+      <configuration name="Test1ServiceTest.find2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test2Test_getclass2 - 2019.04.28 at 13h 19m 31s.xml">
-      <configuration name="test2Test.getclass2" configurationId="JUnit" />
+    <history-entry file="Test1ServiceTest_find2 - 2019.04.28 at 22h 15m 50s.xml">
+      <configuration name="Test1ServiceTest.find2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TransactionServiceTest_test2 - 2019.04.28 at 13h 21m 16s.xml">
-      <configuration name="TransactionServiceTest.test2" configurationId="JUnit" />
+    <history-entry file="Test1ServiceTest_find2 - 2019.04.28 at 22h 16m 15s.xml">
+      <configuration name="Test1ServiceTest.find2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TransactionServiceTest_test2 - 2019.04.28 at 13h 22m 58s.xml">
-      <configuration name="TransactionServiceTest.test2" configurationId="JUnit" />
+    <history-entry file="Test1ServiceTest_find2 - 2019.04.28 at 22h 16m 35s.xml">
+      <configuration name="Test1ServiceTest.find2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TransactionServiceTest_test1 - 2019.04.28 at 13h 24m 00s.xml">
-      <configuration name="TransactionServiceTest.test1" configurationId="JUnit" />
+    <history-entry file="Test1ServiceTest_find2 - 2019.04.28 at 22h 17m 39s.xml">
+      <configuration name="Test1ServiceTest.find2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TransactionServiceTest_test1 - 2019.04.28 at 13h 24m 30s.xml">
-      <configuration name="TransactionServiceTest.test1" configurationId="JUnit" />
+    <history-entry file="Test1ServiceTest_find2 - 2019.04.28 at 22h 18m 58s.xml">
+      <configuration name="Test1ServiceTest.find2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TransactionServiceTest_test1 - 2019.04.28 at 13h 25m 19s.xml">
-      <configuration name="TransactionServiceTest.test1" configurationId="JUnit" />
+    <history-entry file="Test1ServiceTest_find - 2019.04.28 at 22h 21m 45s.xml">
+      <configuration name="Test1ServiceTest.find" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TransactionServiceTest_test1 - 2019.04.28 at 13h 25m 40s.xml">
-      <configuration name="TransactionServiceTest.test1" configurationId="JUnit" />
+    <history-entry file="Test1Test_getclass1 - 2019.04.28 at 22h 24m 44s.xml">
+      <configuration name="Test1Test.getclass1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301559000" />
+    <option name="totallyTimeSpent" value="310654000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -802,20 +770,21 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.31570247" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.3289256" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289256" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.34266263" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.35854766" />
       <window_info anchor="right" id="Bean Validation" order="8" sideWeight="0.49917355" weight="0.32980332" />
       <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="5" sideWeight="0.5041322" side_tool="true" weight="0.27458397" />
       <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5008264" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.3289256" />
+      <window_info anchor="bottom" id="Thumbnails" order="18" weight="0.3289256" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.3289256" />
       <window_info anchor="bottom" id="Application Servers" order="16" weight="0.3289256" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3289256" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3289256" />
@@ -885,11 +854,17 @@
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dynamicdatasource/src/test/java/com/example/dynamicdatasource/dao/Test1Test.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="22" />
+      <option name="time" value="23" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -897,162 +872,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/SafeThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/CountThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1137">
-          <caret line="222" column="65" lean-forward="true" selection-start-line="222" selection-start-column="65" selection-end-line="222" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/scheduling/annotation/Async.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/scheduling/concurrent/ExecutorConfigurationSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="119" column="16" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="1397" column="38" lean-forward="true" selection-start-line="1397" selection-start-column="38" selection-end-line="1397" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/HELP.md" />
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Pool/ThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/SpringConfig/ThreadPoolConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/da.java" />
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/FormatThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/ThreadLocalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/threadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/BThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/AThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/SpringConfig/Hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/Format.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/Reflect/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/Reflect/ConfigTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="84" column="38" lean-forward="true" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/annotation/Value.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/annotation/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/controller/testController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1144,13 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/more-datasorce/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/dao/slave/Test2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -1200,34 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/datasource/DataSourceConfig2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/datasource/DataSourceConfig1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="41" column="42" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b9931d7f-f28f-47e1-8153-bf5beb167beb/schema/test2/table/class">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://4dc8d9a3-1328-43e2-a10f-299fe468d138/schema/test1/table/class">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/more-datasorce/src/test/java/com/example/moredatasorce/Service/TransactionServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1244,6 +1028,259 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.10/druid-1.1.10.jar!/com/alibaba/druid/pool/DruidDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2561">
+          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/datasource/DataSourceConfig1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#1032#1053#1" expanded="true" />
+            <element signature="e#1158#1184#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/Enum/DataSourceKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/entity/classes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/dao/Slave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/more-datasorce/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/datasource/DataSourceConfig2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/test/java/com/example/dynamicdatasource/DynamicdatasourceApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4dc8d9a3-1328-43e2-a10f-299fe468d138/schema/test1/table/class">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/main/resources/mapper/test2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="60" lean-forward="true" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/main/resources/mapper/test1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/DynamicdatasourceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="69" lean-forward="true" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/annotation/TargetDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/dao/Master.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="20" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/test/java/com/example/dynamicdatasource/dao/Test1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b9931d7f-f28f-47e1-8153-bf5beb167beb/schema/test2/table/class">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.1.6.RELEASE/spring-jdbc-5.1.6.RELEASE.jar!/org/springframework/jdbc/datasource/lookup/AbstractRoutingDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/config/DynamicDataSourceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/config/DynamicRoutingDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/Service/Test1Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/config/DynamicDataSourceContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-316">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/test/java/com/example/dynamicdatasource/Service/Test1ServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/config/DynamicDataSourceAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
