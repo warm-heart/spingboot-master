@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.moredatasorce.dao.slave.test2">
+<mapper namespace="com.example.moredatasorce.dao.slave.Test2">
 
 
     <select id="getclass2" resultType="com.example.moredatasorce.entity.Class">
-       select * from test2.class
+       select * from class
    </select>
+
+
+
+    <insert id="save" >
+     insert  into class(classId,className) values (#{classId},#{className})
+    </insert>
 
 </mapper>

@@ -1,7 +1,8 @@
-package com.example.moredatasorce.dao.slave;
+package com.example.moredatasorce.dao.master;
 
 import com.example.moredatasorce.entity.Class;
 import org.apache.ibatis.annotations.Mapper;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -10,7 +11,10 @@ import java.util.List;
  * @create 2018-10-14 18:46
  */
 @Mapper
-public interface test2 {
+@Repository
+public interface Test1 {
 
-    List<Class> getclass2();
+    List<Class> getclass1();
+
+    int save(Class c);
 }

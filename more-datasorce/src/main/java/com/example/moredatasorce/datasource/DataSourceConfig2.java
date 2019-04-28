@@ -44,13 +44,11 @@ public class DataSourceConfig2 {
     }
 
     @Bean(name = "slaveTransactionManager")
-
-    public DataSourceTransactionManager rdsTransactionManager() {
+    public DataSourceTransactionManager slaveTransactionManager() {
         return new DataSourceTransactionManager(slaveDataSource());
     }
 
     @Bean(name = "slaveSqlSessionFactory")
-
     public SqlSessionFactory slaveSqlSessionFactory(@Qualifier("slaveDataSource") DataSource slaveDataSource) throws Exception {
         final SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
         sessionFactory.setDataSource(slaveDataSource);
