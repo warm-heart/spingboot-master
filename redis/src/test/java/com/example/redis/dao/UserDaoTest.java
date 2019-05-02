@@ -22,6 +22,7 @@ public class UserDaoTest extends RedisApplicationTests {
     @Test
     public void insert() {
         redisTemplate.opsForValue().set("aaa","111");
+
     }
 
     @Test
