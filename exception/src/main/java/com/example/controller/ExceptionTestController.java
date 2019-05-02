@@ -19,7 +19,6 @@ public class ExceptionTestController {
            /*这里异常返回是handle里的信息*/
        // throw new TestException("controller1");
 
-
         return new Result<>(new entiity(),SeckillStatEnum.SUCCESS);
 
     }

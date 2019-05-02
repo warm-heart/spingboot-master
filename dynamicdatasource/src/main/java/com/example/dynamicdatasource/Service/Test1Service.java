@@ -22,7 +22,6 @@ public class Test1Service {
     private Master master;
 
 
-
     public List<classes> find() {
         return master.getclass1();
     }
