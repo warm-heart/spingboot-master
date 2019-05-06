@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="security@localhost" uuid="cc4f5b39-8957-4dfb-836b-c047133974b0">
+    <data-source name="springboot_master@localhost" uuid="490d8f0b-2c34-4d9d-9a34-3e5824c1d4c6">
       <database-info product="MySQL" version="5.7.21-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -9,37 +9,7 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <introspection-schemas>*:security</introspection-schemas>
-    </data-source>
-    <data-source name="strut@localhost" uuid="07dfd566-3055-4e2d-bb5a-fe53feb89333">
-      <database-info product="MySQL" version="5.7.21-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
-        <extra-name-characters>#@</extra-name-characters>
-        <identifier-quote-string>`</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
-      <secret-storage>master_key</secret-storage>
-      <user-name>root</user-name>
-      <introspection-schemas>*:strut</introspection-schemas>
-    </data-source>
-    <data-source name="test2@localhost" uuid="b9931d7f-f28f-47e1-8153-bf5beb167beb">
-      <database-info product="MySQL" version="5.7.21-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
-        <extra-name-characters>#@</extra-name-characters>
-        <identifier-quote-string>`</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
-      <secret-storage>master_key</secret-storage>
-      <user-name>root</user-name>
-      <introspection-schemas>*:test2</introspection-schemas>
-    </data-source>
-    <data-source name="test1@localhost" uuid="4dc8d9a3-1328-43e2-a10f-299fe468d138">
-      <database-info product="MySQL" version="5.7.21-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
-        <extra-name-characters>#@</extra-name-characters>
-        <identifier-quote-string>`</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
-      <secret-storage>master_key</secret-storage>
-      <user-name>root</user-name>
-      <introspection-schemas>*:test1</introspection-schemas>
+      <introspection-schemas>*:springboot_master</introspection-schemas>
     </data-source>
   </component>
 </project>

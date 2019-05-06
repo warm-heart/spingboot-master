@@ -19,6 +19,7 @@
         <module>jpa</module>
         <module>fileload</module>
         <module>rocketmq</module>
+        <module>myjwt-master</module>
     </modules>
 
 

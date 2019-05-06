@@ -21,6 +21,11 @@ public class RedisLock {
     private StringRedisTemplate stringRedisTemplate;
 
     /**
+     *
+     *  redis 是单线程的的
+     *  * setnx  getset 两个命令
+     *  * 是redis分布式锁的原理
+     *
      * 加锁
      *
      * @param key   业务商品号等等
