@@ -21,6 +21,7 @@
         <module name="redis" />
         <module name="rocketmq" />
         <module name="session" />
+        <module name="spring5" />
         <module name="SpringAop" />
         <module name="swagger" />
         <module name="threadpool" />

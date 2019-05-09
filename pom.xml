@@ -20,6 +20,7 @@
         <module>fileload</module>
         <module>rocketmq</module>
         <module>myjwt-master</module>
+        <module>spring5</module>
     </modules>
 
 
