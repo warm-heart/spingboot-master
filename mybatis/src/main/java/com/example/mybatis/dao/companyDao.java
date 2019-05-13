@@ -1,5 +1,6 @@
 package com.example.mybatis.dao;
 
+
 import com.example.mybatis.entity.Company;
 import org.apache.ibatis.annotations.Mapper;
 

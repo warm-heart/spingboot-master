@@ -6,7 +6,7 @@ package annotation;
  */
 
 
-public class Student {
+public class Student2 {
 
     @Value(values = "nihao")
     public String name;

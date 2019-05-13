@@ -21,6 +21,7 @@
         <module>rocketmq</module>
         <module>myjwt-master</module>
         <module>spring5</module>
+        <module>mybatis</module>
     </modules>
 
 

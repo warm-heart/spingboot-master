@@ -3,7 +3,7 @@ package com.example.mybatis.controller;
 import com.example.mybatis.dao.companyDao;
 import com.example.mybatis.dao.departmentDao;
 import com.example.mybatis.entity.Company;
-import com.example.mybatis.entity.department;
+import com.example.mybatis.entity.Department;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -27,7 +27,7 @@ public class MybatosController {
     }
 
     @RequestMapping(value = "/department")
-    public department test2() {
+    public Department test2() {
         return departmentDao.selectdepartment(2);
     }
 

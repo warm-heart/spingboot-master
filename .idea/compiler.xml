@@ -15,6 +15,7 @@
         <module name="jpa" />
         <module name="mail" />
         <module name="more-datasorce" />
+        <module name="mybatis" />
         <module name="myjwt" />
         <module name="netty" />
         <module name="proxy" />
@@ -31,7 +32,6 @@
     <bytecodeTargetLevel>
       <module name="dataStruct" target="1.8" />
       <module name="demo" target="1.8" />
-      <module name="mybatis" target="1.8" />
       <module name="schema" target="1.8" />
       <module name="security" target="1.8" />
       <module name="shiro" target="1.8" />

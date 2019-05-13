@@ -1,8 +1,10 @@
 package com.example.mybatis.dao;
 
+
 import com.example.mybatis.entity.Student;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+
 
 /**
  * @author wangqianlong
@@ -22,14 +24,14 @@ public interface StudentDao {
      * @param classId
      * @return 插入中间表
      */
-    int insertStudentAndClass(@Param("studentId") String studentId,@Param("classId") String classId);
+    int insertStudentAndClass(@Param("studentId") Integer studentId,@Param("classId") Integer classId);
 
 
     /**
      * @param tableName  动态表名插入
      * @param studentId
      */
-    void dynamicSql(@Param("tableName") String tableName,@Param("studentId") String studentId);
+    void dynamicSql(@Param("tableName") String tableName,@Param("studentId") Integer studentId);
 
     /**
      * @param tableName 表名字
@@ -39,7 +41,16 @@ public interface StudentDao {
     void dynamicInsert(@Param("tableName") String tableName,@Param("stu") Student student );
 
 
+    /**
+     * @param student 插入的实体
+     * @return 影响的行数 并不是返回的主键
+     */
+    int GetGeneratedKeys(Student student);
 
 
-    void GetGeneratedKeys(Student student);
+    /**
+     * @param studentId   学生ID
+     * @return   影响的行数
+     */
+    int removeStudent(Integer studentId);
 }

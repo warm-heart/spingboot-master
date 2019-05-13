@@ -17,7 +17,7 @@
    </select>
 
     <insert id="insertStudentAndClass"  useGeneratedKeys="true"
-            keyProperty="stuId">
+            keyProperty="studentId">
         insert into student_class(studentId,classId) values
        (#{studentId},#{classId})
     </insert>
@@ -38,5 +38,10 @@
         insert into student(studentId,studentName) values
        (#{studentId},#{studentName})
     </insert>
+
+
+    <delete id="removeStudent" parameterType="Integer">
+        delete from student where studentId=#{studentId}
+    </delete>
 
 </mapper>

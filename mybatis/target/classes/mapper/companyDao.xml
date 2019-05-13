@@ -5,7 +5,7 @@
     <resultMap id="conpanyMap" type="com.example.mybatis.entity.Company">
         <id column="companyId" property="companyId"/>
         <result column="companyName" property="companyName"/>
-        <collection property="departments" ofType="com.example.mybatis.entity.department">
+        <collection property="departments" ofType="com.example.mybatis.entity.Department">
             <id column="departmentId" property="departmentId"/>
             <result column="departmentName" property="departmentName"/>
         </collection>

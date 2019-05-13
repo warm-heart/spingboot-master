@@ -13,7 +13,7 @@ public class ArrayTest {
         }
         System.out.println(arraye);
 
-        arraye.add(1, new Student("b"));
+        arraye.add(1, new Student1("b"));
         System.out.println(arraye);
 
         arraye.add(1, new String("hello world "));

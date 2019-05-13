@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.mybatis.dao.departmentDao">
-    <resultMap id="demartmentMap" type="com.example.mybatis.entity.department">
+    <resultMap id="demartmentMap" type="com.example.mybatis.entity.Department">
         <id column="departmentId" property="departmentId"/>
         <result column="departmentName" property="departmentName"/>
         <association property="Company" javaType="com.example.mybatis.entity.Company">

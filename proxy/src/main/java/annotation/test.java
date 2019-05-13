@@ -9,9 +9,9 @@ import java.lang.reflect.Field;
 
 public class test {
     public static void main(String[] args) throws ClassNotFoundException {
-       Class c = Class.forName("annotation.Student");
+       Class c = Class.forName("annotation.Student2");
 
-       // Class c = Student.class;
+       // Class c = Student2.class;
         Field[] fields = c.getDeclaredFields();
 
         for (Field field : fields){

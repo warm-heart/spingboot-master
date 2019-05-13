@@ -34,7 +34,7 @@ public class ReflectTest {
 
 
         //获取方法
-      /*  Class studentClass3 = Class.forName("Reflect.Student");
+      /*  Class studentClass3 = Class.forName("Reflect.Student2");
         System.out.println("获取所有公有方法");
         studentClass3.getMethods();
         Method[] methods = studentClass3.getMethods();
@@ -82,7 +82,7 @@ public class ReflectTest {
         Object o = studentClass3.getConstructor().newInstance();
         field.setAccessible(true);  //暴力反射  解除私有限定
         field.set(o, "Cooper");
-        Student student = (Student) o;
+        Student2 student = (Student2) o;
         System.out.println("-----验证----" + student.getName());*/
     }
 }

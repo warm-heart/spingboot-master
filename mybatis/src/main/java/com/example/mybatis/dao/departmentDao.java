@@ -1,6 +1,6 @@
 package com.example.mybatis.dao;
 
-import com.example.mybatis.entity.department;
+import com.example.mybatis.entity.Department;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -11,5 +11,5 @@ import org.apache.ibatis.annotations.Mapper;
 public interface departmentDao {
 
 
-    department selectdepartment(Integer departmentId);
+    Department selectdepartment(Integer departmentId);
 }

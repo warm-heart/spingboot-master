@@ -5,7 +5,7 @@ package com.example.mybatis.entity;
  * @create 2018-09-16 8:39
  */
 
-public class department {
+public class Department {
     private Integer departmentId;
     private  String departmentName;
     private Company Company;
@@ -36,7 +36,7 @@ public class department {
 
     @Override
     public String toString() {
-        return "department{" +
+        return "Department{" +
                 "departmentId=" + departmentId +
                 ", departmentName='" + departmentName + '\'' +
                 ", Company=" + Company +

@@ -1,9 +1,9 @@
 
 DROP database IF EXISTS `mybatis`;
 
-create database mybatis;
+create database springboot_master;
 
-use mybatis;
+use springboot_master;
 
 -- ----------------------------
 -- 多对多 通过中间表建立联系
@@ -46,8 +46,8 @@ CREATE TABLE `student_class` (
 PRIMARY KEY (`id`),
 KEY `FK_Reference_3` (`classId`),
 KEY `FK_Reference_4` (`studentId`),
-CONSTRAINT `FK_Reference_3` FOREIGN KEY (`studentId`) REFERENCES `student` (`studentId`),
-CONSTRAINT `FK_Reference_4` FOREIGN KEY (`classId`) REFERENCES `class` (`classId`)
+CONSTRAINT `FK_Reference_3` FOREIGN KEY (`studentId`) REFERENCES `student` (`studentId`) ON DELETE CASCADE ON UPDATE CASCADE,
+CONSTRAINT `FK_Reference_4` FOREIGN KEY (`classId`) REFERENCES `class` (`classId`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=utf8;
 
 
@@ -70,7 +70,7 @@ PRIMARY KEY (`companyId`)
 
 
 -- ----------------------------
--- Table structure for department
+-- Table structure for Department
 -- ----------------------------
 DROP TABLE IF EXISTS `department`;
 CREATE TABLE `department` (
@@ -81,7 +81,7 @@ PRIMARY KEY (`departmentId`),
 CONSTRAINT `FK_Reference` FOREIGN KEY (`companyId`) REFERENCES `Company` (`companyId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 -- ----------------------------
--- Records of department
+-- Records of Department
 -- ----------------------------
 
 

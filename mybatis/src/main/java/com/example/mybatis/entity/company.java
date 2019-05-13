@@ -11,7 +11,7 @@ import java.util.List;
 public class Company implements Serializable {
     private Long companyId;
     private String companyName;
-    private List<department> departments;
+    private List<Department> departments;
 
     public Long getCompanyId() {
         return companyId;
@@ -29,11 +29,11 @@ public class Company implements Serializable {
         this.companyName = companyName;
     }
 
-    public List<department> getDepartments() {
+    public List<Department> getDepartments() {
         return departments;
     }
 
-    public void setDepartments(List<department> departments) {
+    public void setDepartments(List<Department> departments) {
         this.departments = departments;
     }
 
