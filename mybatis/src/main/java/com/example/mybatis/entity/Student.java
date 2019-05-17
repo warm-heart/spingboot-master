@@ -1,5 +1,7 @@
 package com.example.mybatis.entity;
 
+
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -7,11 +9,12 @@ import java.util.List;
  * @create 2018-09-17 11:23
  */
 
-public class Student {
+public class Student implements Serializable {
+
+    private static final long serialVersionUID = -3325138597898786918L;
     private Integer studentId;
     private String studentName;
     private List<Class> classes;
-
 
 
     public Integer getStudentId() {

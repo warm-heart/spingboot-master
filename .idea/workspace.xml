@@ -11,44 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc705d2-8497-4ef1-a865-e37840c223a6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/490d8f0b-2c34-4d9d-9a34-3e5824c1d4c6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/490d8f0b-2c34-4d9d-9a34-3e5824c1d4c6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/MybatisCache/MybatisRedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/MybatisCache/MybatisRedisCacheTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/config/RedisConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/Array/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStruct/src/Array/ArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/Array/Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStruct/src/Array/Set.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/Array/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStruct/src/Array/Student1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/controller/MybatosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/controller/MybatosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dao/StudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dao/companyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dao/companyDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dao/departmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dao/departmentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Class.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/company.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/department.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Department.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/mapper/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/mapper/StudentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/mapper/companyDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/mapper/companyDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/mapper/departmentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/mapper/departmentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/mybatis.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/mybatis.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/dao/StudentDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/dao/StudentDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/dao/departmentDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/dao/departmentDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/com/example/mybatis/controller/MybatosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/com/example/mybatis/controller/MybatosController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/com/example/mybatis/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/com/example/mybatis/dao/StudentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/com/example/mybatis/dao/departmentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/com/example/mybatis/dao/departmentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/com/example/mybatis/entity/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/com/example/mybatis/entity/Company.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/com/example/mybatis/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/com/example/mybatis/entity/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/com/example/mybatis/entity/department.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/com/example/mybatis/entity/department.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/mapper/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/mapper/StudentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/mapper/companyDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/mapper/companyDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/mapper/departmentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/mapper/departmentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/mybatis.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/mybatis.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis/target/test-classes/com/example/mybatis/dao/StudentDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/test-classes/com/example/mybatis/dao/StudentDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/test-classes/com/example/mybatis/dao/departmentDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/test-classes/com/example/mybatis/dao/departmentDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Reflect/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/Reflect/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/annotation/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/annotation/Student2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/annotation/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/annotation/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/test/java/com/example/redis/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/test/java/com/example/redis/dao/UserDaoTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thread/target/" />
     <ignored path="$PROJECT_DIR$/more-datasorce/target/" />
@@ -123,51 +100,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="StudentDao.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mapper/StudentDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="StudentDaoTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/dao/StudentDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="-24">
+              <caret line="36" column="65" lean-forward="true" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1095#1096#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="student_class" pinned="false" current-in-tab="true">
-        <entry file="das://490d8f0b-2c34-4d9d-9a34-3e5824c1d4c6/schema/springboot_master/table/student_class">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentDao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mapper/StudentDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dao/StudentDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#937#938#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,22 +143,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/dao/Master.java" />
-        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/config/DynamicDataSourceConfiguration.java" />
-        <option value="$PROJECT_DIR$/dynamicdatasource/src/test/java/com/example/dynamicdatasource/Service/Test1ServiceTest.java" />
-        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/config/DynamicDataSourceAspect.java" />
-        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/config/DynamicDataSourceContextHolder.java" />
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/jpa/src/test/java/com/example/jpa/dao/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/exception/src/main/java/com/example/controller/ExceptionTestController.java" />
         <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/Service/Test1Service.java" />
         <option value="$PROJECT_DIR$/redis/src/main/java/com/example/redis/entity/User.java" />
         <option value="$PROJECT_DIR$/exception/src/main/java/com/example/handle/ExceptionHandle.java" />
-        <option value="$PROJECT_DIR$/redis/src/test/java/com/example/redis/dao/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/redis/src/main/java/com/example/redis/DistributedServiceDemo.java" />
         <option value="$PROJECT_DIR$/redis/src/main/java/com/example/redis/RedisLock.java" />
-        <option value="$PROJECT_DIR$/redis/src/main/java/com/example/redis/service/Impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/session/src/main/java/com/spring/session/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/session/nginx.conf" />
         <option value="$PROJECT_DIR$/myjwt-master/src/main/resources/application.properties" />
@@ -231,7 +170,6 @@
         <option value="$PROJECT_DIR$/spring5/src/main/java/config/MyWebApplicationInitializer.java" />
         <option value="$PROJECT_DIR$/spring5/src/main/java/controller/TestController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dao/departmentDao.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dao/companyDao.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/controller/MybatosController.java" />
@@ -239,12 +177,23 @@
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Company.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/resources/mapper/departmentDao.xml" />
         <option value="$PROJECT_DIR$/mybatis/src/main/resources/mapper/companyDao.xml" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Student.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/resources/mapper/StudentDao.xml" />
         <option value="$PROJECT_DIR$/mybatis/src/main/resources/mybatis.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/490d8f0b-2c34-4d9d-9a34-3e5824c1d4c6/console.sql" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dao/StudentDao.java" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/config/JeidsConfig.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/config/JedisConfig.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/MybatisCache/MybatisRedisCache.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/MybatisCache/MybatisRedisCacheTransfer.java" />
+        <option value="$PROJECT_DIR$/redis/src/main/java/com/example/redis/service/Impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/redis/src/test/java/com/example/redis/dao/UserDaoTest.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/dao/StudentDaoTest.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Class.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Student.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/RedisService.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/resources/mapper/StudentDao.xml" />
       </list>
     </option>
   </component>
@@ -283,7 +232,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="904" />
     <option name="width" value="470" />
     <option name="height" value="775" />
@@ -295,170 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -475,6 +260,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -528,11 +326,11 @@
       <recent name="com.task.ThreadLocal" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\springboot-master\mybatis\src\main\java\com\example\mybatis\config" />
+      <recent name="E:\springboot-master\mybatis\src\main\java\com\example\mybatis\MybatisCache" />
       <recent name="E:\springboot-master\spring5\src\main\resource" />
       <recent name="E:\springboot-master\session" />
       <recent name="E:\springboot-master\dynamicdatasource\src\main\resources\mapper" />
-      <recent name="E:\springboot-master\ajax\src\main\resources\templates" />
-      <recent name="E:\springboot-master\threadpool\src\main\java\com\task" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="config" />
@@ -550,78 +348,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentDaoTest.insertStudentAndClass">
+  <component name="RunManager" selected="JUnit.StudentDaoTest.selectStudentAndClass">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="StudentDaoTest.getGeneratedKeys" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.mybatis.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.mybatis.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.dao.StudentDaoTest" />
-      <option name="METHOD_NAME" value="getGeneratedKeys" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="StudentDaoTest.insertStudentAndClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.mybatis.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.mybatis.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.dao.StudentDaoTest" />
-      <option name="METHOD_NAME" value="insertStudentAndClass" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="StudentDaoTest.removeStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.mybatis.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.mybatis.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.dao.StudentDaoTest" />
-      <option name="METHOD_NAME" value="removeStudent" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="StudentDaoTest.selectStudentAndClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
@@ -834,16 +563,10 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.spring5" />
-      <item itemvalue="JUnit.StudentDaoTest.getGeneratedKeys" />
       <item itemvalue="JUnit.StudentDaoTest.selectStudentAndClass" />
-      <item itemvalue="JUnit.StudentDaoTest.removeStudent" />
-      <item itemvalue="JUnit.StudentDaoTest.insertStudentAndClass" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentDaoTest.insertStudentAndClass" />
-        <item itemvalue="JUnit.StudentDaoTest.removeStudent" />
-        <item itemvalue="JUnit.StudentDaoTest.getGeneratedKeys" />
         <item itemvalue="JUnit.StudentDaoTest.selectStudentAndClass" />
       </list>
     </recent_temporary>
@@ -1099,44 +822,51 @@
       <workItem from="1557289241280" duration="7019000" />
       <workItem from="1557733298035" duration="345000" />
       <workItem from="1557733646875" duration="2737000" />
-      <workItem from="1557736516286" duration="262000" />
+      <workItem from="1557736516286" duration="477000" />
+      <workItem from="1557738839236" duration="27000" />
+      <workItem from="1557738869601" duration="2000" />
+      <workItem from="1557821227855" duration="107000" />
+      <workItem from="1557821371293" duration="604000" />
+      <workItem from="1558092232955" duration="857000" />
+      <workItem from="1558093105138" duration="153000" />
+      <workItem from="1558093297788" duration="8810000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_test - 2019.05.05 at 16h 46m 24s.xml">
-      <configuration name="test.test" configurationId="JUnit" />
+    <history-entry file="StudentDaoTest_redis - 2019.05.17 at 21h 39m 35s.xml">
+      <configuration name="StudentDaoTest.redis" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_test - 2019.05.05 at 16h 48m 29s.xml">
-      <configuration name="test.test" configurationId="JUnit" />
+    <history-entry file="StudentDaoTest_redis - 2019.05.17 at 21h 41m 04s.xml">
+      <configuration name="StudentDaoTest.redis" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentDaoTest_getGeneratedKeys - 2019.05.13 at 15h 54m 42s.xml">
+    <history-entry file="StudentDaoTest_redis - 2019.05.17 at 21h 42m 10s.xml">
+      <configuration name="StudentDaoTest.redis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDaoTest_redis - 2019.05.17 at 21h 47m 46s.xml">
+      <configuration name="StudentDaoTest.redis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDaoTest_redis - 2019.05.17 at 21h 48m 32s.xml">
+      <configuration name="StudentDaoTest.redis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDaoTest_redis - 2019.05.17 at 21h 49m 11s.xml">
+      <configuration name="StudentDaoTest.redis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDaoTest_redis - 2019.05.17 at 21h 55m 12s.xml">
+      <configuration name="StudentDaoTest.redis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDaoTest_redis - 2019.05.17 at 22h 03m 04s.xml">
+      <configuration name="StudentDaoTest.redis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDaoTest_getGeneratedKeys - 2019.05.17 at 22h 06m 07s.xml">
       <configuration name="StudentDaoTest.getGeneratedKeys" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentDaoTest_getGeneratedKeys - 2019.05.13 at 15h 56m 48s.xml">
-      <configuration name="StudentDaoTest.getGeneratedKeys" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentDaoTest_getGeneratedKeys - 2019.05.13 at 15h 57m 49s.xml">
-      <configuration name="StudentDaoTest.getGeneratedKeys" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentDaoTest_selectStudentAndClass - 2019.05.13 at 16h 03m 52s.xml">
+    <history-entry file="StudentDaoTest_selectStudentAndClass - 2019.05.17 at 22h 06m 32s.xml">
       <configuration name="StudentDaoTest.selectStudentAndClass" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentDaoTest_getGeneratedKeys - 2019.05.13 at 16h 05m 30s.xml">
-      <configuration name="StudentDaoTest.getGeneratedKeys" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentDaoTest_removeStudent - 2019.05.13 at 16h 08m 13s.xml">
-      <configuration name="StudentDaoTest.removeStudent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentDaoTest_removeStudent - 2019.05.13 at 16h 08m 31s.xml">
-      <configuration name="StudentDaoTest.removeStudent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentDaoTest_removeStudent - 2019.05.13 at 16h 17m 45s.xml">
-      <configuration name="StudentDaoTest.removeStudent" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337305000" />
+    <option name="totallyTimeSpent" value="348080000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1149,7 +879,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3289256" />
@@ -1173,13 +902,13 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289256" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="17" weight="0.3289256" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31570247" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31570247" />
       <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" weight="0.3289256" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.3289256" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.33585477" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.33509833" />
       <window_info anchor="right" id="Bean Validation" order="8" sideWeight="0.49917355" weight="0.32980332" />
       <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="5" sideWeight="0.5041322" side_tool="true" weight="0.27458397" />
       <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5008264" side_tool="true" weight="0.32980332" />
@@ -1187,7 +916,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Thumbnails" order="18" weight="0.3289256" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3289256" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.3289256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -1277,272 +1006,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myjwt-master/src/main/java/cn/jiayao/myjwt/modular/interceptor/WebRequestInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session/src/test/java/com/spring/session/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session/src/test/java/com/spring/session/SessionApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/config/MvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStruct/src/map/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStruct/src/Array/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStruct/src/Array/Student1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStruct/src/StackAndQueue/ArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStruct/src/StackAndQueue/ArrayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStruct/src/Array/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStruct/src/StackAndQueue/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session/src/main/java/com/spring/session/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session/src/main/java/com/spring/session/config/RedisSessionConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="81" column="58" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/ResourceHandlerRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring5/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/config/MvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring5/src/main/java/service/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring5/src/main/java/config/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring5/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring5/src/main/webapp/WEB-INF/jsp/hello.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring5/src/main/java/config/MyWebApplicationInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring5/src/main/java/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring5/src/main/java/config/RootConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dao/companyDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dao/departmentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="67" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/MybatisApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/controller/MybatosController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding>
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1550,20 +1017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding>
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1588,34 +1041,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/dao/departmentDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mybatis.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3">
           <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://490d8f0b-2c34-4d9d-9a34-3e5824c1d4c6/schema/springboot_master/table/student">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1626,23 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mapper/StudentDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://490d8f0b-2c34-4d9d-9a34-3e5824c1d4c6/schema/springboot_master/table/class">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1650,28 +1062,351 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/dao/StudentDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://490d8f0b-2c34-4d9d-9a34-3e5824c1d4c6/schema/springboot_master/table/student_class">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://490d8f0b-2c34-4d9d-9a34-3e5824c1d4c6/schema/springboot_master/table/student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAop/src/main/java/org/example/aop/annotation/MyIntercetor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/SpringConfig/ThreadPoolConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-lettcue/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/example/redis/DistributedServiceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="44" selection-start-line="44" selection-end-line="62" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.5.RELEASE/spring-boot-starter-parent-2.0.5.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.0.5.RELEASE/spring-boot-dependencies-2.0.5.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="361" column="24" lean-forward="true" selection-start-line="361" selection-start-column="24" selection-end-line="361" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="139" column="20" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/time/Duration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="70" column="29" lean-forward="true" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+          <folding>
+            <element signature="e#2552#2553#0" expanded="true" />
+            <element signature="e#2581#2582#0" expanded="true" />
+            <element signature="e#4346#4347#0" expanded="true" />
+            <element signature="e#4377#4378#0" expanded="true" />
+            <element signature="e#5823#5824#0" expanded="true" />
+            <element signature="e#5848#5849#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.5.RELEASE/spring-data-redis-2.1.5.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.5.RELEASE/spring-data-redis-2.1.5.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="505" column="78" lean-forward="true" selection-start-line="505" selection-start-column="78" selection-end-line="505" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.5.RELEASE/spring-data-redis-2.1.5.RELEASE-sources.jar!/org/springframework/data/redis/connection/RedisStandaloneConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/dao/departmentDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/dao/companyDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/MybatisCache/MybatisRedisCacheTransfer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/MybatisCache/MybatisRedisCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-697">
+          <caret line="60" column="23" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPoolConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.8.RELEASE/spring-data-redis-2.0.8.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/example/redis/config/JeidsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.5.RELEASE/spring-data-redis-2.1.5.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/example/redis/service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="33" column="63" lean-forward="true" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/test/java/com/example/redis/dao/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="236" column="63" selection-start-line="236" selection-start-column="63" selection-end-line="236" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="95" lean-forward="true" selection-start-line="3" selection-start-column="95" selection-end-line="3" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar!/com/fasterxml/jackson/annotation/PropertyAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/example/redis/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/cache/annotation/CachingConfigurerSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="118" column="71" lean-forward="true" selection-start-line="118" selection-start-column="71" selection-end-line="118" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1522#1540#1" expanded="true" />
+            <element signature="e#1583#1602#1" expanded="true" />
+            <element signature="e#1646#1670#1" expanded="true" />
+            <element signature="e#1719#1756#1" expanded="true" />
+            <element signature="e#1818#1851#1" expanded="true" />
+            <element signature="e#1909#1949#1" expanded="true" />
+            <element signature="e#2011#2034#1" expanded="true" />
+            <element signature="e#2082#2106#1" expanded="true" />
+            <element signature="e#5669#5685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/dao/StudentDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="36" column="65" lean-forward="true" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+          <folding>
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mapper/StudentDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>

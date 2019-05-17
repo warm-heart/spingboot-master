@@ -1,5 +1,6 @@
 package com.example.mybatis.entity;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -7,7 +8,7 @@ import java.util.List;
  * @create 2018-09-17 11:39
  */
 
-public class Class {
+public class Class  implements Serializable{
     private Integer classId;
     private String className;
     private List<Student> students;

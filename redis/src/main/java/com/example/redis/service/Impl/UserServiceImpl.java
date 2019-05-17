@@ -29,6 +29,9 @@ public class UserServiceImpl implements UserService {
     @Override
     @CachePut(value = "sSsdada",key = "#result.name")  //支持el  redis里的key为数据库中user id
     //@Cacheable(value = "sSsdada",key = "#123456")   value 为包名 key为数据的key
+
+    //使用配置文件中的key生成策略
+   // @CachePut(value = "redis", keyGenerator = "keyGenerator")
     public User findUserByPhone(String phone) {
 
        User user =new User();

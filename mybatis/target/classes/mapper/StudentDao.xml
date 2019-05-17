@@ -2,6 +2,15 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.mybatis.dao.StudentDao">
+
+    <cache type="com.example.mybatis.MybatisCache.MybatisRedisCache"
+
+           flushInterval="60000" >
+        <!--配置缓存60s刷新-->
+    </cache>
+
+
+
     <resultMap id="StudentMap" type="com.example.mybatis.entity.Student">
         <id column="studentId" property="studentId"/>
         <result column="studentName" property="studentName"/>
