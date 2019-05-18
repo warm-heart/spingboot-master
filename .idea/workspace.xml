@@ -11,21 +11,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc705d2-8497-4ef1-a865-e37840c223a6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/MybatisCache/MybatisRedisCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/MybatisCache/MybatisRedisCacheTransfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/config/RedisConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/mapper/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/mapper/StudentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/dao/StudentDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/dao/StudentDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/test-classes/com/example/mybatis/dao/StudentDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/test-classes/com/example/mybatis/dao/StudentDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/test/java/com/example/redis/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/test/java/com/example/redis/dao/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAop/target/classes/org/example/aop/annotation/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAop/target/classes/org/example/aop/annotation/HelloImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAop/target/classes/org/example/aop/annotation/MyIntercetor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAop/target/classes/org/example/aop/xml/AopTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAop/target/classes/org/example/aop/xml/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAop/target/classes/org/example/aop/xml/HelloWorldImpl1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAop/target/classes/org/example/aop/xml/HelloWorldImpl2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAop/target/classes/org/example/aop/xml/LogHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAop/target/classes/org/example/aop/xml/TimeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAop/target/test-classes/org/example/aop/annotation/HelloTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/target/classes/com/example/ajax/AjaxApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/target/classes/com/example/ajax/config/MvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/target/classes/com/example/ajax/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/target/classes/com/example/ajax/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/target/classes/com/example/ajax/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/target/test-classes/com/example/ajax/AjaxApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/target/test-classes/com/example/ajax/dao/UserDaoTestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/target/classes/com/example/ExceptionApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/target/classes/com/example/controller/ExceptionTestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/target/classes/com/example/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/target/classes/com/example/exception/TestException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/target/classes/com/example/handle/ExceptionHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/target/classes/com/example/handle/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/target/classes/com/example/handle/SeckillResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/target/classes/com/example/handle/SeckillStatEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/target/classes/com/example/handle/dto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/target/classes/com/example/handle/entiity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/target/test-classes/com/example/exception/ExceptionApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileload/target/classes/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/fileload/target/classes/templates/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Reflect/ConfigTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/Reflect/ConfigTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Reflect/ReflectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/Reflect/ReflectTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Reflect/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/Reflect/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/annotation/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/annotation/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/annotation/test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thread/target/" />
     <ignored path="$PROJECT_DIR$/more-datasorce/target/" />
@@ -99,30 +121,7 @@
     <favorites_list name="springboot-master" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StudentDao.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mapper/StudentDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentDaoTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/dao/StudentDaoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
-              <caret line="36" column="65" lean-forward="true" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
-              <folding>
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -143,8 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/exception/src/main/java/com/example/controller/ExceptionTestController.java" />
-        <option value="$PROJECT_DIR$/dynamicdatasource/src/main/java/com/example/dynamicdatasource/Service/Test1Service.java" />
         <option value="$PROJECT_DIR$/redis/src/main/java/com/example/redis/entity/User.java" />
         <option value="$PROJECT_DIR$/exception/src/main/java/com/example/handle/ExceptionHandle.java" />
         <option value="$PROJECT_DIR$/redis/src/main/java/com/example/redis/DistributedServiceDemo.java" />
@@ -194,6 +191,8 @@
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/RedisService.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/resources/mapper/StudentDao.xml" />
+        <option value="$PROJECT_DIR$/ajax/pom.xml" />
+        <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/TestController.java" />
       </list>
     </option>
   </component>
@@ -260,6 +259,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -272,7 +272,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,32 +347,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentDaoTest.selectStudentAndClass">
+  <component name="RunManager" selected="Spring Boot.AjaxApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="StudentDaoTest.selectStudentAndClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.mybatis.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.mybatis.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.dao.StudentDaoTest" />
-      <option name="METHOD_NAME" value="selectStudentAndClass" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -400,6 +376,16 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="AjaxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ajax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ajax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ajax.AjaxApplication" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -563,11 +549,11 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.spring5" />
-      <item itemvalue="JUnit.StudentDaoTest.selectStudentAndClass" />
+      <item itemvalue="Spring Boot.AjaxApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentDaoTest.selectStudentAndClass" />
+        <item itemvalue="Spring Boot.AjaxApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -830,6 +816,14 @@
       <workItem from="1558092232955" duration="857000" />
       <workItem from="1558093105138" duration="153000" />
       <workItem from="1558093297788" duration="8810000" />
+      <workItem from="1558139715638" duration="29000" />
+      <workItem from="1558139814978" duration="215000" />
+      <workItem from="1558140053343" duration="197000" />
+      <workItem from="1558140297932" duration="118000" />
+      <workItem from="1558141668568" duration="217000" />
+      <workItem from="1558141997358" duration="240000" />
+      <workItem from="1558145280085" duration="454000" />
+      <workItem from="1558151675582" duration="5000" />
     </task>
     <servers />
   </component>
@@ -866,7 +860,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="348080000" />
+    <option name="totallyTimeSpent" value="349555000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -896,7 +890,6 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3272727" />
       <window_info id="DB Browser" order="2" weight="0.32980332" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3289256" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289256" />
@@ -905,10 +898,9 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.31570247" />
       <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" weight="0.3289256" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.33509833" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.37897125" />
       <window_info anchor="right" id="Bean Validation" order="8" sideWeight="0.49917355" weight="0.32980332" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="5" sideWeight="0.5041322" side_tool="true" weight="0.27458397" />
       <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5008264" side_tool="true" weight="0.32980332" />
@@ -917,7 +909,9 @@
       <window_info anchor="bottom" id="Thumbnails" order="18" weight="0.3289256" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3289256" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="13" visible="true" weight="0.3289256" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
@@ -1006,34 +1000,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/controller/MybatosController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mapper/departmentDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="58" lean-forward="true" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mapper/companyDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="88" selection-start-line="7" selection-start-column="88" selection-end-line="7" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/Department.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1130,9 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/redis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1151,9 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-612">
           <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1161,14 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="70" column="29" lean-forward="true" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
-          <folding>
-            <element signature="e#2552#2553#0" expanded="true" />
-            <element signature="e#2581#2582#0" expanded="true" />
-            <element signature="e#4346#4347#0" expanded="true" />
-            <element signature="e#4377#4378#0" expanded="true" />
-            <element signature="e#5823#5824#0" expanded="true" />
-            <element signature="e#5848#5849#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1204,9 +1156,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1228,9 +1177,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1238,9 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-697">
           <caret line="60" column="23" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1300,9 +1243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicdatasource/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1321,9 +1261,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1331,21 +1268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1367,9 +1289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1377,25 +1296,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="118" column="71" lean-forward="true" selection-start-line="118" selection-start-column="71" selection-end-line="118" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1522#1540#1" expanded="true" />
-            <element signature="e#1583#1602#1" expanded="true" />
-            <element signature="e#1646#1670#1" expanded="true" />
-            <element signature="e#1719#1756#1" expanded="true" />
-            <element signature="e#1818#1851#1" expanded="true" />
-            <element signature="e#1909#1949#1" expanded="true" />
-            <element signature="e#2011#2034#1" expanded="true" />
-            <element signature="e#2082#2106#1" expanded="true" />
-            <element signature="e#5669#5685#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/dao/StudentDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="36" column="65" lean-forward="true" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+        <state relative-caret-position="425">
+          <caret line="36" column="65" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
           <folding>
             <element signature="e#937#938#0" expanded="true" />
             <element signature="e#1009#1010#0" expanded="true" />
@@ -1403,10 +1310,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/AjaxApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mapper/StudentDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="85">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exception/src/main/java/com/example/controller/ExceptionTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="81" column="52" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/Interceptor/FirstIntercetor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>

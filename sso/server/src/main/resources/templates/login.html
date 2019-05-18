@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+</head>
+<body>
+
+<form   action="#" th:action="@{/login}" method="post">
+    账号：<input type="text" name="username" id="username">
+    密码：<input type="password" name="password" id="password">
+    <input type="text" name="ReturnUrl" th:value="${ReturnUrl}" >
+    提交：<input type="button" id="da">
+</form>
+
+
+<!--传递List数组-->
+<!--<script>
+    $("#da").click(function () {
+        var name = $("#userName").val();
+        var password = $("#password").val();
+        var ReturnUrl = $("ReturnUrl").val();
+        var user = {userName: name, password: password}
+        //为了方便这里放两个相同的
+        $.ajax({
+            url: "localhost:8081/login",
+            cache: false,
+            contentType: 'application/json; charset=utf-8',
+            data: JSON.stringify(user, ReturnUrl),
+            type: "get",
+            success: function (result) {
+                /*$("#resultName").val(result.userName);*/
+                //alert(result)
+            }
+        });
+    });
+</script>-->
+
+</body>
+</html>

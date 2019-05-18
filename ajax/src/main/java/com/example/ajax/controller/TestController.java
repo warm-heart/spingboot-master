@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -75,9 +76,10 @@ public class TestController {
 
 
     @RequestMapping("/login")
-    public String login() {
+    public String login(HttpServletRequest request) {
        /* System.out.println("userId是:"+userAge);
         System.out.println("userName是:"+userName);*/
+        System.out.println(request.getParameter("s"));
         return "login";
     }
 }
