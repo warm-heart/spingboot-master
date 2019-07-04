@@ -3,8 +3,7 @@ package com.example.controller;
 
 
 
-import com.example.handle.Result;
-import com.example.handle.SeckillResult;
+
 import org.springframework.stereotype.Controller;
 
 

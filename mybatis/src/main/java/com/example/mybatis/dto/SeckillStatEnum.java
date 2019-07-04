@@ -1,4 +1,4 @@
-package com.example.handle;
+package com.example.mybatis.dto;
 
 
 public enum SeckillStatEnum {

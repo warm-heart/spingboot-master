@@ -4,6 +4,7 @@ package com.example.mybatis.dao;
 import com.example.mybatis.entity.Student;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 
 /**
@@ -11,6 +12,7 @@ import org.apache.ibatis.annotations.Param;
  * @create 2018-09-17 11:43
  */
 @Mapper
+@Repository
 public interface StudentDao {
 
     /**

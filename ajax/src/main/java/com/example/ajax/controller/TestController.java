@@ -19,7 +19,6 @@ import java.util.List;
 public class TestController {
 
 
-
     //ajax 后端接受单参数
     @RequestMapping("/test")
     public String test(String userId) {
@@ -34,7 +33,7 @@ public class TestController {
     public String test2r(String userAge, String userName) {
         System.out.println("userId是:" + userAge);
         System.out.println("userName是:" + userName);
-        String name = "后端接到请求ajax回调结果是"+userName;
+        String name = "后端接到请求ajax回调结果是" + userName;
         return name;
     }
 
@@ -50,7 +49,7 @@ public class TestController {
 
 
     // ajax 后端以实体形式接受参数
-    //处理test3.html ajax请求
+    //处理test4.html ajax请求
     @RequestMapping("/test4r")
     @ResponseBody
     public String test4r(@RequestBody List<User> users) {
@@ -82,4 +81,5 @@ public class TestController {
         System.out.println(request.getParameter("s"));
         return "login";
     }
+
 }

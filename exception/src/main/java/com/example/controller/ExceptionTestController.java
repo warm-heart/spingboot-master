@@ -14,14 +14,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ExceptionTestController {
 
-    @RequestMapping(value = "/1",method = RequestMethod.GET)
+   /* @RequestMapping(value = "/1",method = RequestMethod.GET)
     public Result<Object> test1(){
-           /*这里异常返回是handle里的信息*/
+           *//*这里异常返回是handle里的信息*//*
        // throw new TestException("controller1");
 
         return new Result<>(new entiity(),SeckillStatEnum.SUCCESS);
 
-    }
+    }*/
 
 
     /*
