@@ -24,7 +24,6 @@ public class DistributedServiceDemo {
         long time = System.currentTimeMillis() + TIMEOUT;
 
         String productId = "具体业务中的唯一主键 如秒杀项目中商品id";
-
         if (!redisLock.lock(productId, String.valueOf(time))) {
             //获取不到锁 业务抛出异常让稍后再试
             throw new RuntimeException("人太多了，请稍后再试~~");
@@ -33,7 +32,6 @@ public class DistributedServiceDemo {
         //模拟业务代码
         Thread.sleep(1000);
         System.out.println("业务执行中");
-
 
         //解锁
         redisLock.unlock(productId, String.valueOf(time));

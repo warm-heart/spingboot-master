@@ -21,11 +21,10 @@ public class RedisLock {
     private StringRedisTemplate stringRedisTemplate;
 
     /**
-     *
-     *  redis 是单线程的的
-     *  * setnx  getset 两个命令
-     *  * 是redis分布式锁的原理
-     *
+     * redis 是单线程的的
+     * * setnx  getset 两个命令
+     * * 是redis分布式锁的原理
+     * <p>
      * 加锁
      *
      * @param key   业务商品号等等
@@ -36,7 +35,11 @@ public class RedisLock {
         if (stringRedisTemplate.opsForValue().setIfAbsent(key, value)) {
             return true;
         }
+
+
         String currentValue = stringRedisTemplate.opsForValue().get(key);
+
+
         //如果锁过期
         if (!StringUtils.isEmpty(currentValue)
                 && Long.parseLong(currentValue) < System.currentTimeMillis()) {
@@ -64,7 +67,6 @@ public class RedisLock {
         } catch (Exception e) {
             logger.error("【redis分布式锁】解锁异常，{}", e);
         }
-
     }
 
 

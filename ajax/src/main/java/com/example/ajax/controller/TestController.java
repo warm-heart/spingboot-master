@@ -30,9 +30,9 @@ public class TestController {
     //处理test2.html ajax请求
     @RequestMapping("/test2r")
     @ResponseBody
-    public String test2r(String userAge, String userName) {
+    public String test2r(String userAge, String userName,HttpServletRequest request) {
         System.out.println("userId是:" + userAge);
-        System.out.println("userName是:" + userName);
+        System.out.println(request.getParameter("userName"));
         String name = "后端接到请求ajax回调结果是" + userName;
         return name;
     }
@@ -41,7 +41,7 @@ public class TestController {
     //处理test3.html ajax请求
     @RequestMapping("/test3r")
     @ResponseBody
-    public String test3r(@RequestBody List<Object> list) {
+    public String test3r(@RequestBody List<Object> list,HttpServletRequest request) {
         System.out.println(list);
         String name = "ajax回调结果";
         return name;
@@ -67,7 +67,7 @@ public class TestController {
         System.out.println(users);
         User user = users.get(0);
         List list = new ArrayList();
-        list.add("da");
+        list.add("Iocda");
         list.add(1);
         list.remove(0);
         return users;

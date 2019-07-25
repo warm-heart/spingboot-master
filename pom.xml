@@ -11,7 +11,7 @@
     <modules>
         <module>proxy</module>
         <module>netty</module>
-        <module>thread</module>
+        <module>threadpool</module>
         <module>SpringAop</module>
         <module>more-datasorce</module>
         <module>redis</module>

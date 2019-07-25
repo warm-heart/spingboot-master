@@ -5,7 +5,7 @@ package com.task.Thread;
  * @create 2018-11-05 16:41
  */
 
-public class ThreeThread extends Thread {
+public class ThreeThread extends Thread  {
     public ThreeThread() {
     }
 
