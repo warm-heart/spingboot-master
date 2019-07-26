@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/threadpool/pom.xml" />
         <option value="$PROJECT_DIR$/mail/pom.xml" />
         <option value="$PROJECT_DIR$/dynamicdatasource/pom.xml" />
+        <option value="$PROJECT_DIR$/pattern/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

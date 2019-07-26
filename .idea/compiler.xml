@@ -18,6 +18,7 @@
         <module name="mybatis" />
         <module name="myjwt" />
         <module name="netty" />
+        <module name="pattern" />
         <module name="proxy" />
         <module name="redis" />
         <module name="rocketmq" />

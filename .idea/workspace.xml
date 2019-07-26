@@ -11,20 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc705d2-8497-4ef1-a865-e37840c223a6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/dataStruct/src/Array/Tets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectReleaseImmutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/490d8f0b-2c34-4d9d-9a34-3e5824c1d4c6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/490d8f0b-2c34-4d9d-9a34-3e5824c1d4c6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/src/test/java/com/example/ajax/dao/UserDaoTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/test/java/com/example/ajax/dao/UserDaoTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/target/classes/com/example/ajax/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/target/classes/com/example/ajax/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/target/test-classes/com/example/ajax/dao/UserDaoTestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/target/test-classes/com/example/ajax/dao/UserDaoTestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/DistributedServiceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/DistributedServiceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/RedisLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/RedisLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/ThreeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/ThreeThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thread/target/" />
     <ignored path="$PROJECT_DIR$/more-datasorce/target/" />
@@ -54,6 +43,7 @@
     <ignored path="$PROJECT_DIR$/dynamicdatasource/target/" />
     <ignored path="$PROJECT_DIR$/myjwt-master/target/" />
     <ignored path="$PROJECT_DIR$/spring5/target/" />
+    <ignored path="$PROJECT_DIR$/pattern/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +77,17 @@
     <favorites_list name="springboot-master" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -138,7 +138,6 @@
         <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/FristThread.java" />
         <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/ThreeThread.java" />
         <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/SingleTon.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Singleton.java" />
         <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/Test.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/redis/src/main/java/com/example/redis/DistributedServiceDemo.java" />
@@ -152,13 +151,14 @@
         <option value="$PROJECT_DIR$/ajax/src/test/java/com/example/ajax/dao/UserDaoTestController.java" />
         <option value="$PROJECT_DIR$/exception/src/main/java/com/example/handle/ExceptionHandle.java" />
         <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/D.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java" />
         <option value="$PROJECT_DIR$/dataStruct/src/Array/Tets.java" />
         <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/config/MvcConfig.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectTest.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/Student.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/Finnalda.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectReleaseImmutable.java" />
+        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java" />
+        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Singleton.java" />
       </list>
     </option>
   </component>
@@ -197,7 +197,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="904" />
     <option name="width" value="470" />
     <option name="height" value="775" />
@@ -210,18 +210,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -238,6 +226,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,6 +422,10 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
+    <configuration name="PatternApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pattern" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.design.pattern.PatternApplication" />
+    </configuration>
     <configuration name="ThreadTaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="threadpool" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.task.ThreadTaskApplication" />
@@ -594,6 +598,7 @@
       <item itemvalue="Application.Tets" />
       <item itemvalue="Application.ReflectTest" />
       <item itemvalue="Application.ReflectReleaseImmutable" />
+      <item itemvalue="Spring Boot.PatternApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -930,6 +935,7 @@
       <workItem from="1564049926251" duration="584000" />
       <workItem from="1564052591575" duration="614000" />
       <workItem from="1564055023617" duration="2406000" />
+      <workItem from="1564101568490" duration="812000" />
     </task>
     <servers />
   </component>
@@ -966,7 +972,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="387525000" />
+    <option name="totallyTimeSpent" value="388337000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -978,7 +984,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3289256" />
@@ -996,7 +1003,6 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3272727" />
       <window_info id="DB Browser" order="2" weight="0.32980332" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3289256" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289256" />
@@ -1005,7 +1011,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.31570247" />
       <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" weight="0.3289256" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.34341908" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.34871408" />
       <window_info anchor="right" id="Bean Validation" order="8" sideWeight="0.49917355" weight="0.32980332" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="6" />
@@ -1018,6 +1024,7 @@
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3289256" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3289256" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
@@ -1025,16 +1032,17 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3289256" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.3289256" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31570247" />
       <window_info anchor="bottom" id="Application Servers" order="16" weight="0.3289256" />
       <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49924356" weight="0.3289256" />
-      <window_info id="Image Layers" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31570247" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.3289256" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49917355" weight="0.24962178" />
       <window_info id="DB Browser" order="3" weight="0.32980332" />
       <window_info id="UI Designer" order="5" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Favorites" order="6" sideWeight="0.5041322" side_tool="true" weight="0.27458397" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" weight="0.3289256" />
       <window_info id="Capture Tool" order="8" />
@@ -1042,20 +1050,19 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50075644" side_tool="true" weight="0.32396695" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3289256" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3272727" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289256" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="17" weight="0.3289256" />
       <window_info anchor="right" id="Maven Projects" order="10" sideWeight="0.49917355" weight="0.3237519" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3289256" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.34341908" />
       <window_info anchor="right" id="Database" order="7" sideWeight="0.49917355" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3272727" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.5041322" side_tool="true" weight="0.27458397" />
+      <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5008264" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -1225,13 +1232,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/Service/TransactionService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1285,9 +1285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1306,9 +1303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1334,13 +1328,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/D.java" />
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/ThreeThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1373,9 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1397,9 +1381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1435,6 +1416,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>

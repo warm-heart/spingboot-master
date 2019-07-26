@@ -21,8 +21,6 @@ public class Test {
 
 
 
-
-
      /*  //第二种方法
         Thread thread2 = new Thread(new SecondThread());
         thread2.run();
