@@ -1,6 +1,6 @@
 package Jdkproxy;
 
-import StaticProxy.Car;
+
 import StaticProxy.Moveable;
 
 import java.lang.reflect.InvocationHandler;
@@ -14,15 +14,20 @@ import java.lang.reflect.Proxy;
 
 public class Test {
     public static void main(String[] args) {
-        Car car = new Car();
+        Bus bmw = new Bmw();
 
-        InvocationHandler in = new TimeHandle(car);
-        Class<?> cls = car.getClass();
+        InvocationHandler in = new TimeHandle(bmw);
+        Class<?> cls = bmw.getClass();
 
-        Moveable m = (Moveable) Proxy.newProxyInstance(cls.getClassLoader(),
+        Bus bus = (Bus) Proxy.newProxyInstance(cls.getClassLoader(),
                 cls.getInterfaces(), in);
 
-        m.move();
+        String result = bus.move("宝马跑起来了");
+
+        System.out.println(result);
+
+
+        System.out.println(bus.go("参数1","参数2"));
     }
 }
 

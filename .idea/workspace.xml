@@ -11,9 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc705d2-8497-4ef1-a865-e37840c223a6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/Signleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Bmw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Bus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Singleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/PatternApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/PatternApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/TimeHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/TimeHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Jdkproxy/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/Jdkproxy/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Jdkproxy/TimeHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/Jdkproxy/TimeHandle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Reflect/Finnalda.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thread/target/" />
     <ignored path="$PROJECT_DIR$/more-datasorce/target/" />
@@ -77,17 +84,7 @@
     <favorites_list name="springboot-master" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,8 +94,8 @@
         <option value="HTML File" />
         <option value="Jsp File" />
         <option value="JUnit4 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -108,14 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/resources/mapper/StudentDao.xml" />
-        <option value="$PROJECT_DIR$/redis/readme.md" />
-        <option value="$PROJECT_DIR$/redis/src/test/java/com/example/redis/dao/UserDaoTest.java" />
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/exception/src/main/java/com/example/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/exception/src/main/java/com/example/controller/ExceptionTestController.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dto/SeckillStatEnum.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dto/SeckillResult.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dto/Result.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dto/dto.java" />
@@ -159,6 +148,14 @@
         <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectReleaseImmutable.java" />
         <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java" />
         <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Singleton.java" />
+        <option value="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/PatternApplication.java" />
+        <option value="$PROJECT_DIR$/jpa/src/main/java/com/example/jpa/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/Signleton.java" />
+        <option value="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/Test.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/TimeHandle.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Bmw.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Bus.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Test.java" />
       </list>
     </option>
   </component>
@@ -197,7 +194,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="904" />
     <option name="width" value="470" />
     <option name="height" value="775" />
@@ -260,7 +257,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
@@ -313,88 +310,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReflectReleaseImmutable">
-    <configuration name="ReflectReleaseImmutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflect.ReflectReleaseImmutable" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Jdkproxy.Test" />
       <module name="proxy" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ReflectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflect.ReflectTest" />
-      <module name="proxy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Tets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Tets" />
-      <module name="dataStruct" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="Jdkproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="UserDaoTestController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ajax" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ajax.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.ajax.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ajax.dao.UserDaoTestController" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="UserDaoTestController.users" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ajax" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ajax.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.ajax.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ajax.dao.UserDaoTestController" />
-      <option name="METHOD_NAME" value="users" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -591,22 +520,14 @@
       </ConfigurationWrapper>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.spring5" />
       <item itemvalue="Spring Boot.ThreadTaskApplication" />
-      <item itemvalue="JUnit.UserDaoTestController.users" />
-      <item itemvalue="JUnit.UserDaoTestController" />
-      <item itemvalue="Application.Tets" />
-      <item itemvalue="Application.ReflectTest" />
-      <item itemvalue="Application.ReflectReleaseImmutable" />
       <item itemvalue="Spring Boot.PatternApplication" />
+      <item itemvalue="Tomcat Server.spring5" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReflectReleaseImmutable" />
-        <item itemvalue="Application.ReflectTest" />
-        <item itemvalue="Application.Tets" />
-        <item itemvalue="JUnit.UserDaoTestController" />
-        <item itemvalue="JUnit.UserDaoTestController.users" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -935,7 +856,10 @@
       <workItem from="1564049926251" duration="584000" />
       <workItem from="1564052591575" duration="614000" />
       <workItem from="1564055023617" duration="2406000" />
-      <workItem from="1564101568490" duration="812000" />
+      <workItem from="1564101568490" duration="3362000" />
+      <workItem from="1564105771222" duration="595000" />
+      <workItem from="1564107734987" duration="2000000" />
+      <workItem from="1564111156178" duration="3668000" />
     </task>
     <servers />
   </component>
@@ -972,7 +896,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="388337000" />
+    <option name="totallyTimeSpent" value="397150000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -984,8 +908,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3289256" />
@@ -1003,6 +926,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3272727" />
       <window_info id="DB Browser" order="2" weight="0.32980332" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3289256" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289256" />
@@ -1011,7 +935,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.31570247" />
       <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" weight="0.3289256" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.34871408" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.36459908" />
       <window_info anchor="right" id="Bean Validation" order="8" sideWeight="0.49917355" weight="0.32980332" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="6" />
@@ -1024,7 +948,6 @@
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3289256" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3289256" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
@@ -1033,16 +956,14 @@
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31570247" />
       <window_info anchor="bottom" id="Application Servers" order="16" weight="0.3289256" />
       <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3289256" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3289256" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31570247" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49917355" weight="0.24962178" />
       <window_info id="DB Browser" order="3" weight="0.32980332" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Favorites" order="6" sideWeight="0.5041322" side_tool="true" weight="0.27458397" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" weight="0.3289256" />
       <window_info id="Capture Tool" order="8" />
@@ -1050,6 +971,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50075644" side_tool="true" weight="0.32396695" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3289256" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3272727" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289256" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -1058,15 +980,16 @@
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.34341908" />
       <window_info anchor="right" id="Database" order="7" sideWeight="0.49917355" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3272727" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.5041322" side_tool="true" weight="0.27458397" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5008264" side_tool="true" weight="0.32980332" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="right" id="Bean Validation" order="8" sideWeight="0.49917355" weight="0.32980332" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1108,109 +1031,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.4.RELEASE/spring-security-web-5.1.4.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="51" column="78" lean-forward="true" selection-start-line="51" selection-start-column="78" selection-end-line="51" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE-sources.jar!/org/springframework/security/authentication/AuthenticationProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE-sources.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368">
-          <caret line="134" column="43" selection-start-line="134" selection-start-column="43" selection-end-line="134" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/filter/GenericFilterBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4185">
-          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="66" column="59" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mybatis.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="95" column="20" lean-forward="true" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStruct/src/JdkCollection/hashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="58" column="39" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/Session.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="180" column="7" lean-forward="true" selection-start-line="180" selection-start-column="7" selection-end-line="180" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/core/ApplicationHttpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="538" column="13" selection-start-line="538" selection-start-column="13" selection-end-line="538" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16-sources.jar!/javax/servlet/http/HttpServletRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="427" column="23" selection-start-line="427" selection-start-column="23" selection-end-line="427" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/session/ManagerBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="109" column="25" lean-forward="true" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/connector/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3017" column="32" lean-forward="true" selection-start-line="3017" selection-start-column="32" selection-end-line="3017" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/SessionIdGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1222,13 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="257" column="19" selection-start-line="257" selection-start-column="19" selection-end-line="257" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5576">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1363,13 +1176,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-631">
-          <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1419,17 +1225,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Singleton.java" />
     <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="245" column="24" selection-start-line="245" selection-start-column="24" selection-end-line="245" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/PatternApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa/src/main/java/com/example/jpa/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa/src/main/java/com/example/jpa/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/example/redis/service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-544">
+          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="559" column="8" selection-start-line="559" selection-start-column="8" selection-end-line="559" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/Signleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/StaticProxy/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/StaticProxy/Moveable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/StaticProxy/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Bus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Bmw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/TimeHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1488,7 +1416,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>SpringAop</last-edited>
+          <last-edited>ajax</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

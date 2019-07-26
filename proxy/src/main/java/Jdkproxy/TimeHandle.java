@@ -29,10 +29,10 @@ public class TimeHandle implements InvocationHandler {
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("汽车开始行驶");
         long startTime = System.currentTimeMillis();
-        method.invoke(target);
+        Object result = method.invoke(target,args);
         long endtime = System.currentTimeMillis();
         System.out.println("汽车结束行驶： " + (endtime - startTime) + "毫秒");
-
-        return null;
+        return result;
+      //  return "动态代理返回结果";
     }
 }
