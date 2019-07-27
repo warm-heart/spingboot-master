@@ -11,16 +11,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc705d2-8497-4ef1-a865-e37840c223a6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/Signleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Bmw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Bus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/PatternApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/PatternApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/TimeHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/TimeHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAop/src/main/java/org/example/aop/annotation/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAop/src/main/java/org/example/aop/annotation/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAop/src/main/java/org/example/aop/annotation/HelloImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAop/src/main/java/org/example/aop/annotation/HelloImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAop/src/main/java/org/example/aop/annotation/MyIntercetor.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAop/src/main/java/org/example/aop/annotation/MyIntercetor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAop/src/test/java/org/example/aop/annotation/HelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAop/src/test/java/org/example/aop/annotation/HelloTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectReleaseImmutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectReleaseImmutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/annotation/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/annotation/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Jdkproxy/Bmw.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/Jdkproxy/Bmw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Jdkproxy/Bus.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/Jdkproxy/Bus.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proxy/target/classes/Jdkproxy/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/Jdkproxy/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proxy/target/classes/Jdkproxy/TimeHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/Jdkproxy/TimeHandle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Reflect/Finnalda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Reflect/ConfigTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/Reflect/ConfigTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Reflect/ReflectReleaseImmutable.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/Reflect/ReflectReleaseImmutable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Reflect/ReflectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/Reflect/ReflectTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Reflect/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/Reflect/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Reflect/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/Reflect/Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/StaticProxy/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/StaticProxy/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/StaticProxy/CarTimeProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/StaticProxy/CarTimeProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/StaticProxy/Moveable.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/StaticProxy/Moveable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/StaticProxy/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/StaticProxy/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/annotation/Student2.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/annotation/Student2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/annotation/Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/annotation/Value.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/annotation/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/annotation/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/cglib/CglibProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/cglib/CglibProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/cglib/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/cglib/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/target/classes/cglib/Train.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/target/classes/cglib/Train.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thread/target/" />
     <ignored path="$PROJECT_DIR$/more-datasorce/target/" />
@@ -94,8 +111,8 @@
         <option value="HTML File" />
         <option value="Jsp File" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -105,14 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dto/SeckillResult.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dto/Result.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dto/dto.java" />
-        <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/TestException.java" />
-        <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/UserException.java" />
-        <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/SellResult.java" />
-        <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/ResultEnum.java" />
-        <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/SellException.java" />
         <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/ExceptionHandle.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/mybatis/src/test/java/com/example/mybatis/service/StudentServiceTest.java" />
@@ -145,17 +154,25 @@
         <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectTest.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/Student.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/Finnalda.java" />
-        <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectReleaseImmutable.java" />
         <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java" />
         <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Singleton.java" />
         <option value="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/PatternApplication.java" />
         <option value="$PROJECT_DIR$/jpa/src/main/java/com/example/jpa/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/Signleton.java" />
         <option value="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/Test.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/TimeHandle.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Bmw.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Bus.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Test.java" />
+        <option value="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/Signleton.java" />
+        <option value="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/Tets.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectReleaseImmutable.java" />
+        <option value="$PROJECT_DIR$/proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/annotation/Student2.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/annotation/test.java" />
+        <option value="$PROJECT_DIR$/SpringAop/src/main/java/org/example/aop/annotation/MyIntercetor.java" />
+        <option value="$PROJECT_DIR$/SpringAop/src/main/java/org/example/aop/annotation/Hello.java" />
+        <option value="$PROJECT_DIR$/SpringAop/src/main/java/org/example/aop/annotation/HelloImpl.java" />
+        <option value="$PROJECT_DIR$/SpringAop/src/test/java/org/example/aop/annotation/HelloTest.java" />
       </list>
     </option>
   </component>
@@ -194,7 +211,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="904" />
     <option name="width" value="470" />
     <option name="height" value="775" />
@@ -223,6 +240,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,7 +252,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,7 +327,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="JUnit.HelloTest.printHello">
+    <configuration name="ReflectReleaseImmutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflect.ReflectReleaseImmutable" />
+      <module name="proxy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Jdkproxy.Test" />
       <module name="proxy" />
@@ -324,6 +352,40 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.test" />
+      <module name="proxy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="HelloTest.printHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringAop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.aop.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.example.aop.annotation" />
+      <option name="MAIN_CLASS_NAME" value="org.example.aop.annotation.HelloTest" />
+      <option name="METHOD_NAME" value="printHello" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -524,9 +586,15 @@
       <item itemvalue="Spring Boot.PatternApplication" />
       <item itemvalue="Tomcat Server.spring5" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.ReflectReleaseImmutable" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="JUnit.HelloTest.printHello" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HelloTest.printHello" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.ReflectReleaseImmutable" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -860,6 +928,11 @@
       <workItem from="1564105771222" duration="595000" />
       <workItem from="1564107734987" duration="2000000" />
       <workItem from="1564111156178" duration="3668000" />
+      <workItem from="1564124978786" duration="4875000" />
+      <workItem from="1564132588356" duration="823000" />
+      <workItem from="1564138603825" duration="2127000" />
+      <workItem from="1564147283890" duration="159000" />
+      <workItem from="1564194144343" duration="971000" />
     </task>
     <servers />
   </component>
@@ -896,7 +969,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="397150000" />
+    <option name="totallyTimeSpent" value="406105000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -932,10 +1005,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289256" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="17" weight="0.3289256" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31570247" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31570247" />
       <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" weight="0.3289256" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.36459908" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.39485627" />
       <window_info anchor="right" id="Bean Validation" order="8" sideWeight="0.49917355" weight="0.32980332" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="6" />
@@ -1031,87 +1104,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/SessionIdGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="257" column="19" selection-start-line="257" selection-start-column="19" selection-end-line="257" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/Service/TransactionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/dao/master/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/datasource/DataSourceConfig2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="51" column="100" selection-start-line="51" selection-start-column="100" selection-end-line="51" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/datasource/DataSourceConfig1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/example/redis/RedisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/example/redis/DistributedServiceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/example/redis/RedisLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="868">
-          <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/config/test.java" />
-    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/config/Iocda.java" />
-    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/config/Sss.java" />
-    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/config/Ssss.java" />
     <entry file="file://$PROJECT_DIR$/ajax/src/test/java/com/example/ajax/dao/UserDaoTestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1162,13 +1154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194">
-          <caret line="166" column="5" lean-forward="true" selection-start-line="166" selection-start-column="5" selection-end-line="166" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataStruct/src/Array/Tets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1187,34 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="119" column="35" lean-forward="true" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/reflect/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="392" selection-start-line="392" selection-end-line="392" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectReleaseImmutable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -1244,10 +1201,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1286,29 +1239,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/Signleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/Test.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/StaticProxy/config.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/proxy/src/main/java/StaticProxy/Moveable.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1335,9 +1272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1345,12 +1279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1358,6 +1286,168 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/Tets.java" />
+    <entry file="file://$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/Signleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/reflect/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="383" column="18" selection-start-line="383" selection-start-column="18" selection-end-line="383" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectReleaseImmutable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="83" column="31" lean-forward="true" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/annotation/Value.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="143" column="41" selection-start-line="143" selection-start-column="41" selection-end-line="143" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="110" column="39" lean-forward="true" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="106" column="37" selection-start-line="106" selection-start-column="37" selection-end-line="106" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="64" column="56" lean-forward="true" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/annotation/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/annotation/Student2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAop/src/main/java/org/example/aop/annotation/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAop/src/main/java/org/example/aop/annotation/HelloImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="e#296#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAop/src/test/java/org/example/aop/annotation/HelloTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAop/src/main/java/org/example/aop/annotation/MyIntercetor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

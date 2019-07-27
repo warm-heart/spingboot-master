@@ -9,7 +9,7 @@ package org.example.aop.annotation;
 
 
 public interface Hello {
-    void printHello();
+    void printHello(String s);
 
     void doPrint();
 }

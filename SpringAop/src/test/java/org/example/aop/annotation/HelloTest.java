@@ -16,7 +16,7 @@ public class HelloTest {
 
     @Test
     public void printHello() {
-        hello.printHello();
+        hello.printHello("测试");
     }
 
     @Test

@@ -19,7 +19,7 @@ public class ReflectReleaseImmutable {
         char[] value = (char[])field.get(str);
         value[0] = '1';
         value[1] = '2';
-        value[2] = '3';
+       // value[2] = '3';
 
         System.out.println(str);
     }
