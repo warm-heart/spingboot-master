@@ -1,5 +1,6 @@
 package com.example.interceptor.Interceptor;
 
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
@@ -12,15 +13,15 @@ import javax.servlet.http.HttpServletResponse;
  * @create 2019-04-02 16:59
  */
 
-@Controller
+@Component
 public class FirstIntercetor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
 
         System.out.println("执行过滤器preHandle");
-        if (request.getParameter("name").equals("wang")){
+        /*if (request.getParameter("name").equals("wang")){
             response.sendRedirect(request.getContextPath()+"/test/user");
-        }
+        }*/
         return true;
     }
 

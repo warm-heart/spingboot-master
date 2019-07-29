@@ -22,6 +22,7 @@ public class testController {
         return "hello2";
     }
 
+
     @RequestMapping("/user")
     @ResponseBody
     public String user(){
