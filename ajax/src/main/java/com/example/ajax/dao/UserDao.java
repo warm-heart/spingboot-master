@@ -2,6 +2,7 @@ package com.example.ajax.dao;
 
 import com.example.ajax.entity.User;
 import org.apache.ibatis.annotations.Mapper;
+import org.springframework.stereotype.Repository;
 
 
 import java.util.List;
@@ -12,7 +13,10 @@ import java.util.List;
  */
 
 @Mapper
+@Repository
 public interface UserDao {
 
     List<User> users ();
+
+    Integer insert(User user);
 }

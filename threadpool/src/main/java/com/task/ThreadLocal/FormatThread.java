@@ -9,9 +9,9 @@ import java.text.ParseException;
  */
 
 public class FormatThread implements Runnable {
-    Format format;
+    SimpleFormatTest format;
 
-    public FormatThread(Format format) {
+    public FormatThread(SimpleFormatTest format) {
         this.format = format;
     }
 

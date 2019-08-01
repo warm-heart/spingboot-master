@@ -9,6 +9,13 @@
 
    </select>
 
+   <insert id="insert" parameterType="com.example.ajax.entity.User">
+
+
+       insert into user(userId, userName, password, CreateTime)
+       values (userId,userName,password,CreateTime)
+   </insert>
+
 
 
 </mapper>

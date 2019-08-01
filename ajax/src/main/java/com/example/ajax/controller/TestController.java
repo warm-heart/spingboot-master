@@ -1,7 +1,10 @@
 package com.example.ajax.controller;
 
+import com.example.ajax.dao.UserDao;
 import com.example.ajax.entity.User;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,6 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -17,6 +21,8 @@ import java.util.List;
  */
 @Controller
 public class TestController {
+    @Autowired
+    private UserDao userDao;
 
 
     //ajax 后端接受单参数
@@ -37,7 +43,7 @@ public class TestController {
         return name;
     }
 
-    //ajax 后端接受list数组参数
+    //  ajax 后端接受list数组参数
     //处理test3.html ajax请求
     @RequestMapping("/test3r")
     @ResponseBody
@@ -80,6 +86,19 @@ public class TestController {
         System.out.println("userName是:"+userName);*/
         System.out.println(request.getParameter("s"));
         return "login";
+    }
+
+
+
+
+    @RequestMapping(value = "/json1")
+    @ResponseBody
+    public User json1(@RequestBody User user) {
+        System.out.println(user);
+        userDao.insert(user);
+        User user1 = new User();
+        user1.setCreateTime(new Date());
+        return userDao.users().get(0);
     }
 
 }

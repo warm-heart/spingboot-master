@@ -11,7 +11,7 @@ import com.task.SafeThread.CountThread;
 public class ThreadLocalTest {
     public static void main(String[] args) throws InterruptedException {
 
-     /*   Format format = new Format();
+     /*   SimpleFormatTest format = new SimpleFormatTest();
         FormatThread formatThread = new FormatThread(format);
 
 

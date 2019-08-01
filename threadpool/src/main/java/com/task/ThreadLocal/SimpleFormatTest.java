@@ -12,10 +12,12 @@ import java.util.Date;
  * @create 2019-04-24 15:45
  */
 
-public class Format {
-
+public class SimpleFormatTest {
+//jdk8 线程安全
     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
+
+    //jdk8 之前simpleformat要用ThredLocal
     static ThreadLocal<DateFormat> threadLocal = new ThreadLocal<DateFormat>() {
         @Override
         protected DateFormat initialValue() {
@@ -23,31 +25,16 @@ public class Format {
         }
     };
 
-    private static final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
 
     public String FormatDate(Date date) {
         return threadLocal.get().format(date);
-        //return dateFormat.format(date);
+
     }
 
     public Date parse(String date) throws ParseException {
         return threadLocal.get().parse(date);
-        //return dateFormat.parse(date);
+
     }
 
-    /* public static void main(String[] args) {
-     *//*  ExecutorService service = Executors.newFixedThreadPool(100);
-        for (int i = 0; i <20 ; i++) {
-            service.execute(() ->{
-                for (int j = 0; j < 10; j++) {
-                    try {
-                        //System.out.println(Format.parse("2018-01-02 09:09:07"));
-                        System.out.println(Format.FormatDate(new Date()));
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                }
-            });
-
-        }*/
 }

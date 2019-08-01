@@ -1,9 +1,6 @@
 package com.task.SafeThread;
 
 
-import com.task.ThreadLocal.Format;
-import com.task.ThreadLocal.FormatThread;
-
 /**
  * @author wangqianlong
  * @create 2019-04-18 21:48
