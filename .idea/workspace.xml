@@ -11,29 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc705d2-8497-4ef1-a865-e37840c223a6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/exception/src/main/java/com/example/exception/ExceptionFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/SimpleFormatTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/490d8f0b-2c34-4d9d-9a34-3e5824c1d4c6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/490d8f0b-2c34-4d9d-9a34-3e5824c1d4c6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/InterruptThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/src/main/resources/mapper/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/resources/mapper/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/target/classes/com/example/ajax/config/Iocda.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/target/classes/com/example/ajax/config/Sss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/target/classes/com/example/ajax/config/Ssss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/target/classes/com/example/ajax/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/target/classes/com/example/ajax/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/target/classes/com/example/ajax/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/target/classes/com/example/ajax/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/target/classes/com/example/ajax/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/target/classes/com/example/ajax/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/target/classes/mapper/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/target/classes/mapper/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/target/test-classes/com/example/ajax/dao/UserDaoTestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/target/test-classes/com/example/ajax/dao/UserDaoTestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/SafeThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/SafeThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/Format.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/FormatThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/FormatThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/ThreadLocalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/ThreadLocalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thread/target/" />
     <ignored path="$PROJECT_DIR$/more-datasorce/target/" />
@@ -108,7 +88,26 @@
     <favorites_list name="springboot-master" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InterruptThread.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/InterruptThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -129,8 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/da.java" />
-        <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/s2.java" />
         <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/s1.java" />
         <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/test.java" />
         <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/config/s2.java" />
@@ -143,7 +140,6 @@
         <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectTest.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/Student.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/Finnalda.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java" />
         <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Singleton.java" />
         <option value="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/PatternApplication.java" />
         <option value="$PROJECT_DIR$/jpa/src/main/java/com/example/jpa/dao/UserDao.java" />
@@ -180,6 +176,9 @@
         <option value="$PROJECT_DIR$/ajax/src/main/resources/templates/test4.html" />
         <option value="$PROJECT_DIR$/exception/src/main/java/com/example/exception/Test.java" />
         <option value="$PROJECT_DIR$/exception/src/main/java/com/example/exception/ExceptionFunction.java" />
+        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Pool/ThreadPool.java" />
+        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java" />
+        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/InterruptThread.java" />
       </list>
     </option>
   </component>
@@ -218,7 +217,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="904" />
     <option name="width" value="470" />
     <option name="height" value="775" />
@@ -231,17 +230,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -258,7 +247,62 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="Thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,7 +378,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.task.Thread.Test" />
+      <module name="threadpool" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.task.Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.exception.Test" />
       <module name="exception" />
@@ -594,9 +649,11 @@
       <item itemvalue="Spring Boot.InterceptorApplication" />
       <item itemvalue="Spring Boot.AjaxApplication" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Spring Boot.AjaxApplication" />
         <item itemvalue="Spring Boot.InterceptorApplication" />
@@ -964,6 +1021,9 @@
       <workItem from="1564567946061" duration="99000" />
       <workItem from="1564620380995" duration="504000" />
       <workItem from="1564623367390" duration="643000" />
+      <workItem from="1564640994447" duration="569000" />
+      <workItem from="1564643411991" duration="318000" />
+      <workItem from="1564709661192" duration="4022000" />
     </task>
     <servers />
   </component>
@@ -1000,7 +1060,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="421629000" />
+    <option name="totallyTimeSpent" value="426538000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1012,7 +1072,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3289256" />
@@ -1036,10 +1097,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289256" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="17" weight="0.3289256" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31570247" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31570247" />
       <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" weight="0.3289256" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.32980332" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.25037822" />
       <window_info anchor="right" id="Bean Validation" order="8" sideWeight="0.49917355" weight="0.32980332" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="6" />
@@ -1050,7 +1111,7 @@
       <window_info anchor="bottom" id="Thumbnails" order="18" weight="0.3289256" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3289256" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3289256" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.49924356" visible="true" weight="0.3289256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -1135,34 +1196,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/Service/UrlService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/filter/SafeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/example/redis/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-581">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/example/redis/config/JeidsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1411">
@@ -1421,18 +1454,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/src/main/resources/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajax/src/main/resources/templates/test2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/src/main/resources/templates/test3.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/config/MvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1473,6 +1500,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="157" column="18" selection-start-line="157" selection-start-column="18" selection-end-line="157" selection-end-column="18" />
+          <folding>
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4085#4086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/ThreeThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Pool/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="e#2082#2083#0" expanded="true" />
+            <element signature="e#2122#2123#0" expanded="true" />
+            <element signature="e#2446#2447#0" expanded="true" />
+            <element signature="e#2481#2482#0" expanded="true" />
+            <element signature="e#2535#2536#0" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/FristThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/InterruptThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
         </state>
       </provider>
     </entry>
