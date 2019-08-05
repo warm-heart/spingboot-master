@@ -18,26 +18,26 @@
         <module name="mybatis" />
         <module name="myjwt" />
         <module name="netty" />
-        <module name="pattern" />
-        <module name="proxy" />
         <module name="redis" />
         <module name="rocketmq" />
         <module name="session" />
         <module name="spring5" />
         <module name="SpringAop" />
         <module name="swagger" />
-        <module name="threadpool" />
         <module name="timetask" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dataStruct" target="1.8" />
       <module name="demo" target="1.8" />
+      <module name="pattern" target="1.8" />
+      <module name="proxy" target="8" />
       <module name="schema" target="1.8" />
       <module name="security" target="1.8" />
       <module name="shiro" target="1.8" />
       <module name="struct" target="1.7" />
       <module name="thread" target="8" />
+      <module name="threadpool" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

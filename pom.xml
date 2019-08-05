@@ -9,9 +9,8 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>proxy</module>
+
         <module>netty</module>
-        <module>threadpool</module>
         <module>SpringAop</module>
         <module>more-datasorce</module>
         <module>redis</module>
