@@ -7,115 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc705d2-8497-4ef1-a865-e37840c223a6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/dataStruct.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/Array/Array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/Array/ArrayTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/Array/Set.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/Array/Student1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/Array/Tets.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/JdkCollection/hashMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/JdkCollection/list.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/Linked/LinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/Linked/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/StackAndQueue/ArrayQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/StackAndQueue/ArrayStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/StackAndQueue/Queue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/StackAndQueue/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/StackAndQueue/Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/map/Hashmap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/map/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStruct/src/map/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/PatternApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/DoubleCheckSignleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/LazySingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/StaticSingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/src/test/java/com/design/pattern/PatternApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Bmw.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Bus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/TimeHandle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Reflect/ConfigTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectReleaseImmutable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Reflect/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Reflect/Worker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/Reflect/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/StaticProxy/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/StaticProxy/CarTimeProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/StaticProxy/Moveable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/StaticProxy/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/StaticProxy/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/annotation/Student2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/annotation/Value.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/annotation/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/cglib/CglibProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/cglib/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/cglib/Train.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Jdkproxy/Bmw.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Jdkproxy/Bus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Jdkproxy/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Jdkproxy/TimeHandle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Reflect/ConfigTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Reflect/ReflectReleaseImmutable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Reflect/ReflectTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Reflect/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Reflect/Worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/Reflect/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/StaticProxy/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/StaticProxy/CarTimeProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/StaticProxy/Moveable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/StaticProxy/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/StaticProxy/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/annotation/Student2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/annotation/Value.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/annotation/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/cglib/CglibProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/cglib/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/target/classes/cglib/Train.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Pool/ThreadPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/AThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/BThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/CountThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/SafeThreadTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/priorityThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/SafeThread/priorityThread1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/SpringConfig/Hello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/SpringConfig/ThreadPoolConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/FristThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/InterruptThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/SecondThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/ThreeThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/FormatThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/SimpleFormatTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/ThreadLocalTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadLocal/threadLocal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/ThreadTaskApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/runable/FristRunable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/java/com/task/runable/RunableTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadpool/src/test/java/com/task/threadpool/ThreadpoolApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thread/target/" />
     <ignored path="$PROJECT_DIR$/more-datasorce/target/" />
@@ -190,17 +82,7 @@
     <favorites_list name="springboot-master" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -221,7 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ajax/src/test/java/com/example/ajax/dao/UserDaoTestController.java" />
         <option value="$PROJECT_DIR$/exception/src/main/java/com/example/handle/ExceptionHandle.java" />
         <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/D.java" />
         <option value="$PROJECT_DIR$/dataStruct/src/Array/Tets.java" />
@@ -272,6 +153,7 @@
         <option value="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/StaticSingleton.java" />
         <option value="$PROJECT_DIR$/ajax/src/main/resources/templates/test4.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -322,19 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -351,6 +220,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1031,6 +913,7 @@
       <workItem from="1564987483849" duration="389000" />
       <workItem from="1564987922429" duration="513000" />
       <workItem from="1564988440545" duration="16000" />
+      <workItem from="1564988567365" duration="177000" />
     </task>
     <servers />
   </component>
@@ -1067,7 +950,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="432435000" />
+    <option name="totallyTimeSpent" value="432612000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1080,7 +963,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3289256" />
@@ -1106,7 +988,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.31570247" />
       <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" weight="0.3289256" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.2912254" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.295764" />
       <window_info anchor="right" id="Bean Validation" order="8" sideWeight="0.49917355" weight="0.32980332" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="6" />
@@ -1203,13 +1085,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ajax/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajax/src/main/resources/mapper/UserDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1487,6 +1362,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="527">
+            <caret line="31" selection-start-line="31" selection-end-line="31" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
