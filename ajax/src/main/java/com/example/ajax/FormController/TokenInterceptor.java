@@ -40,10 +40,13 @@ public class TokenInterceptor implements HandlerInterceptor {
                 if (formToken.equals(sessionToken)) {
                     session.removeAttribute("token");
                 } else {
+                    //传递过来的Token与服务端的Token不相同 表示重复提交了
                     //跳转到指定的路径
                     String invoke = request.getParameter("token.invoke");
+                    //重定向路径可以不用前端填写  重定向至首页
                     response.sendRedirect(request.getContextPath() + invoke);
                     return false;
+
                 }
             }
 
