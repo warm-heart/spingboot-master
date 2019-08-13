@@ -20,7 +20,8 @@ public class UploadController {
 
     @ResponseBody
     @PostMapping("/postUpload")
-    public String upload(@RequestParam("file") MultipartFile file) {
+    public String upload(@RequestParam("file") MultipartFile file, User user) {
+        System.out.println("表单中的名字是："+user);
         //获取上传文件名
         String fileName = file.getOriginalFilename();
 
