@@ -43,8 +43,9 @@ public class RedisLock {
         //如果锁过期
         if (!StringUtils.isEmpty(currentValue)
                 && Long.parseLong(currentValue) < System.currentTimeMillis()) {
-            //获取上一个锁的时间
+            //多线程情况下有可能会修改别人key的值
             String oldValue = stringRedisTemplate.opsForValue().getAndSet(key, value);
+            //再次判断别的线程有没有修改
             if (!StringUtils.isEmpty(oldValue) && oldValue.equals(currentValue)) {
                 return true;
             }

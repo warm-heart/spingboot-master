@@ -6,8 +6,12 @@ redis  springboot2.0版本配置
 redis哨兵模式
 https://yq.aliyun.com/articles/665044
 
+
 redis分布式锁 lua脚本
 
 https://www.jianshu.com/p/1145cd7e0cf1
 
 数据库连接池druid的配置
+
+redis分布式锁参考
+https://www.cnblogs.com/linjiqin/p/8003838.html

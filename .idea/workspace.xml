@@ -7,8 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc705d2-8497-4ef1-a865-e37840c223a6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/JedisPoolFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/RedisLock1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/FormController/TokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/FormController/TokenInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/redis/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/RedisLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/RedisLock.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/thread/target/" />
     <ignored path="$PROJECT_DIR$/more-datasorce/target/" />
@@ -104,14 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/Student.java" />
-        <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/Finnalda.java" />
-        <option value="$PROJECT_DIR$/threadpool/src/main/java/com/task/Thread/Singleton.java" />
-        <option value="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/PatternApplication.java" />
-        <option value="$PROJECT_DIR$/jpa/src/main/java/com/example/jpa/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/pattern/src/main/java/com/design/pattern/Singleton/Test.java" />
-        <option value="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/TimeHandle.java" />
-        <option value="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Bmw.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Bus.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/Jdkproxy/Test.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/Reflect/ReflectReleaseImmutable.java" />
@@ -149,12 +144,20 @@
         <option value="$PROJECT_DIR$/ajax/src/main/resources/templates/test4.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/fileload/src/main/resources/templates/upload.html" />
         <option value="$PROJECT_DIR$/fileload/src/main/java/com/example/fileload/controller/User.java" />
         <option value="$PROJECT_DIR$/fileload/src/main/java/com/example/fileload/controller/UploadController.java" />
         <option value="$PROJECT_DIR$/ajax/pom.xml" />
         <option value="$PROJECT_DIR$/fileload/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/FormController/TokenInterceptor.java" />
+        <option value="$PROJECT_DIR$/fileload/src/main/resources/templates/upload.html" />
+        <option value="$PROJECT_DIR$/redis/src/main/java/com/example/redis/RedisLock.java" />
+        <option value="$PROJECT_DIR$/redis/readme.md" />
+        <option value="$PROJECT_DIR$/redis/src/main/java/com/example/redis/service/RedisLock1.java" />
+        <option value="$PROJECT_DIR$/redis/src/main/java/com/example/redis/Jedis.java" />
+        <option value="$PROJECT_DIR$/redis/src/main/java/com/example/redis/JedisPool.java" />
+        <option value="$PROJECT_DIR$/redis/src/main/java/com/example/redis/JedisPoolConfig.java" />
+        <option value="$PROJECT_DIR$/redis/src/main/java/com/example/redis/JedisPoolFactory.java" />
+        <option value="$PROJECT_DIR$/redis/src/main/java/com/example/redis/RedisLock1.java" />
       </list>
     </option>
   </component>
@@ -205,6 +208,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,7 +220,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -233,7 +236,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,6 +295,9 @@
       <recent name="E:\springboot-master\mybatis\src\main\java\com\example\mybatis\MybatisCache" />
       <recent name="E:\springboot-master\spring5\src\main\resource" />
       <recent name="E:\springboot-master\session" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.redis" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="config" />
@@ -945,6 +951,12 @@
       <workItem from="1565656892797" duration="524000" />
       <workItem from="1565659030220" duration="626000" />
       <workItem from="1565664800558" duration="44000" />
+      <workItem from="1565695891979" duration="534000" />
+      <workItem from="1565767354087" duration="59000" />
+      <workItem from="1565774559347" duration="23000" />
+      <workItem from="1565788657771" duration="57000" />
+      <workItem from="1565789691008" duration="620000" />
+      <workItem from="1565828860878" duration="1637000" />
     </task>
     <servers />
   </component>
@@ -981,7 +993,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="442917000" />
+    <option name="totallyTimeSpent" value="445847000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1019,7 +1031,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.31570247" />
       <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" weight="0.3289256" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.22012103" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49586776" visible="true" weight="0.24054463" />
       <window_info anchor="right" id="Bean Validation" order="8" sideWeight="0.49917355" weight="0.32980332" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="6" />
@@ -1031,9 +1043,9 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3289256" />
       <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.49924356" visible="true" weight="0.3289256" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3289256" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Thumbnails" order="18" weight="0.3289256" />
@@ -1116,83 +1128,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/src/main/resources/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" selection-start-line="15" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/datasource/DataSourceConfig1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/more-datasorce/src/main/java/com/example/moredatasorce/datasource/DataSourceConfig2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/annotation/FilterType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/annotation/FilterType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="184" column="77" selection-start-line="184" selection-start-column="77" selection-end-line="184" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="543" column="17" selection-start-line="543" selection-start-column="17" selection-end-line="543" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1225,13 +1160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/src/main/resources/templates/test4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1438,9 +1366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1448,13 +1373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fileload/src/main/resources/templates/upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1476,6 +1394,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="49" column="44" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileload/src/main/resources/templates/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interceptor/src/main/java/com/example/interceptor/controller/CorfController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/example/ajax/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/src/main/resources/templates/test4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/example/redis/DistributedServiceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/example/redis/RedisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.8.RELEASE/spring-data-redis-2.0.8.RELEASE.jar!/org/springframework/data/redis/core/ValueOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/example/redis/JedisPoolFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/example/redis/RedisLock1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/example/redis/RedisLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="895">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1534,7 +1548,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ajax</last-edited>
+          <last-edited>fileload</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
