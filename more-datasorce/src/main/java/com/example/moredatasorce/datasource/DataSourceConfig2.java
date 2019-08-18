@@ -43,6 +43,9 @@ public class DataSourceConfig2 {
         return dataSource;
     }
 
+
+    //使用的时候要指定名称@Transactional(value = "slaveTransactionManager")
+
     @Bean(name = "slaveTransactionManager")
     public DataSourceTransactionManager slaveTransactionManager() {
         return new DataSourceTransactionManager(slaveDataSource());
@@ -54,7 +57,6 @@ public class DataSourceConfig2 {
         sessionFactory.setDataSource(slaveDataSource);
         sessionFactory.setMapperLocations(new PathMatchingResourcePatternResolver()
                 .getResources(DataSourceConfig2.MAPPER_LOCATION));
-
         return sessionFactory.getObject();
     }
 }
