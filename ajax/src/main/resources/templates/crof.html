@@ -9,24 +9,49 @@
 
 <h1 style="background-color: blanchedalmond">跨域请求</h1>
 <form>
-姓名<input type="text" id="userName"><br>
-年龄<input type="text" id="userAge"><br>
+    姓名<input type="text" id="userName"><br>
+    年龄<input type="text" id="userAge"><br>
     <input type="button" id="da">
 </form>
 
+
+<p id="sa"></p>
+<button id="btn">请求session</button>
+
 <!--传递多个参数-->
 <script>
-    $("#da").click(function(){
-        var name=$("#userName").val();
+    $("#da").click(function () {
+        var name = $("#userName").val();
         var age = $("#userAge").val();
-        var args={userName:name,userAge:age}
+        var args = {userName: name, userAge: age}
         $.ajax({
-            url:"http://localhost:8081/crof",
-            cache:false,
-            data:args,
-            type:"get",
-            success:function(result){
+            url: "http://localhost:8080/set",
+            cache: false,
+            data: args,
+            type: "get",
+            xhrFields: {
+                withCredentials: true
+            },
+            crossDomain: true,
+            success: function (result) {
                 alert(result);
+            }
+        });
+    });
+
+
+    $("#btn").click(function () {
+        $.ajax({
+            url: "http://localhost:8080/get",
+            cache: false,
+            type: "get",
+            xhrFields: {
+                withCredentials: true
+            },
+            crossDomain: true,
+            success: function (result) {
+                alert(result);
+                document.getElementById("sa").innerText = result;
             }
         });
     });
