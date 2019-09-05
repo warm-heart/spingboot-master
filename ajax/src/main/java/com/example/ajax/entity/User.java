@@ -1,7 +1,5 @@
 package com.example.ajax.entity;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-
 import java.util.Date;
 
 /**
@@ -14,10 +12,8 @@ public class User {
     private String password;
     private String userName;
 
-
-    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
-    private Date CreateTime;
-
+   // @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
+    private Date createTime;
 
     public String getUserId() {
         return userId;
@@ -25,6 +21,14 @@ public class User {
 
     public void setUserId(String userId) {
         this.userId = userId;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getUserName() {
@@ -36,33 +40,20 @@ public class User {
     }
 
     public Date getCreateTime() {
-        return CreateTime;
+        return createTime;
     }
 
     public void setCreateTime(Date createTime) {
-        CreateTime = createTime;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
+        this.createTime = createTime;
     }
 
     @Override
     public String toString() {
         return "User{" +
                 "userId='" + userId + '\'' +
+                ", password='" + password + '\'' +
                 ", userName='" + userName + '\'' +
-                ", CreateTime=" + CreateTime +
+                ", createTime=" + createTime +
                 '}';
     }
-
-    public void da(){
-        System.out.println("初始化");
-    }
-
-
 }

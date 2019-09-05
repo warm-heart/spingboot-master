@@ -36,7 +36,7 @@ public class TestController {
     //处理test2.html ajax请求
     @RequestMapping("/test2r")
     @ResponseBody
-    public String test2r(String userAge, String userName,HttpServletRequest request) {
+    public String test2r(String userAge, String userName, HttpServletRequest request) {
         System.out.println("userId是:" + userAge);
         System.out.println(request.getParameter("userName"));
         String name = "后端接到请求ajax回调结果是" + userName;
@@ -47,7 +47,7 @@ public class TestController {
     //处理test3.html ajax请求
     @RequestMapping("/test3r")
     @ResponseBody
-    public String test3r(@RequestBody List<Object> list,HttpServletRequest request) {
+    public String test3r(@RequestBody List<Object> list, HttpServletRequest request) {
         System.out.println(list);
         String name = "ajax回调结果";
         return name;
@@ -89,8 +89,6 @@ public class TestController {
     }
 
 
-
-
     @RequestMapping(value = "/json1")
     @ResponseBody
     public User json1(@RequestBody User user) {
@@ -100,5 +98,16 @@ public class TestController {
         user1.setCreateTime(new Date());
         return userDao.users().get(0);
     }
+
+
+    @RequestMapping(value = "/api")
+    @ResponseBody
+    public ApiResponse<User> api(@RequestBody User user) {
+
+        System.out.println(user);
+
+        return ApiResponse.success(user);
+    }
+
 
 }

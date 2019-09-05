@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+</head>
+<body>
+<form>
+    姓名： <input type="text" id="userName"><br>
+    年龄：<input type="text" id="userId"><br>
+    日期：<input type="date" id="data"><br>
+    <input type="button" id="da">
+</form>
+
+
+
+<script>
+    $("#da").click(function () {
+
+        var name = $("#userName").val();
+        var userId = $("#userId").val();
+        var data=$("#data").val();
+        var arg = {userName: name, userId: userId,createTime:"2019-10-12 12:09:09"};
+        $.ajax({
+            url: "/api",
+            cache: false,
+            contentType: 'application/json; charset=utf-8',
+            data: JSON.stringify(arg),
+            type: "post",
+            success: function (result) {
+                alert(result.code);
+
+                alert(result.data.userName)
+                alert(result.data.createTime)
+            }
+        });
+    });
+</script>
+
+
+</body>
+</html>
