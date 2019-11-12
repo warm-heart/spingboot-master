@@ -6,9 +6,7 @@ import com.example.ajax.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
@@ -109,5 +107,13 @@ public class TestController {
         return ApiResponse.success(user);
     }
 
+    @CrossOrigin
+    @PostMapping(value = "/vue", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @ResponseBody()
+    public ApiResponse<List<User>> vue(@RequestBody User user) {
+        System.out.println(user);
+        List<User> users = userDao.users();
+        return ApiResponse.success(users);
+    }
 
 }
