@@ -8,7 +8,9 @@ import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -107,13 +109,26 @@ public class TestController {
         return ApiResponse.success(user);
     }
 
-    @CrossOrigin
+    // @CrossOrigin
     @PostMapping(value = "/vue", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     @ResponseBody()
-    public ApiResponse<List<User>> vue(@RequestBody User user) {
-        System.out.println(user);
+    public ApiResponse<List<User>> vue(@RequestBody User user, HttpServletRequest request, HttpServletResponse response) {
+
+        Cookie cookie1 = new Cookie("da", "da");
+        response.addCookie(cookie1);
+        Cookie[] cookies = request.getCookies();
+        if (cookies != null && cookies.length > 0) {
+            for (Cookie cookie : cookies) {
+                System.out.println(cookie.getName() + " " + cookie.getValue());
+            }
+        }
+      /*  System.out.println(user);
+        System.out.println(request.getHeader("token"));
+        System.out.println(request.getHeader("Content-Type"));
+        System.out.println(request.getHeader("Authorization"));*/
         List<User> users = userDao.users();
-        return ApiResponse.success(users);
+        throw new RuntimeException("未授权");
+        //return ApiResponse.success(users);
     }
 
 }

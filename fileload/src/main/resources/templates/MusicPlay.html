@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>音乐播放</title>
+</head>
+<body>
+
+
+<div style="background-color: red">
+
+    播放音乐
+</div>
+<br>
+
+<div>
+    <audio controls>
+        <!--同域这样写-->
+        <source src="music/冬眠 - 司南.mp3" type="audio/ogg">
+
+    </audio>
+
+    <audio controls>
+
+        <!--其他域-->
+        <source src="http://localhost:8080/music/冬眠 - 司南.mp3" type="audio/ogg">
+    </audio>
+</div>
+
+
+
+
+</body>
+
+
+<style>
+    body {
+        -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+        filter: grayscale(100%);
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+</style>
+
+
+
+</html>
+

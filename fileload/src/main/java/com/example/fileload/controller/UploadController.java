@@ -68,54 +68,54 @@ public class UploadController {
         return "success";
     }
 
-    @PostMapping("postUploadMore")
-    @ResponseBody
-    public String uploadMore(@RequestParam("file") MultipartFile[] files) {
-        //文件上传位置
-        String path = "E:/uploadFile";
-        for (int i = 0; i < files.length; i++) {
-            //1.判断文件是否为空
-            if (files[i].isEmpty()) {
-                return "第" + (i + 1) + "个文件为空";
-            }
-            //2.判断文件后缀名是否符合要求
-            //获取上传文件名
-            String fileName = files[i].getOriginalFilename();
-            //防止出现不同浏览器上传出现目标卷错误
-            fileName = fileName.substring(fileName.lastIndexOf("\\")+1);
-            String fileNameSuffix = fileName.substring(fileName.lastIndexOf(".") + 1);
-            String Suffix = "csv/txt/zip/pdf/doc";
-//        if (!Suffix.contains(fileNameSuffix)){
-            if (Suffix.indexOf(fileNameSuffix) < 0) {
-                return "第" + (i + 1) + "文件类型不正确";
-            }
-            //3.判断文件大小是否符合要求
-            int size = (int) files[i].getSize();//获取上传文件大小,返回字节长度1M=1024k=1048576字节 - 文件过大进入controller之前抛出异常 - 前端判断文件大小
+        @PostMapping("postUploadMore")
+        @ResponseBody
+        public String uploadMore(@RequestParam("file") MultipartFile[] files) {
+            //文件上传位置
+            String path = "E:/uploadFile";
+            for (int i = 0; i < files.length; i++) {
+                //1.判断文件是否为空
+                if (files[i].isEmpty()) {
+                    return "第" + (i + 1) + "个文件为空";
+                }
+                //2.判断文件后缀名是否符合要求
+                //获取上传文件名
+                String fileName = files[i].getOriginalFilename();
+                //防止出现不同浏览器上传出现目标卷错误
+                fileName = fileName.substring(fileName.lastIndexOf("\\")+1);
+                String fileNameSuffix = fileName.substring(fileName.lastIndexOf(".") + 1);
+                String Suffix = "csv/txt/zip/pdf/doc";
+    //        if (!Suffix.contains(fileNameSuffix)){
+                if (Suffix.indexOf(fileNameSuffix) < 0) {
+                    return "第" + (i + 1) + "文件类型不正确";
+                }
+                //3.判断文件大小是否符合要求
+                int size = (int) files[i].getSize();//获取上传文件大小,返回字节长度1M=1024k=1048576字节 - 文件过大进入controller之前抛出异常 - 前端判断文件大小
 
-            System.out.println("size:" + size);
-            if (size > 1024 * 1024) {
-                return "第" + (i + 1) + "上传文件过大，请上传小于1MB大小的文件";
+                System.out.println("size:" + size);
+                if (size > 1024 * 1024) {
+                    return "第" + (i + 1) + "上传文件过大，请上传小于1MB大小的文件";
+                }
+                //4.将文件重命名，避免文件名相同覆盖文件
+                String fileNamePrefix = fileName.substring(0, fileName.lastIndexOf("."));
+                fileName = fileNamePrefix + "-" + System.currentTimeMillis() + "." + fileName;//获取上传文件名
+                System.out.println("文件夹名称是"+fileName);
+                // TODO:文件名存放数据库
+                //5.判断文件夹是否存在
+                File targetFile = new File(path + "/" + fileName);
+                if (!targetFile.getParentFile().exists()) {
+                    //不存在创建文件夹
+                    targetFile.getParentFile().mkdirs();
+                }
+                try {
+                    //6.将上传文件写到服务器上指定的文件
+                    files[i].transferTo(targetFile);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
-            //4.将文件重命名，避免文件名相同覆盖文件
-            String fileNamePrefix = fileName.substring(0, fileName.lastIndexOf("."));
-            fileName = fileNamePrefix + "-" + System.currentTimeMillis() + "." + fileName;//获取上传文件名
-            System.out.println("文件夹名称是"+fileName);
-            // TODO:文件名存放数据库
-            //5.判断文件夹是否存在
-            File targetFile = new File(path + "/" + fileName);
-            if (!targetFile.getParentFile().exists()) {
-                //不存在创建文件夹
-                targetFile.getParentFile().mkdirs();
-            }
-            try {
-                //6.将上传文件写到服务器上指定的文件
-                files[i].transferTo(targetFile);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            return "success";
         }
-        return "success";
-    }
 
 
     @RequestMapping(value = "/download", method = RequestMethod.GET)
