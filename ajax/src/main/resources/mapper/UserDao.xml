@@ -9,12 +9,19 @@
 
    </select>
 
+    <select id="getUserByUserId" resultType="com.example.ajax.entity.User">
+       select * from user where userId=#{userId}
+
+   </select>
+
    <insert id="insert" parameterType="com.example.ajax.entity.User">
-
-
        insert into user(userId, userName, password, CreateTime)
        values (userId,userName,password,CreateTime)
    </insert>
+
+    <update id="update" parameterType="com.example.ajax.entity.User">
+        update user set userName=#{userName},password=#{password} where userId=#{userId}
+    </update>
 
 
 

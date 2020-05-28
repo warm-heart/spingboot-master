@@ -19,4 +19,8 @@ public interface UserDao {
     List<User> users ();
 
     Integer insert(User user);
+
+    Integer update(User user);
+
+    User getUserByUserId(String userId);
 }

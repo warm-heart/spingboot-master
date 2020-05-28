@@ -9,8 +9,15 @@ import org.springframework.stereotype.Service;
 @Service
 public class HelloImpl implements Hello {
     @Override
-    public void printHello(String s) {
-        System.out.println("注解式AOP printHello方法:   "+s);
+    public String printHello(String s) {
+        System.out.println("业务方法执行");
+
+   /*     try {
+            throw new RuntimeException();
+        } catch (Exception e) {
+            System.out.println("catch 起来");
+        }*/
+        return s;
     }
 
     @Override
