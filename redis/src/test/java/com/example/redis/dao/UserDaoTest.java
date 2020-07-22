@@ -8,11 +8,9 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.connection.RedisConnection;
 import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.script.RedisScript;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 
@@ -110,7 +108,7 @@ public class UserDaoTest extends RedisApplicationTests {
         List<String> keys = Arrays.asList("hello");
         RedisScript script = RedisScript
                .of(" return redis") ;
-        Object o = stringRedisTemplate.execute(script, keys, "world");
+        Object o = redisTemplate.execute(script, keys, "world");
         System.out.println(o);
     }
 }

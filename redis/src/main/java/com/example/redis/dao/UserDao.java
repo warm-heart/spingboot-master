@@ -4,12 +4,14 @@ package com.example.redis.dao;
 import com.example.redis.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 /**
  * @author wangqianlong
  * @create 2018-07-29 17:00
  */
 @Mapper
+@Repository
 public interface UserDao {
 
 

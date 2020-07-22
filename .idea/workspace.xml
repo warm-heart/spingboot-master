@@ -6,19 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbc705d2-8497-4ef1-a865-e37840c223a6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/springboot-master.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bbc705d2-8497-4ef1-a865-e37840c223a6" name="Default" comment="# redis配置更新，放弃过时的用法">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fileload/fileload.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interceptor/interceptor.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/config/JeidsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis/src/test/java/com/example/redis/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/test/java/com/example/redis/dao/UserDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5/spring5.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,11 +146,11 @@
       <recent name="E:\springboot-master\ajax\src\main\java\com\example\ajax\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.redis.config" />
       <recent name="com.example.ajax.config" />
       <recent name="com.example.ajax.controller" />
       <recent name="com.example.ajax.FormController" />
       <recent name="com.example.dynamicdatasource.dao" />
-      <recent name="com.example.dynamicdatasource.entity" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="config" />
@@ -861,8 +854,17 @@
       <workItem from="1591454436157" duration="6000" />
       <workItem from="1594041457446" duration="30000" />
       <workItem from="1594044413154" duration="462000" />
-      <workItem from="1595424490190" duration="331000" />
+      <workItem from="1595424490190" duration="683000" />
+      <workItem from="1595425311845" duration="615000" />
     </task>
+    <task id="LOCAL-00001" summary="#更新readme">
+      <created>1595424952360</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595424952360</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -909,23 +911,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="#更新readme" />
+    <MESSAGE value="# redis配置更新，放弃过时的用法" />
+    <option name="LAST_COMMIT_MESSAGE" value="# redis配置更新，放弃过时的用法" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="137" y="18" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590672187189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1590672187189" />
-    <state x="186" y="38" width="1027" height="616" key="CommitChangelistDialog2" timestamp="1590672264993">
+    <state x="186" y="38" width="1027" height="616" key="CommitChangelistDialog2" timestamp="1595425767788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="38" width="1027" height="616" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590672264993" />
+    <state x="186" y="38" width="1027" height="616" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595425767788" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1590672157410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590672157410" />
-    <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590672215138">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595425019169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1590672215138" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595425019169" />
+    <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595425755754">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1595425755754" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
