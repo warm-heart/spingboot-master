@@ -102,4 +102,15 @@ public class UserDaoTest extends RedisApplicationTests {
     public void findUserByName() {
         System.out.println(userDao.findUserByName("1"));
     }
+
+    @Test
+    public void redisLua() {
+//        RedisScript script = RedisScript
+//                .of(new ClassPathResource("redis.lua")) ;
+        List<String> keys = Arrays.asList("hello");
+        RedisScript script = RedisScript
+               .of(" return redis") ;
+        Object o = stringRedisTemplate.execute(script, keys, "world");
+        System.out.println(o);
+    }
 }
