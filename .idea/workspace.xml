@@ -5,13 +5,124 @@
       <artifact name="spring5:war" />
     </artifacts-to-build>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:SpringAop" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ajax" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:mybatis" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:spring5" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc705d2-8497-4ef1-a865-e37840c223a6" name="Default" comment="# redis配置更新，放弃过时的用法">
+      <change afterPath="$PROJECT_DIR$/service-spring-boot-starter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-spring-boot-starter/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-spring-boot-starter/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-spring-boot-starter/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-spring-boot-starter/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-spring-boot-starter/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-spring-boot-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-spring-boot-starter/src/main/java/com/warm/heart/redis/autoconfigure/RedisServiceAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-spring-boot-starter/src/main/java/com/warm/heart/redis/config/RedisConfigProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-spring-boot-starter/src/main/java/com/warm/heart/redis/service/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-spring-boot-starter/src/main/resources/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-source-code/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-source-code/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-source-code/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-source-code/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-source-code/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-source-code/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-source-code/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-source-code/src/main/java/com/extension/springsourcecode/Bean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-source-code/src/main/java/com/extension/springsourcecode/CustomerBeanFactoryPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-source-code/src/main/java/com/extension/springsourcecode/CustomerBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-source-code/src/main/java/com/extension/springsourcecode/SpringSourceCodeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-source-code/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-source-code/src/test/java/com/extension/springsourcecode/SpringSourceCodeApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/config/JeidsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/config/RedisCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/config/RedisCluster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/test/java/com/example/redis/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/test/java/com/example/redis/dao/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/test/java/com/example/redis/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/test/java/com/example/redis/dao/RedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wqlspringbootstarter/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wqlspringbootstarter/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wqlspringbootstarter/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wqlspringbootstarter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wqlspringbootstarter/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wqlspringbootstarter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wqlspringbootstarter/src/main/java/com/study/service/HelloService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wqlspringbootstarter/src/main/java/com/study/service/HelloServiceAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wqlspringbootstarter/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wqlspringbootstarter/target/classes/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wqlspringbootstarter/target/classes/com/study/service/HelloService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wqlspringbootstarter/target/classes/com/study/service/HelloServiceAutoConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wqlspringbootstarter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wqlspringbootstarter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wqlspringbootstarter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wqlspringbootstarter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wqlspringbootstarter/target/wql-spring-boot-starter-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wqlspringbootstarter/wqlspringbootstarter.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,12 +194,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1cXPnBd6uf4FcqhmpYluO8LjKQu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -115,7 +229,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -146,19 +260,36 @@
       <recent name="E:\springboot-master\ajax\src\main\java\com\example\ajax\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.extension.springsourcecode" />
       <recent name="com.example.redis.config" />
       <recent name="com.example.ajax.config" />
       <recent name="com.example.ajax.controller" />
       <recent name="com.example.ajax.FormController" />
-      <recent name="com.example.dynamicdatasource.dao" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="config" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.JpaApplication">
+  <component name="RunManager" selected="Spring Boot.SpringSourceCodeApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest.setIfAbsent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.redis.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.redis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.example.redis.dao.RedisTest" />
+      <option name="METHOD_NAME" value="setIfAbsent" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -274,6 +405,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringSourceCodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-source-code" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.extension.springsourcecode.SpringSourceCodeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="swagger" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.swagger.SwaggerApplication" />
@@ -369,6 +507,30 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.RedisTest.setIfAbsent" />
+      <item itemvalue="Spring Boot.AjaxApplication" />
+      <item itemvalue="Spring Boot.DynamicdatasourceApplication" />
+      <item itemvalue="Spring Boot.ExceptionApplication" />
+      <item itemvalue="Spring Boot.FileloadApplication" />
+      <item itemvalue="Spring Boot.InterceptorApplication" />
+      <item itemvalue="Spring Boot.JpaApplication" />
+      <item itemvalue="Spring Boot.MailApplication" />
+      <item itemvalue="Spring Boot.MoreDatasorceApplication" />
+      <item itemvalue="Spring Boot.MybatisApplication" />
+      <item itemvalue="Spring Boot.MyjwtApplication" />
+      <item itemvalue="Spring Boot.RedisApplication" />
+      <item itemvalue="Spring Boot.RocketmqApplication" />
+      <item itemvalue="Spring Boot.SessionApplication" />
+      <item itemvalue="Spring Boot.SwaggerApplication" />
+      <item itemvalue="Spring Boot.TimetaskApplication" />
+      <item itemvalue="Spring Boot.SpringSourceCodeApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RedisTest.setIfAbsent" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpringBeansView">
     <option name="beanDetailsProportion" value="0.3" />
@@ -855,7 +1017,22 @@
       <workItem from="1594041457446" duration="30000" />
       <workItem from="1594044413154" duration="462000" />
       <workItem from="1595424490190" duration="683000" />
-      <workItem from="1595425311845" duration="615000" />
+      <workItem from="1595425311845" duration="739000" />
+      <workItem from="1595426457563" duration="47000" />
+      <workItem from="1595426545019" duration="2214000" />
+      <workItem from="1595503338592" duration="7624000" />
+      <workItem from="1595513244413" duration="883000" />
+      <workItem from="1595592918173" duration="5416000" />
+      <workItem from="1595646920824" duration="12062000" />
+      <workItem from="1595732877786" duration="10917000" />
+      <workItem from="1595750212127" duration="3653000" />
+      <workItem from="1596283652415" duration="593000" />
+      <workItem from="1596289971838" duration="376000" />
+      <workItem from="1596338138458" duration="153000" />
+      <workItem from="1596338915574" duration="10000" />
+      <workItem from="1596358410646" duration="1343000" />
+      <workItem from="1596368059095" duration="91000" />
+      <workItem from="1596806259270" duration="673000" />
     </task>
     <task id="LOCAL-00001" summary="#更新readme">
       <created>1595424952360</created>
@@ -864,40 +1041,15 @@
       <option name="project" value="LOCAL" />
       <updated>1595424952360</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="# redis配置更新，放弃过时的用法">
+      <created>1595425939909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595425939909</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="HelloTest_printHello - 2020.04.26 at 12h 19m 16s.xml">
-      <configuration name="HelloTest.printHello" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloTest_printHello - 2020.04.26 at 12h 20m 21s.xml">
-      <configuration name="HelloTest.printHello" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloTest_printHello - 2020.04.26 at 13h 08m 47s.xml">
-      <configuration name="HelloTest.printHello" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloTest_doPrint - 2020.04.26 at 16h 41m 46s.xml">
-      <configuration name="HelloTest.doPrint" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloTest_doPrint - 2020.04.28 at 15h 44m 00s.xml">
-      <configuration name="HelloTest.doPrint" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloTest_printHello - 2020.04.28 at 15h 44m 25s.xml">
-      <configuration name="HelloTest.printHello" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloTest_printHello - 2020.04.28 at 15h 45m 04s.xml">
-      <configuration name="HelloTest.printHello" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloTest_printHello - 2020.04.28 at 15h 45m 20s.xml">
-      <configuration name="HelloTest.printHello" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloTest_printHello - 2020.04.28 at 15h 45m 35s.xml">
-      <configuration name="HelloTest.printHello" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloTest_printHello - 2020.04.28 at 15h 46m 07s.xml">
-      <configuration name="HelloTest.printHello" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -911,47 +1063,160 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="#更新readme" />
     <MESSAGE value="# redis配置更新，放弃过时的用法" />
     <option name="LAST_COMMIT_MESSAGE" value="# redis配置更新，放弃过时的用法" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="18" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590672187189">
+    <state x="137" y="18" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595594629362">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="18" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1590672187189" />
-    <state x="186" y="38" width="1027" height="616" key="CommitChangelistDialog2" timestamp="1595425767788">
+    <state x="137" y="18" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1595594629362" />
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1595744440952">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="38" width="1027" height="616" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595425767788" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1590672157410">
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1595744440952" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595507404954">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590672157410" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595425019169">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595507404954" />
+    <state x="186" y="38" width="1027" height="616" key="CommitChangelistDialog2" timestamp="1595425937149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595425019169" />
+    <state x="186" y="38" width="1027" height="616" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595425937149" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1595769279705">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595769279705" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1595769279704">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595769279704" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1595769279704">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595769279704" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1595769279704">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595769279704" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1595769279706">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595769279706" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1595769279705">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595769279705" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1595769279705">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595769279705" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1595769279705">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595769279705" />
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom" timestamp="1595769279706">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595769279706" />
+    <state width="1323" height="223" key="GridCell.Tab.2.center" timestamp="1595769279706">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1595769279706" />
+    <state width="1323" height="223" key="GridCell.Tab.2.left" timestamp="1595769279706">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1595769279706" />
+    <state width="1323" height="223" key="GridCell.Tab.2.right" timestamp="1595769279706">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1595769279706" />
+    <state width="1323" height="223" key="GridCell.Tab.3.bottom" timestamp="1595769279707">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595769279707" />
+    <state width="1323" height="223" key="GridCell.Tab.3.center" timestamp="1595769279707">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1595769279707" />
+    <state width="1323" height="223" key="GridCell.Tab.3.left" timestamp="1595769279706">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1595769279706" />
+    <state width="1323" height="223" key="GridCell.Tab.3.right" timestamp="1595769279707">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1595769279707" />
+    <state x="477" y="65" key="RollbackChangesDialog" timestamp="1595428330373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="477" y="65" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595428330373" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1595750524262">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1595750524262" />
+    <state width="568" height="498" key="SwitcherDM" timestamp="1595748043414">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="568" height="498" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1595748043414" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595425986594">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595425986594" />
     <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595425755754">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1595425755754" />
+    <state x="153" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595513148645">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="153" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1595513148645" />
+    <state x="220" y="96" width="1146" height="536" key="find.popup" timestamp="1595747735775">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="220" y="96" width="1146" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1595747735775" />
+    <state x="87" y="80" key="new project wizard" timestamp="1595507190666">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="87" y="80" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1595507190666" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1595660917537">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1595660917537" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596338293671">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596338293671" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/security/src/test/java/com/example/security/dao/UserDaoTest.java</url>
           <line>51</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/security/src/test/java/com/example/security/dao/UserDaoTest.java</url>
           <line>41</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/dynamicdatasource/src/test/java/com/example/dynamicdatasource/dao/Test1Test.java</url>
           <line>17</line>
           <option name="timeStamp" value="22" />
@@ -962,107 +1227,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>struct:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>lib</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>fileload</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

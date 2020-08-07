@@ -21,6 +21,7 @@
         <module>myjwt-master</module>
         <module>spring5</module>
         <module>mybatis</module>
+        <module>service-spring-boot-starter</module>
     </modules>
 
 

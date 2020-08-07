@@ -14,6 +14,7 @@
         <module name="rocketmq" />
         <module name="swagger" />
         <module name="netty" />
+        <module name="spring-source-code" />
         <module name="jpa" />
         <module name="myjwt" />
         <module name="dynamicdatasource" />
@@ -25,6 +26,7 @@
         <module name="timetask" />
         <module name="fileload" />
         <module name="interceptor" />
+        <module name="redis-spring-boot-starter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,6 +40,7 @@
       <module name="struct" target="1.7" />
       <module name="thread" target="8" />
       <module name="threadpool" target="1.8" />
+      <module name="wql-spring-boot-starter" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -54,6 +57,7 @@
       <module name="redis" options="-parameters" />
       <module name="rocketmq" options="-parameters" />
       <module name="session" options="-parameters" />
+      <module name="spring-source-code" options="-parameters" />
       <module name="swagger" options="-parameters" />
       <module name="timetask" options="-parameters" />
     </option>
