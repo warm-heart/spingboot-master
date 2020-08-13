@@ -3,37 +3,13 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="mail" />
-        <module name="more-datasorce" />
-        <module name="session" />
-        <module name="redis" />
-        <module name="rocketmq" />
-        <module name="swagger" />
-        <module name="netty" />
-        <module name="spring-source-code" />
-        <module name="jpa" />
-        <module name="myjwt" />
-        <module name="dynamicdatasource" />
-        <module name="spring5" />
-        <module name="mybatis" />
-        <module name="ajax" />
-        <module name="exception" />
-        <module name="SpringAop" />
-        <module name="timetask" />
-        <module name="fileload" />
-        <module name="interceptor" />
-        <module name="redis-spring-boot-starter" />
-      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dataStruct" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="pattern" target="1.8" />
       <module name="proxy" target="8" />
+      <module name="redis-spring-boot-starter" target="8" />
       <module name="schema" target="1.8" />
       <module name="security" target="1.8" />
       <module name="shiro" target="1.8" />
@@ -46,6 +22,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ajax" options="-parameters" />
+      <module name="apidoc" options="-parameters" />
       <module name="dynamicdatasource" options="-parameters" />
       <module name="exception" options="-parameters" />
       <module name="fileload" options="-parameters" />
