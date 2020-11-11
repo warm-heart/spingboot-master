@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class HelloImpl implements Hello {
     @Override
-    public String printHello(String s) {
+    public String  printHello(String s) {
         System.out.println("业务方法执行");
 
    /*     try {

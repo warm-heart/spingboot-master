@@ -29,5 +29,6 @@ public class CustomerBeanFactoryPostProcessor implements BeanFactoryPostProcesso
                 CustomerBeanPostProcessor.name = "init";
             }
         }
+        beanFactory.getBean(ione.class);
     }
 }

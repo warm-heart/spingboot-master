@@ -30,7 +30,6 @@ public class DynamicDataSourceAspect {
     @Before("@annotation(targetDataSource)")
     public void changeDataSource(JoinPoint joinPoint, TargetDataSource targetDataSource) {
         DataSourceKey dataSourceKey = targetDataSource.dataSourceKey();
-
         LOG.debug("使用数据源：" + dataSourceKey);
         DynamicDataSourceContextHolder.set(dataSourceKey);
     }
@@ -44,7 +43,7 @@ public class DynamicDataSourceAspect {
      */
     @After("@annotation(targetDataSource)")
     public void doAfter(JoinPoint joinPoint, TargetDataSource targetDataSource) {
-        LOG.info(String.format("当前数据源  %s  执行清理方法", targetDataSource.dataSourceKey()));
+        LOG.debug(" 当前数据源执行清理方法", targetDataSource.dataSourceKey());
         DynamicDataSourceContextHolder.clear();
     }
 
